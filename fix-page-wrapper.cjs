@@ -1,0 +1,1 @@
+const fs = require('fs'); const path = require('path'); const dir = 'src/pages'; const files = fs.readdirSync(dir); files.forEach(file => { if (file.endsWith('.jsx')) { const fp = path.join(dir, file); let code = fs.readFileSync(fp, 'utf8'); code = code.replace('<div id="page-wrapper" class="clearfix">', ''); fs.writeFileSync(fp, code); } });
