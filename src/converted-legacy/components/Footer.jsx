@@ -74,10 +74,13 @@ export default function Footer() {
 
               <ul className="grid_3 footer-widget-container">
                 <li className="widget-brochure-box">
-                  <a className="brochure-box popup-link" href="#popup">
+                  <button 
+                    className="brochure-box popup-link w-full text-left" 
+                    onClick={() => window.dispatchEvent(new CustomEvent('open-catalogue-modal'))}
+                  >
                     <div className="brochure-box__text">Download Brochure</div>
                     <i className="fa icon-file-pdf"></i>
-                  </a>
+                  </button>
                 </li>
                 <li className="widget-calcy-box">
                   <Link className="calcy-box" to="/weight-calculator">

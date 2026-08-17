@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import ExportDestinations from '../../components/ExportDestinations';
+import RelatedProducts from '../../components/RelatedProducts';
 
 export default function SocketweldFittings() {
   return (
@@ -105,11 +107,7 @@ Raw Material ant its Fittings</p>
     <li className="widget widget_productlist ">
       <h2>SOCKETWELD FITTINGS</h2>
        <ul className="">
-        <li><Link to="/high-nickel-alloy-socketweld-fittings">High Nickel Alloy Socketweld Fittings</Link></li>
-        <li><Link to="/stainless-steel-socketweld-fittings">Stainless Steel Socketweld Fittings</Link></li>
-        <li><Link to="/carbon-steel-socketweld-fittings">Carbon Steel Socketweld Fittings</Link></li>    
-         <li><Link to="/alloy-steel-socketweld-fittings">Alloy Steel Socketweld Fittings</Link></li>
-      </ul>  
+</ul>  
       </li>
   </ul>
  
@@ -140,9 +138,7 @@ Raw Material ant its Fittings</p>
         <li><Link to="/cladded-plates">Cladded Plates</Link></li>
         <li><Link to="/olets">Olets</Link></li>
         <li><Link to="/valves">Valves</Link></li>
-        <li><Link to="/graphite-filled-bronze-bushes">Graphite Filled Bronze Bush</Link></li>
-		   <li><Link to="/billets-manufacturer-supplier">Billets</Link></li>
-      </ul>  
+</ul>  
       </li>
   </ul>
 
@@ -177,7 +173,7 @@ Raw Material ant its Fittings</p>
                                
                                 
                             </section>
-                        </article>
+                          </article>
 
 
 
@@ -249,14 +245,9 @@ We offer to our clients specially designed forged pipe fittings. We also underta
 <div className="clear"></div>
 <div className="mb50"></div>
 
-<p style={{"marginBottom":"10px","color":"var(--color-deep)"}}><strong>EXPORT DESTINATIONS FOR STEEL SOCKET WELD FITTINGS, SS SOCKET WELD FITTINGS, STEEL THREADED FITTINGS, SS THREADED FITTINGS</strong></p>
+<ExportDestinations heading="EXPORT DESTINATIONS FOR STEEL SOCKET WELD FITTINGS, SS SOCKET WELD FITTINGS, STEEL THREADED FITTINGS, SS THREADED FITTINGS" />
 
-<p>
-Argentina, Kazakhstan, Indonesia, UAE, Houston, Africa, Turkey, Italy, Egypt, Vietnam, United States, Trinidad and Tobago, Tunisia, Cameroon, Mexico, Angola, Chine, Ghana, Democratic Republic of the Congo, London, Algeria, Kuwait, UK, Iraq, Russia, Nigeria, Ethiopa, Saudi Arabia, Morocco, Mozambique, Malaysia, Brazil, Canada, Thailand (Bangkok), Uganda, Australia, Venezuela, Colombia, Iran, Israel, Sudan, Azerbaijan, South Africa, Germany, Bahrain, Jordan, New Zealand, Sri Lanka, Peru, Dubai.<br /><br />
-Maiduguri, Istanbul, Lubumbashi, Omdurman, Casablanca, Rabat, Bamako, Cairo, Riyadh, Port Harcourt, Manama, Benin, Lagos, Colombo, Jeddah, Addis Ababa, Mogadishu, Ouagadougou, Port Elizabeth, Singapore, Dammam, Brazzaville, Amman, Pretoria, Bulawayo, Kano, Tel Aviv, Aqaba, Fez, Doha, Antananarivo, Douala, Data from the UN, Durban, Kaduna, Conakry, Accra, Alexandria, Mecca, Dar es Salaam, Khartoum, New York, Lusaka, Harare, Abidjan, Byblos, Kolwezi, Bethlehem, Tehran, Sharm el-Sheikh, Zaria, Johannesburg, Jerusalem, Soweto, Kinshasa, Nairobi, Giza, Ibadan, Freetown, Cairo, Beirut, Muscat, Cape Town, Maputo, Dubai, Subra al-Haymah, Hong Kong, Algiers, Yaoundé, Dakar, Mbuji-Mayi, Luanda, Kampala, Abu Dhabi, Tripoli.	
-</p>
-
-<div className="mb50"></div>
+              <RelatedProducts currentSlug="socketweld-fittings" />
                          
 
                             
@@ -278,28 +269,7 @@ Maiduguri, Istanbul, Lubumbashi, Omdurman, Casablanca, Rabat, Bamako, Cairo, Riy
 </a> 
 
             
-        <div className="popup-wrapper" id="popup">
-	<div className="popup-container">
-		<form action="download.php" method="post" className="popup-form">
-			<h3>Download Catalogue</h3>
-			<p>To Download Our Corporate Brochure please fill below details.</p>
-			<div className="input-group">
-            <p><input type="name" name="name" placeholder="Full Name" /></p>
-				<p><input type="email" name="email" placeholder="Email Address" /></p>
-                <p><input type="contact" name="contact" placeholder="Contact No." /></p>
-                <p><textarea name="comments" id="comments" cols="82" rows="5" placeholder="Comments"></textarea></p>
-                <p>      </p><div className="g-recaptcha" data-sitekey="6LeZ2cwUAAAAAEqjldz__1uhQdNQoybLdrfd5DJO"></div><p></p>
-
-
-				<p> 
-				 
-				<input type="submit" value="Submit" name="jetpack_subscriptions_widget" />
-				</p>
-			</div>
-		</form>
-		<a className="popup-close" href="#closed">X</a>
-	</div>
-</div>        
+                
            
          
         

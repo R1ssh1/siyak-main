@@ -1,7 +1,62 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { companyInfo } from '../../data/products';
 
 export default function Enquiry() {
+  const [form, setForm] = useState({ company_name: "", name: "", email: "", phone: "", message: "" });
+  const [status, setStatus] = useState({ loading: false, success: false, error: "" });
+  const [botField, setBotField] = useState("");
+
+  const handleChange = (e) => setForm({ ...form, [e.target.name]: e.target.value });
+
+  const isValidEmail = (value) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value);
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    if (!form.name.trim() || !form.email.trim() || !form.message.trim()) {
+      setStatus({ loading: false, success: false, error: "Please complete name, email, and message fields." });
+      return;
+    }
+    if (!isValidEmail(form.email)) {
+      setStatus({ loading: false, success: false, error: "Please enter a valid email address." });
+      return;
+    }
+    if (botField) {
+      return;
+    }
+
+    setStatus({ loading: true, success: false, error: "" });
+    const endpoint = import.meta.env.VITE_FORM_ENDPOINT;
+
+    if (!endpoint) {
+      window.location.href = `mailto:${companyInfo?.emails?.[0] || 'info@siyaksteel.com'}?subject=${encodeURIComponent(`Enquiry from ${form.name}`)}&body=${encodeURIComponent(`Company: ${form.company_name}\nName: ${form.name}\nEmail: ${form.email}\nPhone: ${form.phone}\nMessage: ${form.message}`)}`;
+      setStatus({ loading: false, success: true, error: "" });
+      
+      setTimeout(() => {
+        setStatus({ loading: false, success: false, error: "" });
+        setForm({ company_name: "", name: "", email: "", phone: "", message: "" });
+      }, 3000);
+      return;
+    }
+
+    try {
+      const response = await fetch(endpoint, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ ...form, _subject: `Enquiry from ${form.name}`, _redirect: window.location.href }),
+      });
+      if (!response.ok) throw new Error("Failed to submit form.");
+      setStatus({ loading: false, success: true, error: "" });
+      
+      setTimeout(() => {
+        setStatus({ loading: false, success: false, error: "" });
+        setForm({ company_name: "", name: "", email: "", phone: "", message: "" });
+      }, 3000);
+    } catch (error) {
+      setStatus({ loading: false, success: false, error: "Unable to send your request right now. Please try again later." });
+    }
+  };
+
   return (
     <>
       
@@ -132,9 +187,7 @@ We are sure your search will be end here.</h4>
         <li><Link to="/cladded-plates">Cladded Plates</Link></li>
         <li><Link to="/olets">Olets</Link></li>
         <li><Link to="/valves">Valves</Link></li>
-        <li><Link to="/graphite-filled-bronze-bushes">Graphite Filled Bronze Bush</Link></li>
-		   <li><Link to="/billets-manufacturer-supplier">Billets</Link></li>
-      </ul>  
+</ul>  
       </li>
   </ul>
  
@@ -158,47 +211,38 @@ We are sure your search will be end here.</h4>
                             <p>Please fill the form below to make an product enquiry. All fields are mandatory</p><br /><br />
 
                             <p>
-                                </p><form className="wpcf7" action="" method="post">
+                                </p><form className="wpcf7" onSubmit={handleSubmit}>
+                                    <input type="text" name="botField" value={botField} onChange={(e) => setBotField(e.target.value)} style={{ display: 'none' }} tabIndex={-1} autoComplete="off" />
+                                    
                                     <fieldset>
                                         <label htmlFor="company_name">Company Name:</label>
-                                        <input type="text" name="company_name" className="wpcf7-text" id="company_name" />
+                                        <input type="text" name="company_name" value={form.company_name} onChange={handleChange} className="wpcf7-text" id="company_name" />
                                     </fieldset>
                                     
                                     <fieldset>
-                                        <label htmlFor="name">Name:</label>
-                                        <input type="text" name="name" className="wpcf7-text" id="name" />
+                                        <label htmlFor="name">Name *:</label>
+                                        <input type="text" name="name" value={form.name} onChange={handleChange} className="wpcf7-text" id="name" />
                                     </fieldset>
                                     
-                                    
                                     <fieldset>
-                                        <label htmlFor="email">Email:</label>
-                                        <input type="email" name="email" id="email" className="wpcf7-text" />
+                                        <label htmlFor="email">Email *:</label>
+                                        <input type="email" name="email" value={form.email} onChange={handleChange} id="email" className="wpcf7-text" />
                                     </fieldset>
                                     
                                     <fieldset>
                                         <label htmlFor="phone">Phone Number:</label>
-                                        <input type="phone" name="phone" id="phone" className="wpcf7-text" />
+                                        <input type="phone" name="phone" value={form.phone} onChange={handleChange} id="phone" className="wpcf7-text" />
                                     </fieldset>                                   
-									
-                                    
                                     
                                     <fieldset>
-                                        <label htmlFor="message">Message:</label>
-                                        <textarea rows="5" name="message" className="wpcf7-textarea" id="message"></textarea>
+                                        <label htmlFor="message">Message *:</label>
+                                        <textarea rows="5" name="message" value={form.message} onChange={handleChange} className="wpcf7-textarea" id="message"></textarea>
                                     </fieldset>
 
-
-                                  
-
-                                    <fieldset>
-                                       <div className="g-recaptcha" data-sitekey="6LeZ2cwUAAAAAEqjldz__1uhQdNQoybLdrfd5DJO"></div>
-                                    </fieldset>    
+                                    {status.error && <p style={{ color: 'red' }}>{status.error}</p>}
+                                    {status.success && <p style={{ color: '#005d65' }}>Your enquiry was sent successfully!</p>}
                                     
-                                    
-                                    
-                                    
-                                <input type="hidden" name="submitted" value="1" />        
-                                <input type="submit" className="wpcf7-submit" value="Submit" style={{"float":"left"}} />
+                                    <input type="submit" className="wpcf7-submit" value={status.loading ? "Sending..." : "Submit"} disabled={status.loading} style={{"float":"left"}} />
                                 </form><p></p>
 
                                 
@@ -225,28 +269,7 @@ We are sure your search will be end here.</h4>
 
             
 
-        <div className="popup-wrapper" id="popup">
-	<div className="popup-container">
-		<form action="download.php" method="post" className="popup-form">
-			<h3>Download Catalogue</h3>
-			<p>To Download Our Corporate Brochure please fill below details.</p>
-			<div className="input-group">
-            <p><input type="name" name="name" placeholder="Full Name" /></p>
-				<p><input type="email" name="email" placeholder="Email Address" /></p>
-                <p><input type="contact" name="contact" placeholder="Contact No." /></p>
-                <p><textarea name="comments" id="comments" cols="82" rows="5" placeholder="Comments"></textarea></p>
-                <p>      </p><div className="g-recaptcha" data-sitekey="6LeZ2cwUAAAAAEqjldz__1uhQdNQoybLdrfd5DJO"></div><p></p>
-
-
-				<p> 
-				 
-				<input type="submit" value="Submit" name="jetpack_subscriptions_widget" />
-				</p>
-			</div>
-		</form>
-		<a className="popup-close" href="#closed">X</a>
-	</div>
-</div>        
+                
         
            
          

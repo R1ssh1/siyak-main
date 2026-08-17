@@ -8,19 +8,19 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
 const slides = [
-  { img: '/img/slider/monel-seamless-u-tubes-supplier.jpg', text: 'Manufacturer & Exporter of <span class="font-black">SEAMLESS U TUBES</span>' },
-  { img: '/img/slider/forgings-products-manufacturer.jpg', text: 'Buy Premium Quality <span class="font-black">FORGED PRODUCTS</span>' },
-  { img: '/img/slider/cladded-tubes-sheets-supplier.jpg', text: 'Manufacturer & Exporter of High Quality <span class="font-black">CLADDED TUBE SHEETS</span>' },
-  { img: '/img/slider/vision.jpg', text: 'Having A <span class="font-black">VISION FOR BIG ENTERPRISE</span>' },
-  { img: '/img/slider/perfection-quality.jpg', text: 'An eagles eye for <span class="font-black">PERFECTION & QUALITY</span>' },
-  { img: '/img/slider/excellence-service.jpg', text: 'Passion for Excellence & meeting <span class="font-black">CUSTOMER EXPECTATION </span>at any cost' },
-  { img: '/img/slider/customers-requirement.jpg', text: 'Though old school thought but listen to <span class="font-black">CUSTOMERS REQUIREMENT</span>' },
-  { img: '/img/slider/commitment.jpg', text: '..And a casual & flexible approach in dealing without loosing the seriousness of <span class="font-black">COMMITTMENTS</span>.' },
+  { img: '/slider/1.png', text: 'Manufacturer & Exporter of <span class="font-black">STAINLESS STEEL PIPES & TUBES</span>' },
+  { img: '/slider/2.png', text: 'Trusted Supplier of <span class="font-black">NICKEL ALLOY PRODUCTS</span>' },
+  { img: '/slider/3.png', text: 'Stockists of <span class="font-black">DUPLEX & SUPER DUPLEX FITTINGS</span>' },
+  { img: '/slider/4.png', text: 'Exporting <span class="font-black">ALLOY STEEL FLANGES</span> to 40+ Countries' },
+  { img: '/slider/5.png', text: 'Premium Quality <span class="font-black">FASTENERS & FORGED FITTINGS</span>' },
+  { img: '/slider/6.png', text: 'ISO 9001:2015 Certified <span class="font-black">STEEL SHEETS & PLATES</span>' },
+  { img: '/slider/7.png', text: 'Specialists in <span class="font-black">COPPER NICKEL & ALLOY ROUND BARS</span>' },
+  { img: '/slider/8.png', text: 'Your Global Partner for <span class="font-black">CERTIFIED STEEL EXPORTS</span>' },
 ];
 
 export default function Slider() {
   return (
-    <div className="w-full relative" style={{ height: '450px' }}>
+    <div className="w-full relative" style={{ aspectRatio: '16/5', minHeight: '280px', maxHeight: '560px' }}>
       <Swiper
         modules={[Autoplay, EffectFade, Pagination, Navigation]}
         effect="fade"
@@ -32,8 +32,8 @@ export default function Slider() {
         className="w-full h-full"
       >
         {slides.map((slide, idx) => (
-          <SwiperSlide key={idx} className="relative w-full h-full">
-            <img src={slide.img} alt="Slider Image" className="absolute inset-0 w-full h-full object-cover" />
+          <SwiperSlide key={idx} className="relative w-full h-full" style={{ background: '#111' }}>
+            <img src={slide.img} alt="Slider Image" className="absolute inset-0 w-full h-full" style={{ objectFit: 'cover', objectPosition: 'center center' }} />
             <div className="absolute inset-0 flex items-end justify-end pb-8 pr-4 sm:pb-12 sm:pr-8 md:pb-16 md:pr-16 lg:pr-[10%]">
               <div 
                 className="bg-[#005d65]/90 text-white text-xl md:text-2xl font-semibold max-w-md text-left p-4 md:px-6 md:py-4 shadow-xl"

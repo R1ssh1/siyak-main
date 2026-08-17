@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import ExportDestinations from '../../components/ExportDestinations';
+import RelatedProducts from '../../components/RelatedProducts';
 
 export default function RoundBars() {
   return (
@@ -154,9 +156,7 @@ export default function RoundBars() {
         <li><Link to="/cladded-plates">Cladded Plates</Link></li>
         <li><Link to="/olets">Olets</Link></li>
         <li><Link to="/valves">Valves</Link></li>
-        <li><Link to="/graphite-filled-bronze-bushes">Graphite Filled Bronze Bush</Link></li>
-		   <li><Link to="/billets-manufacturer-supplier">Billets</Link></li>
-      </ul>  
+</ul>  
       </li>
   </ul>
 
@@ -188,7 +188,7 @@ export default function RoundBars() {
                                 
                                 
                             </section>
-                        </article>
+                          </article>
 
 
 
@@ -260,14 +260,9 @@ export default function RoundBars() {
 <div className="clear"></div>
 <div className="mb50"></div>
 
-<p style={{"marginBottom":"10px","color":"var(--color-deep)"}}><strong>EXPORT DESTINATIONS FOR STEEL ROUND BARS, SS BARS, STEEL BARS, SS HEX BARS, STEEL RODS, SS ROUND RODS, STEEL HEX RODS</strong></p>
+<ExportDestinations heading="EXPORT DESTINATIONS FOR STEEL ROUND BARS, SS BARS, STEEL BARS, SS HEX BARS, STEEL RODS, SS ROUND RODS, STEEL HEX RODS" />
 
-<p>
-Italy, London, Mexico, Russia, Iraq, Nigeria, Tunisia, New Zealand, Bahrain, Uganda, Iran, Turkey, Democratic Republic of the Congo, Kuwait, Morocco, UK, Australia, Indonesia, Algeria, Egypt, Sri Lanka, United States, Peru, Saudi Arabia, Ghana, Germany, Kazakhstan, Thailand (Bangkok), Canada, Dubai, Vietnam, Sudan, Argentina, Cameroon, Colombia, Ethiopa, Malaysia, Trinidad and Tobago, Brazil, Mozambique, Angola, Houston, UAE, South Africa, Africa, Israel, Azerbaijan, Jordan, Chine, Venezuela.<br /><br />
-Maputo, Jeddah, Benin, Jerusalem, Giza, Manama, Dammam, Johannesburg, Lusaka, Cairo, Brazzaville, New York, Casablanca, Mogadishu, Cairo, Dubai, Ibadan, Dar es Salaam, Doha, Muscat, Zaria, Lubumbashi, Data from the UN, Beirut, Ouagadougou, Port Harcourt, Tripoli, Nairobi, Subra al-Haymah, Douala, Dakar, Kano, Accra, Hong Kong, Bethlehem, Algiers, Kinshasa, Colombo, Lagos, Omdurman, Tel Aviv, Khartoum, Riyadh, Luanda, Singapore, Byblos, Kaduna, Mecca, Fez, Addis Ababa, Mbuji-Mayi, Conakry, Port Elizabeth, Freetown, Bamako, Abu Dhabi, Maiduguri, Bulawayo, Istanbul, Kolwezi, Durban, Amman, Alexandria, Cape Town, Antananarivo, Aqaba, Yaoundé, Kampala, Pretoria, Soweto, Harare, Rabat, Abidjan, Tehran, Sharm el-Sheikh.	
-</p>
-
-<div className="mb50"></div>
+              <RelatedProducts currentSlug="round-bars" />
                           
 
                             
@@ -288,28 +283,7 @@ Maputo, Jeddah, Benin, Jerusalem, Giza, Manama, Dammam, Johannesburg, Lusaka, Ca
 </a> 
 
             
-        <div className="popup-wrapper" id="popup">
-	<div className="popup-container">
-		<form action="download.php" method="post" className="popup-form">
-			<h3>Download Catalogue</h3>
-			<p>To Download Our Corporate Brochure please fill below details.</p>
-			<div className="input-group">
-            <p><input type="name" name="name" placeholder="Full Name" /></p>
-				<p><input type="email" name="email" placeholder="Email Address" /></p>
-                <p><input type="contact" name="contact" placeholder="Contact No." /></p>
-                <p><textarea name="comments" id="comments" cols="82" rows="5" placeholder="Comments"></textarea></p>
-                <p>      </p><div className="g-recaptcha" data-sitekey="6LeZ2cwUAAAAAEqjldz__1uhQdNQoybLdrfd5DJO"></div><p></p>
-
-
-				<p> 
-				 
-				<input type="submit" value="Submit" name="jetpack_subscriptions_widget" />
-				</p>
-			</div>
-		</form>
-		<a className="popup-close" href="#closed">X</a>
-	</div>
-</div>        
+                
            
          
         

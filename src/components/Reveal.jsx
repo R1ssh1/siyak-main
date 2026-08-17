@@ -37,7 +37,7 @@ export default function Reveal({
   return (
     <MotionEl
       className={className}
-      initial={{ opacity: 0, x, y }}
+      initial={{ opacity: 1, x, y }}
       whileInView={{ opacity: 1, x: 0, y: 0 }}
       viewport={{ once, amount: 0.1 }}
       transition={{ duration: DURATION.base, delay, ease: EASE.enter }}

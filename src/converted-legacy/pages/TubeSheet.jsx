@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import ExportDestinations from '../../components/ExportDestinations';
+import RelatedProducts from '../../components/RelatedProducts';
 
 export default function TubeSheet() {
   return (
@@ -127,9 +129,7 @@ export default function TubeSheet() {
         <li><Link to="/cladded-plates">Cladded Plates</Link></li>
         <li><Link to="/olets">Olets</Link></li>
         <li><Link to="/valves">Valves</Link></li>
-        <li><Link to="/graphite-filled-bronze-bushes">Graphite Filled Bronze Bush</Link></li>
-		   <li><Link to="/billets-manufacturer-supplier">Billets</Link></li>
-      </ul>  
+</ul>  
       </li>
   </ul>
 
@@ -168,7 +168,7 @@ export default function TubeSheet() {
                                
                                 
                             </section>
-                        </article>
+                          </article>
 
 
 
@@ -217,14 +217,9 @@ Carbon, Stainless, Duplex, Aluminum Bronze, Copper Alloys, Naval Brass, Copper N
 <div className="clear"></div>
 <div className="mb50"></div>
 
-<p style={{"marginBottom":"10px","color":"var(--color-deep)"}}><strong>EXPORT DESTINATIONS FOR STEEL TUBE SHEET, SS TUBE SHEET, CARBON STEEL TUBE SHEET, STAINLESS STEEL TUBE SHEET, ALLOY TUBE SHEET</strong></p>
+<ExportDestinations heading="EXPORT DESTINATIONS FOR STEEL TUBE SHEET, SS TUBE SHEET, CARBON STEEL TUBE SHEET, STAINLESS STEEL TUBE SHEET, ALLOY TUBE SHEET" />
 
-<p>
-Bahrain, Australia, Chine, Sudan, Vietnam, New Zealand, Nigeria, Cameroon, Ghana, Iran, United States, London, Angola, Morocco, South Africa, Turkey, Egypt, Algeria, Germany, Mexico, UK, Venezuela, Peru, Trinidad and Tobago, Malaysia, UAE, Kuwait, Azerbaijan, Mozambique, Colombia, Tunisia, Thailand (Bangkok), Africa, Uganda, Dubai, Italy, Indonesia, Canada, Israel, Ethiopa, Saudi Arabia, Jordan, Iraq, Sri Lanka, Russia, Kazakhstan, Brazil, Argentina, Democratic Republic of the Congo, Houston.<br /><br />
-Singapore, Alexandria, Lubumbashi, Ouagadougou, Beirut, Mecca, Rabat, New York, Kolwezi, Douala, Harare, Manama, Kaduna, Doha, Abidjan, Benin, Giza, Zaria, Algiers, Soweto, Mbuji-Mayi, Maiduguri, Antananarivo, Mogadishu, Ibadan, Byblos, Dakar, Accra, Istanbul, Hong Kong, Freetown, Maputo, Abu Dhabi, Riyadh, Data from the UN, Kampala, Khartoum, Johannesburg, Casablanca, Port Elizabeth, Dar es Salaam, Durban, Cape Town, Aqaba, Lagos, Bethlehem, Kinshasa, Subra al-Haymah, Bamako, Cairo, Colombo, Addis Ababa, Yaoundé, Muscat, Tehran, Brazzaville, Tel Aviv, Lusaka, Amman, Nairobi, Jeddah, Omdurman, Sharm el-Sheikh, Bulawayo, Fez, Dammam, Luanda, Kano, Tripoli, Cairo, Pretoria, Dubai, Conakry, Jerusalem, Port Harcourt.	
-</p>
-
-<div className="mb50"></div>
+              <RelatedProducts currentSlug="tube-sheet" />
                          
 
                             
@@ -246,28 +241,7 @@ Singapore, Alexandria, Lubumbashi, Ouagadougou, Beirut, Mecca, Rabat, New York, 
 </a> 
 
             
-        <div className="popup-wrapper" id="popup">
-	<div className="popup-container">
-		<form action="download.php" method="post" className="popup-form">
-			<h3>Download Catalogue</h3>
-			<p>To Download Our Corporate Brochure please fill below details.</p>
-			<div className="input-group">
-            <p><input type="name" name="name" placeholder="Full Name" /></p>
-				<p><input type="email" name="email" placeholder="Email Address" /></p>
-                <p><input type="contact" name="contact" placeholder="Contact No." /></p>
-                <p><textarea name="comments" id="comments" cols="82" rows="5" placeholder="Comments"></textarea></p>
-                <p>      </p><div className="g-recaptcha" data-sitekey="6LeZ2cwUAAAAAEqjldz__1uhQdNQoybLdrfd5DJO"></div><p></p>
-
-
-				<p> 
-				 
-				<input type="submit" value="Submit" name="jetpack_subscriptions_widget" />
-				</p>
-			</div>
-		</form>
-		<a className="popup-close" href="#closed">X</a>
-	</div>
-</div>        
+                
            
          
         

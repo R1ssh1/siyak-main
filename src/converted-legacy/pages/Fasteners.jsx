@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import ExportDestinations from '../../components/ExportDestinations';
+import RelatedProducts from '../../components/RelatedProducts';
 
 export default function Fasteners() {
   return (
@@ -107,10 +109,8 @@ export default function Fasteners() {
       <h2>FASTENERS</h2>
        <ul className="">
         <li><Link to="/high-nickel-alloy-fasteners">High Nickel Alloy Fasteners</Link></li>
-        <li><Link to="/stainless-steel-fasteners">Stainless Steel Fasteners</Link></li>
-        <li><Link to="/carbon-steel-fasteners">Carbon Steel Fasteners</Link></li>    
-        <li><Link to="/alloy-steel-fasteners">Alloy Steel Fasteners</Link></li>
-        <li><Link to="/non-ferrous-metal-fasteners">Non Ferrous Metal Fasteners</Link></li>
+<li><Link to="/carbon-steel-fasteners">Carbon Steel Fasteners</Link></li>    
+<li><Link to="/non-ferrous-metal-fasteners">Non Ferrous Metal Fasteners</Link></li>
       </ul>  
       </li>
   </ul>
@@ -140,9 +140,7 @@ export default function Fasteners() {
         <li><Link to="/cladded-plates">Cladded Plates</Link></li>
         <li><Link to="/olets">Olets</Link></li>
         <li><Link to="/valves">Valves</Link></li>
-        <li><Link to="/graphite-filled-bronze-bushes">Graphite Filled Bronze Bush</Link></li>
-		   <li><Link to="/billets-manufacturer-supplier">Billets</Link></li>
-      </ul>  
+</ul>  
       </li>
   </ul>
 
@@ -178,7 +176,7 @@ export default function Fasteners() {
                                 
                                 
                             </section>
-                        </article>
+                          </article>
 
 
 
@@ -251,14 +249,9 @@ Non Fenrous Metal</b></h2></div>
 <div className="clear"></div>
 <div className="mb50"></div>
 
-<p style={{"marginBottom":"10px","color":"var(--color-deep)"}}><strong>EXPORT DESTINATIONS FOR STEEL FASTENERS, SS FASTENERS, STAINLESS FASTENERS, CARBON FASTENERS, STEEL NUTS &amp; BOLTS</strong></p>
+<ExportDestinations heading="EXPORT DESTINATIONS FOR STEEL FASTENERS, SS FASTENERS, STAINLESS FASTENERS, CARBON FASTENERS, STEEL NUTS &amp; BOLTS" />
 
-<p>
-London, Azerbaijan, Africa, Germany, UK, Italy, Chine, Sri Lanka, Houston, Mozambique, New Zealand, Iran, Kuwait, Dubai, Argentina, Mexico, Peru, Ethiopa, Venezuela, Sudan, Egypt, Nigeria, Angola, Uganda, Colombia, Tunisia, Trinidad and Tobago, UAE, Malaysia, Jordan, Australia, Vietnam, Turkey, Brazil, Thailand (Bangkok), Democratic Republic of the Congo, Saudi Arabia, Bahrain, Canada, United States, Cameroon, Indonesia, Ghana, South Africa, Algeria, Kazakhstan, Israel, Russia, Morocco, Iraq.<br /><br />
-Douala, Dakar, Ibadan, Muscat, Jerusalem, Kolwezi, Colombo, Abidjan, Aqaba, Kaduna, Algiers, Kinshasa, Mogadishu, Beirut, Abu Dhabi, Lusaka, Fez, Nairobi, Port Elizabeth, Subra al-Haymah, Maiduguri, Zaria, Bamako, Dubai, Tel Aviv, Harare, Ouagadougou, Kano, Accra, Hong Kong, Byblos, Freetown, Riyadh, Omdurman, Giza, Amman, Sharm el-Sheikh, Kampala, Manama, Johannesburg, Conakry, Casablanca, Dammam, Tehran, Benin, Cape Town, Cairo, Antananarivo, Brazzaville, Khartoum, Lubumbashi, Luanda, Dar es Salaam, Maputo, Mecca, Data from the UN, Doha, Yaoundé, Istanbul, Lagos, Soweto, Bethlehem, Pretoria, Port Harcourt, Cairo, Mbuji-Mayi, Bulawayo, Tripoli, Alexandria, Singapore, Addis Ababa, New York, Rabat, Durban, Jeddah.	
-</p>
-
-<div className="mb50"></div>
+              <RelatedProducts currentSlug="fasteners" />
 
 
 
@@ -286,28 +279,7 @@ Douala, Dakar, Ibadan, Muscat, Jerusalem, Kolwezi, Colombo, Abidjan, Aqaba, Kadu
 </a> 
 
             
-        <div className="popup-wrapper" id="popup">
-	<div className="popup-container">
-		<form action="download.php" method="post" className="popup-form">
-			<h3>Download Catalogue</h3>
-			<p>To Download Our Corporate Brochure please fill below details.</p>
-			<div className="input-group">
-            <p><input type="name" name="name" placeholder="Full Name" /></p>
-				<p><input type="email" name="email" placeholder="Email Address" /></p>
-                <p><input type="contact" name="contact" placeholder="Contact No." /></p>
-                <p><textarea name="comments" id="comments" cols="82" rows="5" placeholder="Comments"></textarea></p>
-                <p>      </p><div className="g-recaptcha" data-sitekey="6LeZ2cwUAAAAAEqjldz__1uhQdNQoybLdrfd5DJO"></div><p></p>
-
-
-				<p> 
-				 
-				<input type="submit" value="Submit" name="jetpack_subscriptions_widget" />
-				</p>
-			</div>
-		</form>
-		<a className="popup-close" href="#closed">X</a>
-	</div>
-</div>        
+                
            
          
         

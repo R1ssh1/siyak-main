@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import ExportDestinations from '../../components/ExportDestinations';
+import RelatedProducts from '../../components/RelatedProducts';
 
 export default function RefractoryFixingsAnchors() {
   return (
@@ -128,9 +130,7 @@ wide range of stainless steel and higher alloys.<br /></p>
         <li><Link to="/cladded-plates">Cladded Plates</Link></li>
         <li><Link to="/olets">Olets</Link></li>
         <li><Link to="/valves">Valves</Link></li>
-        <li><Link to="/graphite-filled-bronze-bushes">Graphite Filled Bronze Bush</Link></li>
-		   <li><Link to="/billets-manufacturer-supplier">Billets</Link></li>
-      </ul>  
+</ul>  
       </li>
   </ul>
 
@@ -162,7 +162,7 @@ wide range of stainless steel and higher alloys.<br /></p>
                                
                                 
                             </section>
-                        </article>
+                          </article>
 
 
 
@@ -425,14 +425,9 @@ Standard Stainless Steels provide conosion resistance in a number of aggressive 
 <div className="clear"></div>
 <div className="mb50"></div>
 
-<p style={{"marginBottom":"10px","color":"var(--color-deep)"}}><strong>EXPORT DESTINATIONS FOR STEEL REFRACTORY FIXINGS ANCHORS, STEEL Y SHAPE ANCHORS, ZIG ZAG ANCHORS, SPIRAL Y ANCHORS, CROOK ANCHORS</strong></p>
+<ExportDestinations heading="EXPORT DESTINATIONS FOR STEEL REFRACTORY FIXINGS ANCHORS, STEEL Y SHAPE ANCHORS, ZIG ZAG ANCHORS, SPIRAL Y ANCHORS, CROOK ANCHORS" />
 
-<p>
-Israel, Tunisia, Egypt, Azerbaijan, Ethiopa, Cameroon, Canada, Peru, Angola, Vietnam, Jordan, Democratic Republic of the Congo, Mozambique, Iran, Africa, London, Indonesia, Venezuela, Mexico, Thailand (Bangkok), Saudi Arabia, Kazakhstan, Dubai, Chine, New Zealand, Argentina, Kuwait, Algeria, Malaysia, Italy, UAE, Sri Lanka, Bahrain, UK, Uganda, South Africa, Trinidad and Tobago, Colombia, Germany, Turkey, Brazil, Australia, Morocco, Houston, Iraq, Ghana, United States, Nigeria, Sudan, Russia.<br /><br />
-Hong Kong, Mogadishu, Kaduna, Jerusalem, Subra al-Haymah, Luanda, Omdurman, Yaoundé, Ibadan, Beirut, Rabat, Lusaka, Istanbul, Lubumbashi, Algiers, Pretoria, Accra, Data from the UN, Harare, Mecca, New York, Maputo, Freetown, Nairobi, Benin, Tehran, Mbuji-Mayi, Doha, Cairo, Abu Dhabi, Dakar, Cape Town, Tripoli, Port Harcourt, Abidjan, Bamako, Dammam, Sharm el-Sheikh, Muscat, Jeddah, Dubai, Addis Ababa, Singapore, Ouagadougou, Giza, Lagos, Zaria, Cairo, Dar es Salaam, Maiduguri, Kampala, Khartoum, Bulawayo, Johannesburg, Amman, Antananarivo, Riyadh, Tel Aviv, Alexandria, Port Elizabeth, Kolwezi, Conakry, Colombo, Byblos, Durban, Bethlehem, Douala, Manama, Casablanca, Brazzaville, Soweto, Kinshasa, Aqaba, Fez, Kano.	
-</p>
-
-<div className="mb50"></div>
+              <RelatedProducts currentSlug="refractory-fixings-anchors" />
 
 
                          
@@ -456,28 +451,7 @@ Hong Kong, Mogadishu, Kaduna, Jerusalem, Subra al-Haymah, Luanda, Omdurman, Yaou
 </a> 
 
             
-        <div className="popup-wrapper" id="popup">
-	<div className="popup-container">
-		<form action="download.php" method="post" className="popup-form">
-			<h3>Download Catalogue</h3>
-			<p>To Download Our Corporate Brochure please fill below details.</p>
-			<div className="input-group">
-            <p><input type="name" name="name" placeholder="Full Name" /></p>
-				<p><input type="email" name="email" placeholder="Email Address" /></p>
-                <p><input type="contact" name="contact" placeholder="Contact No." /></p>
-                <p><textarea name="comments" id="comments" cols="82" rows="5" placeholder="Comments"></textarea></p>
-                <p>      </p><div className="g-recaptcha" data-sitekey="6LeZ2cwUAAAAAEqjldz__1uhQdNQoybLdrfd5DJO"></div><p></p>
-
-
-				<p> 
-				 
-				<input type="submit" value="Submit" name="jetpack_subscriptions_widget" />
-				</p>
-			</div>
-		</form>
-		<a className="popup-close" href="#closed">X</a>
-	</div>
-</div>        
+                
            
          
         

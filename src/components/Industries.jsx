@@ -20,7 +20,7 @@ export default function Industries() {
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(260px, 1fr))', gap: '25px', padding: '15px 0' }}>
             {industries.map((ind, i) => (
               <div key={ind.name} style={{ display: 'flex' }}>
-                <div className="masobox" style={{ border: '1px solid #e5e5e5', background: '#fff', width: '100%', height: '100%', display: 'flex', flexDirection: 'column' }}>
+                <div className={i % 2 === 0 ? "masobox" : "masobox2"} style={{ border: '1px solid #e5e5e5', background: '#fff', width: '100%', height: '100%', display: 'flex', flexDirection: 'column' }}>
                   <div className="imgt" style={{ overflow: 'hidden' }}>
                     <img
                       src={ind.image}
@@ -32,7 +32,7 @@ export default function Industries() {
                     <div className="heading-link" style={{ textAlign: 'center', fontSize: '18px', fontWeight: 'bold', color: '#005d65', marginBottom: '10px' }}>
                       {ind.name}
                     </div>
-                    <p style={{ fontSize: '13px', color: '#666', lineHeight: '20px', textAlign: 'center' }}>
+                    <p style={{ fontSize: '14px', color: '#222', lineHeight: '20px', textAlign: 'center' }}>
                       {ind.desc}
                     </p>
                   </div>

@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import ExportDestinations from '../../components/ExportDestinations';
+import RelatedProducts from '../../components/RelatedProducts';
 
 export default function AnglesChannels() {
   return (
@@ -121,9 +123,7 @@ export default function AnglesChannels() {
         <li><Link to="/cladded-plates">Cladded Plates</Link></li>
         <li><Link to="/olets">Olets</Link></li>
         <li><Link to="/valves">Valves</Link></li>
-        <li><Link to="/graphite-filled-bronze-bushes">Graphite Filled Bronze Bush</Link></li>
-		   <li><Link to="/billets-manufacturer-supplier">Billets</Link></li>
-      </ul>  
+</ul>  
       </li>
   </ul>
  
@@ -154,7 +154,7 @@ export default function AnglesChannels() {
                                 
                                 
                             </section>
-                        </article>
+                          </article>
 
 
 
@@ -335,14 +335,9 @@ Of Section</strong></td>
 <div className="clear"></div>
 <div className="mb50"></div>
 
-<p style={{"marginBottom":"10px","color":"var(--color-deep)"}}><strong>EXPORT DESTINATIONS FOR STEEL ANGLES, STEEL CHANNELS, MILD STEEL BEAM, MILD STEEL ANGLES, MILD STEEL CHANNELS</strong></p>
+<ExportDestinations heading="EXPORT DESTINATIONS FOR STEEL ANGLES, STEEL CHANNELS, MILD STEEL BEAM, MILD STEEL ANGLES, MILD STEEL CHANNELS" />
 
-<p>
-Bahrain, Venezuela, Germany, Australia, Dubai, Canada, New Zealand, Thailand (Bangkok), Peru, United States, Iraq, Cameroon, Democratic Republic of the Congo, Turkey, Trinidad and Tobago, Ethiopa, Iran, Malaysia, Colombia, Indonesia, Kuwait, Ghana, Nigeria, Tunisia, Algeria, Mexico, Houston, Argentina, Sri Lanka, UK, Sudan, Vietnam, Kazakhstan, Jordan, Mozambique, Chine, Egypt, Angola, Israel, Azerbaijan, Russia, London, UAE, Brazil, Africa, Morocco, Saudi Arabia, South Africa, Italy, Uganda.<br /><br />
-Subra al-Haymah, Cairo, Manama, Lagos, Omdurman, Dubai, Ibadan, Lusaka, Tehran, Antananarivo, Bamako, Port Elizabeth, Kinshasa, Khartoum, Kano, Bethlehem, Tripoli, Sharm el-Sheikh, Aqaba, Zaria, Kampala, Maiduguri, Kolwezi, Addis Ababa, Dar es Salaam, Giza, Lubumbashi, Alexandria, New York, Nairobi, Jerusalem, Istanbul, Soweto, Rabat, Algiers, Riyadh, Doha, Mecca, Kaduna, Durban, Singapore, Ouagadougou, Fez, Brazzaville, Benin, Mogadishu, Colombo, Casablanca, Bulawayo, Tel Aviv, Jeddah, Byblos, Cape Town, Mbuji-Mayi, Freetown, Johannesburg, Hong Kong, Harare, Maputo, Luanda, Yaoundé, Muscat, Dakar, Pretoria, Data from the UN, Abu Dhabi, Beirut, Dammam, Abidjan, Port Harcourt, Douala, Amman, Accra, Conakry, Cairo.	
-</p>
-
-<div className="mb50"></div>
+              <RelatedProducts currentSlug="angles-channels" />
 
 
                           
@@ -366,28 +361,7 @@ Subra al-Haymah, Cairo, Manama, Lagos, Omdurman, Dubai, Ibadan, Lusaka, Tehran, 
 
             
 
-        <div className="popup-wrapper" id="popup">
-	<div className="popup-container">
-		<form action="download.php" method="post" className="popup-form">
-			<h3>Download Catalogue</h3>
-			<p>To Download Our Corporate Brochure please fill below details.</p>
-			<div className="input-group">
-            <p><input type="name" name="name" placeholder="Full Name" /></p>
-				<p><input type="email" name="email" placeholder="Email Address" /></p>
-                <p><input type="contact" name="contact" placeholder="Contact No." /></p>
-                <p><textarea name="comments" id="comments" cols="82" rows="5" placeholder="Comments"></textarea></p>
-                <p>      </p><div className="g-recaptcha" data-sitekey="6LeZ2cwUAAAAAEqjldz__1uhQdNQoybLdrfd5DJO"></div><p></p>
-
-
-				<p> 
-				 
-				<input type="submit" value="Submit" name="jetpack_subscriptions_widget" />
-				</p>
-			</div>
-		</form>
-		<a className="popup-close" href="#closed">X</a>
-	</div>
-</div>
+        
         
            
          

@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import ExportDestinations from '../../components/ExportDestinations';
+import RelatedProducts from '../../components/RelatedProducts';
 
 export default function Valves() {
   return (
@@ -128,9 +130,7 @@ finest materials are used at reasonable prices.</p>
         <li><Link to="/cladded-plates">Cladded Plates</Link></li>
         <li><Link to="/olets">Olets</Link></li>
         <li><Link to="/valves">Valves</Link></li>
-        <li><Link to="/graphite-filled-bronze-bushes">Graphite Filled Bronze Bush</Link></li>
-		   <li><Link to="/billets-manufacturer-supplier">Billets</Link></li>
-      </ul>  
+</ul>  
       </li>
   </ul>
 
@@ -413,14 +413,9 @@ STD.</p></td>
 <div className="clear"></div>
 <div className="mb50"></div>
 
-<p style={{"marginBottom":"10px","color":"var(--color-deep)"}}><strong>EXPORT DESTINATIONS FOR STEEL VALVES, SS VALVES, STAINLESS STEEL VALVES, STEEL GLOBE VALVES, BALL &amp; GATE VALVES, BUTTERFLY VALVES</strong></p>
+<ExportDestinations heading="EXPORT DESTINATIONS FOR STEEL VALVES, SS VALVES, STAINLESS STEEL VALVES, STEEL GLOBE VALVES, BALL &amp; GATE VALVES, BUTTERFLY VALVES" />
 
-<p>
-Venezuela, Colombia, Azerbaijan, Australia, Mexico, Morocco, Iran, Angola, United States, Ethiopa, Egypt, Israel, Thailand (Bangkok), Argentina, Jordan, Nigeria, Kuwait, Houston, Germany, UK, Kazakhstan, Vietnam, Mozambique, Trinidad and Tobago, Indonesia, Democratic Republic of the Congo, New Zealand, Tunisia, Sri Lanka, Canada, Bahrain, Iraq, Uganda, Africa, UAE, Malaysia, Saudi Arabia, Dubai, Cameroon, Peru, South Africa, London, Sudan, Russia, Turkey, Brazil, Italy, Chine, Ghana, Algeria.<br /><br />
-Freetown, Antananarivo, Beirut, Durban, Omdurman, Colombo, New York, Bamako, Byblos, Aqaba, Mbuji-Mayi, Singapore, Douala, Kolwezi, Tehran, Nairobi, Muscat, Zaria, Istanbul, Soweto, Manama, Cairo, Kampala, Amman, Subra al-Haymah, Lagos, Kaduna, Bethlehem, Dubai, Riyadh, Rabat, Harare, Casablanca, Lusaka, Alexandria, Cape Town, Dakar, Mecca, Mogadishu, Jeddah, Luanda, Fez, Yaoundé, Abidjan, Doha, Conakry, Maiduguri, Port Elizabeth, Ibadan, Cairo, Sharm el-Sheikh, Ouagadougou, Data from the UN, Tel Aviv, Johannesburg, Khartoum, Tripoli, Lubumbashi, Bulawayo, Addis Ababa, Giza, Abu Dhabi, Pretoria, Jerusalem, Maputo, Dar es Salaam, Brazzaville, Kano, Benin, Dammam, Port Harcourt, Hong Kong, Kinshasa, Algiers, Accra.	
-</p>
-
-<div className="mb50"></div>
+              <RelatedProducts currentSlug="valves" />
 
 
 
@@ -429,7 +424,7 @@ Freetown, Antananarivo, Beirut, Durban, Omdurman, Colombo, New York, Bamako, Byb
 
 
 
-</article>
+  </article>
 </div></div></section>           
 
             
@@ -444,28 +439,7 @@ Freetown, Antananarivo, Beirut, Durban, Omdurman, Colombo, New York, Bamako, Byb
 
             
             
-        <div className="popup-wrapper" id="popup">
-	<div className="popup-container">
-		<form action="download.php" method="post" className="popup-form">
-			<h3>Download Catalogue</h3>
-			<p>To Download Our Corporate Brochure please fill below details.</p>
-			<div className="input-group">
-            <p><input type="name" name="name" placeholder="Full Name" /></p>
-				<p><input type="email" name="email" placeholder="Email Address" /></p>
-                <p><input type="contact" name="contact" placeholder="Contact No." /></p>
-                <p><textarea name="comments" id="comments" cols="82" rows="5" placeholder="Comments"></textarea></p>
-                <p>      </p><div className="g-recaptcha" data-sitekey="6LeZ2cwUAAAAAEqjldz__1uhQdNQoybLdrfd5DJO"></div><p></p>
-
-
-				<p> 
-				 
-				<input type="submit" value="Submit" name="jetpack_subscriptions_widget" />
-				</p>
-			</div>
-		</form>
-		<a className="popup-close" href="#closed">X</a>
-	</div>
-</div>        
+                
            
          
         

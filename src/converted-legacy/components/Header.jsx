@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import logoImg from '../../assets/siyak-logo-original.jpg';
+import { productCategories } from '../../data/products';
 
 export default function Header() {
   const location = useLocation();
@@ -42,8 +43,8 @@ export default function Header() {
                            location.pathname === '/cladded-plates' ||
                            location.pathname === '/olets' ||
                            location.pathname === '/valves' ||
-                           location.pathname === '/graphite-filled-bronze-bushes' ||
-                           location.pathname === '/billets-manufacturer-supplier'
+                           location.pathname === '/perforated-sheets' ||
+                           location.pathname === '/wire-mesh'
                            ? 'current-menu-item' : '';
 
   return (
@@ -75,24 +76,12 @@ export default function Header() {
             <ul>
               <li className={isActive('/')}> <Link to="/">Home</Link> </li>
               <li className={isActive('/about-us')}> <Link to="/about-us">About</Link> </li>
-              <li className={isProductsActive}> <Link to="/products">Products</Link>
+              <li className={isProductsActive}>
+                <Link to="/products">Products</Link>
                 <ul>
-                  <li><Link to="/pipes-tubes">Pipes & Tubes</Link></li>
-                  <li><Link to="/sheets-plates">Sheets & Plates</Link></li>
-                  <li><Link to="/round-bars">Round Bars</Link></li>
-                  <li><Link to="/flanges">Flanges</Link></li>
-                  <li><Link to="/buttweld-fittings">Buttweld Fittings</Link></li>
-                  <li><Link to="/socketweld-fittings">Socketweld Fittings</Link></li>
-                  <li><Link to="/fasteners">Fasteners</Link></li>
-                  <li><Link to="/refractory-fixings-anchors">Refractory Fixings & Anchors</Link></li>
-                  <li><Link to="/angles-channels">Angles & Channels</Link></li>
-                  <li><Link to="/tube-sheet">Tube Sheets</Link></li>
-                  <li><Link to="/ferrule-fittings">Ferrule Fittings</Link></li>
-                  <li><Link to="/cladded-plates">Cladded Plates</Link></li>
-                  <li><Link to="/olets">Olets</Link></li>
-                  <li><Link to="/valves">Valves</Link></li>
-                  <li><Link to="/graphite-filled-bronze-bushes">Graphite Filled Bronze Bush</Link></li>
-                  <li><Link to="/billets-manufacturer-supplier">Billets</Link></li>
+                  {productCategories.map((cat) => (
+                    <li key={cat.slug}><Link to={`/${cat.slug}`}>{cat.name}</Link></li>
+                  ))}
                 </ul>
               </li>
               <li className={isActive('/quality-policy')}> <Link to="/quality-policy">Quality Policy</Link> </li>
@@ -113,20 +102,9 @@ export default function Header() {
             <li> <Link to="/about-us">About US</Link> </li>
             <li> <Link to="/products">Products</Link>
               <ul className="dl-submenu">
-                <li><Link to="/pipes-tubes">Pipes & Tubes</Link></li>
-                <li><Link to="/sheets-plates">Sheets & Plates</Link></li>
-                <li><Link to="/round-bars">Round Bars</Link></li>
-                <li><Link to="/flanges">Flanges</Link></li>
-                <li><Link to="/buttweld-fittings">Buttweld Fittings</Link></li>
-                <li><Link to="/socketweld-fittings">Socketweld Fittings</Link></li>
-                <li><Link to="/fasteners">Fasteners</Link></li>
-                <li><Link to="/refractory-fixings-anchors">Refractory Fixings & Anchors</Link></li>
-                <li><Link to="/angles-channels">Angles & Channels</Link></li>
-                <li><Link to="/tube-sheet">Tube Sheets</Link></li>
-                <li><Link to="/ferrule-fittings">Ferrule Fittings</Link></li>
-                <li><Link to="/cladded-plates">Cladded Plates</Link></li>
-                <li><Link to="/olets">Olets</Link></li>
-                <li><Link to="/valves">Valves</Link></li>
+                {productCategories.map((cat) => (
+                  <li key={cat.slug}><Link to={`/${cat.slug}`}>{cat.name}</Link></li>
+                ))}
               </ul>
             </li>
             <li> <Link to="/quality-policy">Quality Policy</Link> </li>

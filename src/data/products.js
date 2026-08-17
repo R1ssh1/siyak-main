@@ -1526,7 +1526,7 @@ Carbon Steel: IS 2062 / A516 Gr.70 — Nickel Alloy: Monel 400, Inconel 625`,
       { label: "Clad Layer", value: "Stainless Steel, Duplex, Titanium, Zirconium, Tantalum, Al-Bronze, Nickel, Nickel Alloys, Aluminium, Copper, Copper Alloys" },
       { label: "Base Material", value: "Carbon Steel, Stainless Steel, Alloy Steel, Copper, Aluminium" },
     ],
-    image: nickelAlloyPlatesSheetsImg,
+    image: "/img/products/cladded-plates.jpg",
     materialTypes: [
       {
         name: "Stainless Steel Clad Plates",
@@ -1540,7 +1540,7 @@ Minimum clad thickness: 10% of total or 1.5mm. Total thickness: 12mm to 150mm`,
         grades: ["Inconel 625", "Duplex 2205"],
         gradeText: `ASTM A265 (Nickel Alloy Clad) — Inconel 625 UNS N06625 Clad, Hastelloy C276 UNS N10276 Clad
 Duplex 2205 UNS S31803 Clad over Carbon Steel / Low Alloy Steel Base`,
-        image: nickelAlloyPlatesSheetsImg,
+        image: "/img/products/cladded-plates.jpg",
         desc: "High-performance cladding for pressure vessels and reactors handling severely corrosive process media.",
       },
     ],

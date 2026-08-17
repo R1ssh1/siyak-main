@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import ExportDestinations from '../../components/ExportDestinations';
+import RelatedProducts from '../../components/RelatedProducts';
 
 export default function FerruleFittings() {
   return (
@@ -128,9 +130,7 @@ finest materials are used at reasonable prices.</p>
         <li><Link to="/cladded-plates">Cladded Plates</Link></li>
         <li><Link to="/olets">Olets</Link></li>
         <li><Link to="/valves">Valves</Link></li>
-        <li><Link to="/graphite-filled-bronze-bushes">Graphite Filled Bronze Bush</Link></li>
-		   <li><Link to="/billets-manufacturer-supplier">Billets</Link></li>
-      </ul>  
+</ul>  
       </li>
   </ul>
 
@@ -163,7 +163,7 @@ finest materials are used at reasonable prices.</p>
                                
                                 
                             </section>
-                        </article>
+                          </article>
 
 
 
@@ -234,14 +234,9 @@ We are engaged in importing and supplying a wide range of Ferrule Fittings that 
 <div className="clear"></div>
 <div className="mb50"></div>
 
-<p style={{"marginBottom":"10px","color":"var(--color-deep)"}}><strong>EXPORT DESTINATIONS FOR STEEL FERRULE FITTINGS, SS FERRULE FITTINGS, CARBON FERRULE FITTINGS, STAINLESS STEEL COMPRESSION TUBING</strong></p>
+<ExportDestinations heading="EXPORT DESTINATIONS FOR STEEL FERRULE FITTINGS, SS FERRULE FITTINGS, CARBON FERRULE FITTINGS, STAINLESS STEEL COMPRESSION TUBING" />
 
-<p>
-Ghana, Russia, Italy, Chine, Canada, Angola, Indonesia, South Africa, Venezuela, Democratic Republic of the Congo, Cameroon, Germany, Iraq, Malaysia, Nigeria, Uganda, United States, Jordan, Mexico, Trinidad and Tobago, New Zealand, Azerbaijan, London, Brazil, Bahrain, UK, Dubai, Israel, Tunisia, Vietnam, Egypt, Saudi Arabia, Sri Lanka, Iran, Africa, Kuwait, Colombia, Algeria, Ethiopa, Mozambique, Turkey, Argentina, Peru, Kazakhstan, Houston, UAE, Sudan, Thailand (Bangkok), Morocco, Australia.<br /><br />
-Luanda, Hong Kong, Aqaba, Riyadh, Data from the UN, Manama, Dakar, Jerusalem, Algiers, Mogadishu, Freetown, Port Elizabeth, Conakry, Tel Aviv, Lagos, Accra, Zaria, New York, Bulawayo, Subra al-Haymah, Dammam, Abu Dhabi, Johannesburg, Maputo, Addis Ababa, Omdurman, Fez, Soweto, Brazzaville, Kampala, Mbuji-Mayi, Lusaka, Kaduna, Bamako, Alexandria, Byblos, Bethlehem, Yaoundé, Sharm el-Sheikh, Nairobi, Kolwezi, Cairo, Ouagadougou, Dar es Salaam, Durban, Douala, Istanbul, Pretoria, Ibadan, Kinshasa, Lubumbashi, Colombo, Khartoum, Cape Town, Doha, Mecca, Benin, Cairo, Port Harcourt, Muscat, Rabat, Kano, Singapore, Harare, Jeddah, Tripoli, Amman, Giza, Dubai, Tehran, Antananarivo, Beirut, Abidjan, Casablanca, Maiduguri.	
-</p>
-
-<div className="mb50"></div>
+              <RelatedProducts currentSlug="ferrule-fittings" />
 
 
                          
@@ -265,28 +260,7 @@ Luanda, Hong Kong, Aqaba, Riyadh, Data from the UN, Manama, Dakar, Jerusalem, Al
 </a> 
 
             
-        <div className="popup-wrapper" id="popup">
-	<div className="popup-container">
-		<form action="download.php" method="post" className="popup-form">
-			<h3>Download Catalogue</h3>
-			<p>To Download Our Corporate Brochure please fill below details.</p>
-			<div className="input-group">
-            <p><input type="name" name="name" placeholder="Full Name" /></p>
-				<p><input type="email" name="email" placeholder="Email Address" /></p>
-                <p><input type="contact" name="contact" placeholder="Contact No." /></p>
-                <p><textarea name="comments" id="comments" cols="82" rows="5" placeholder="Comments"></textarea></p>
-                <p>      </p><div className="g-recaptcha" data-sitekey="6LeZ2cwUAAAAAEqjldz__1uhQdNQoybLdrfd5DJO"></div><p></p>
-
-
-				<p> 
-				 
-				<input type="submit" value="Submit" name="jetpack_subscriptions_widget" />
-				</p>
-			</div>
-		</form>
-		<a className="popup-close" href="#closed">X</a>
-	</div>
-</div>        
+                
            
          
         

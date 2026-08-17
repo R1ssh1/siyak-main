@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import ExportDestinations from '../../components/ExportDestinations';
+import RelatedProducts from '../../components/RelatedProducts';
 
 export default function ButtweldFittings() {
   return (
@@ -93,11 +95,7 @@ Raw Material ant its Fittings</p>
     <li className="widget widget_productlist ">
       <h2>BUTTWELD FITTINGS</h2>
        <ul className="">
-        <li><Link to="/high-nickel-alloy-buttweld-fittings">High Nickel Alloy Buttweld Fittings</Link></li>
-        <li><Link to="/stainless-steel-buttweld-fittings">Stainless Steel Buttweld Fittings</Link></li>
-        <li><Link to="/carbon-steel-buttweld-fittings">Carbon Steel Buttweld Fittings</Link></li>    
-         <li><Link to="/alloy-steel-buttweld-fittings">Alloy Steel Buttweld Fittings</Link></li>
-      </ul>  
+</ul>  
       </li>
   </ul>
  
@@ -136,9 +134,7 @@ Raw Material ant its Fittings</p>
         <li><Link to="/cladded-plates">Cladded Plates</Link></li>
         <li><Link to="/olets">Olets</Link></li>
         <li><Link to="/valves">Valves</Link></li>
-        <li><Link to="/graphite-filled-bronze-bushes">Graphite Filled Bronze Bush</Link></li>
-		   <li><Link to="/billets-manufacturer-supplier">Billets</Link></li>
-      </ul>  
+</ul>  
       </li>
   </ul>
 
@@ -167,7 +163,7 @@ Raw Material ant its Fittings</p>
                                
                                 
                             </section>
-                        </article>
+                          </article>
 
 
 
@@ -235,14 +231,9 @@ Aluminium, High Speed Steel, Zinc, Lead, etc.</p>
 <div className="clear"></div>
 <div className="mb50"></div>
 
-<p style={{"marginBottom":"10px","color":"var(--color-deep)"}}><strong>EXPORT DESTINATIONS FOR STEEL BUTT WELD PIPE FITTINGS, STEEL PIPE FITTINGS</strong></p>
+<ExportDestinations heading="EXPORT DESTINATIONS FOR STEEL BUTT WELD PIPE FITTINGS, STEEL PIPE FITTINGS" />
 
-<p>
-Colombia, Venezuela, Ethiopa, Dubai, UAE, Vietnam, UK, Angola, Trinidad and Tobago, Iraq, Uganda, Thailand (Bangkok), Indonesia, Jordan, Germany, Peru, Algeria, Turkey, Democratic Republic of the Congo, Azerbaijan, New Zealand, Russia, Saudi Arabia, Brazil, London, Kuwait, United States, Ghana, Houston, South Africa, Tunisia, Mozambique, Cameroon, Sri Lanka, Egypt, Chine, Nigeria, Australia, Iran, Kazakhstan, Canada, Africa, Sudan, Argentina, Bahrain, Morocco, Mexico, Israel, Malaysia, Italy.<br /><br />
-Lubumbashi, Brazzaville, Algiers, Dar es Salaam, Jerusalem, Casablanca, Kolwezi, Freetown, Dakar, Luanda, Port Elizabeth, Pretoria, Aqaba, Maiduguri, Zaria, Beirut, Dammam, Jeddah, Mogadishu, Lagos, Fez, Accra, Kinshasa, Cairo, Amman, Addis Ababa, Dubai, Soweto, Colombo, Byblos, Conakry, Alexandria, Harare, Douala, Bamako, Giza, Data from the UN, Cape Town, Tripoli, Subra al-Haymah, Nairobi, Port Harcourt, Lusaka, Muscat, Abidjan, Singapore, Khartoum, Bethlehem, Sharm el-Sheikh, Tel Aviv, Antananarivo, Mbuji-Mayi, Mecca, Bulawayo, Cairo, Hong Kong, Riyadh, Rabat, Istanbul, Benin, Ibadan, Tehran, Kaduna, Durban, Kano, Yaoundé, Manama, Ouagadougou, Doha, Kampala, Omdurman, Maputo, Abu Dhabi, New York, Johannesburg.	
-</p>
-
-<div className="mb50"></div>
+              <RelatedProducts currentSlug="buttweld-fittings" />
 
 
 
@@ -268,28 +259,7 @@ Lubumbashi, Brazzaville, Algiers, Dar es Salaam, Jerusalem, Casablanca, Kolwezi,
 </a> 
 
             
-        <div className="popup-wrapper" id="popup">
-	<div className="popup-container">
-		<form action="download.php" method="post" className="popup-form">
-			<h3>Download Catalogue</h3>
-			<p>To Download Our Corporate Brochure please fill below details.</p>
-			<div className="input-group">
-            <p><input type="name" name="name" placeholder="Full Name" /></p>
-				<p><input type="email" name="email" placeholder="Email Address" /></p>
-                <p><input type="contact" name="contact" placeholder="Contact No." /></p>
-                <p><textarea name="comments" id="comments" cols="82" rows="5" placeholder="Comments"></textarea></p>
-                <p>      </p><div className="g-recaptcha" data-sitekey="6LeZ2cwUAAAAAEqjldz__1uhQdNQoybLdrfd5DJO"></div><p></p>
-
-
-				<p> 
-				 
-				<input type="submit" value="Submit" name="jetpack_subscriptions_widget" />
-				</p>
-			</div>
-		</form>
-		<a className="popup-close" href="#closed">X</a>
-	</div>
-</div>        
+                
            
          
         

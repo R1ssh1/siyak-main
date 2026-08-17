@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import ExportDestinations from '../../components/ExportDestinations';
+import RelatedProducts from '../../components/RelatedProducts';
 
 export default function CladdedPlates() {
   return (
@@ -127,9 +129,7 @@ export default function CladdedPlates() {
         <li><Link to="/cladded-plates">Cladded Plates</Link></li>
         <li><Link to="/olets">Olets</Link></li>
         <li><Link to="/valves">Valves</Link></li>
-        <li><Link to="/graphite-filled-bronze-bushes">Graphite Filled Bronze Bush</Link></li>
-		   <li><Link to="/billets-manufacturer-supplier">Billets</Link></li>
-      </ul>  
+</ul>  
       </li>
   </ul>
 
@@ -159,7 +159,7 @@ export default function CladdedPlates() {
                                
                                 
                             </section>
-                        </article>
+                          </article>
 
 
 
@@ -238,14 +238,9 @@ Certain <b>Siyak Steel International</b> clad products can be further rolled/ext
 <div className="clear"></div>
 <div className="mb50"></div>
 
-<p style={{"marginBottom":"10px","color":"var(--color-deep)"}}><strong>EXPORT DESTINATIONS FOR CLADDED PLATES, STEEL CLADDED PLATES, CLAD STEEL PLATES, CLAD PLATES SUPPLIER</strong></p>
+<ExportDestinations heading="EXPORT DESTINATIONS FOR CLADDED PLATES, STEEL CLADDED PLATES, CLAD STEEL PLATES, CLAD PLATES SUPPLIER" />
 
-<p>
-Chine, Kazakhstan, Mozambique, London, Africa, Venezuela, Kuwait, UAE, Argentina, Trinidad and Tobago, Australia, South Africa, Peru, Azerbaijan, Egypt, Sri Lanka, United States, Jordan, Brazil, Ghana, Colombia, New Zealand, Vietnam, Italy, Turkey, Germany, Iran, UK, Ethiopa, Dubai, Russia, Canada, Bahrain, Democratic Republic of the Congo, Thailand (Bangkok), Malaysia, Sudan, Israel, Angola, Uganda, Morocco, Algeria, Houston, Saudi Arabia, Tunisia, Cameroon, Nigeria, Mexico, Iraq, Indonesia.<br /><br />
-Cairo, Colombo, Giza, Benin, Rabat, Dubai, Dar es Salaam, Ouagadougou, Amman, Manama, Maputo, Doha, Mbuji-Mayi, Singapore, Antananarivo, Khartoum, Sharm el-Sheikh, Ibadan, New York, Tehran, Kinshasa, Tripoli, Dammam, Istanbul, Maiduguri, Luanda, Lusaka, Tel Aviv, Byblos, Subra al-Haymah, Brazzaville, Abu Dhabi, Lagos, Omdurman, Hong Kong, Riyadh, Addis Ababa, Dakar, Accra, Kaduna, Cairo, Kano, Mogadishu, Port Elizabeth, Lubumbashi, Jerusalem, Harare, Abidjan, Bethlehem, Jeddah, Durban, Freetown, Bulawayo, Muscat, Yaoundé, Cape Town, Beirut, Casablanca, Port Harcourt, Douala, Fez, Kampala, Alexandria, Algiers, Johannesburg, Data from the UN, Nairobi, Bamako, Conakry, Soweto, Mecca, Kolwezi, Pretoria, Zaria, Aqaba.	
-</p>
-
-<div className="mb50"></div>
+              <RelatedProducts currentSlug="cladded-plates" />
                  
 			</article>
                     </div>
@@ -265,28 +260,7 @@ Cairo, Colombo, Giza, Benin, Rabat, Dubai, Dar es Salaam, Ouagadougou, Amman, Ma
 </a> 
 
             
-        <div className="popup-wrapper" id="popup">
-	<div className="popup-container">
-		<form action="download.php" method="post" className="popup-form">
-			<h3>Download Catalogue</h3>
-			<p>To Download Our Corporate Brochure please fill below details.</p>
-			<div className="input-group">
-            <p><input type="name" name="name" placeholder="Full Name" /></p>
-				<p><input type="email" name="email" placeholder="Email Address" /></p>
-                <p><input type="contact" name="contact" placeholder="Contact No." /></p>
-                <p><textarea name="comments" id="comments" cols="82" rows="5" placeholder="Comments"></textarea></p>
-                <p>      </p><div className="g-recaptcha" data-sitekey="6LeZ2cwUAAAAAEqjldz__1uhQdNQoybLdrfd5DJO"></div><p></p>
-
-
-				<p> 
-				 
-				<input type="submit" value="Submit" name="jetpack_subscriptions_widget" />
-				</p>
-			</div>
-		</form>
-		<a className="popup-close" href="#closed">X</a>
-	</div>
-</div>        
+                
            
          
         

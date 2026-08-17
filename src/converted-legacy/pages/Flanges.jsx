@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import ExportDestinations from '../../components/ExportDestinations';
+import RelatedProducts from '../../components/RelatedProducts';
 
 export default function Flanges() {
   return (
@@ -91,10 +93,7 @@ flanges<br /></p>
       <h2>FLANGES</h2>
        <ul className="">
         <li><Link to="/high-nickel-alloy-flanges">High Nickel Alloy Flanges</Link></li>
-        <li><Link to="/stainless-steel-flanges">Stainless Steel Flanges</Link></li>
-        <li><Link to="/carbon-steel-flanges">Carbon Steel Flanges</Link></li>    
-         <li><Link to="/alloy-steel-flanges">Alloy Steel Flanges</Link></li>
-      </ul>  
+</ul>  
       </li>
   </ul>
 
@@ -139,9 +138,7 @@ flanges<br /></p>
         <li><Link to="/cladded-plates">Cladded Plates</Link></li>
         <li><Link to="/olets">Olets</Link></li>
         <li><Link to="/valves">Valves</Link></li>
-        <li><Link to="/graphite-filled-bronze-bushes">Graphite Filled Bronze Bush</Link></li>
-		   <li><Link to="/billets-manufacturer-supplier">Billets</Link></li>
-      </ul>  
+</ul>  
       </li>
   </ul>
 
@@ -171,7 +168,7 @@ flanges<br /></p>
                                 <img src="img/products/weld-neck-flanges.jpg" alt="Stainless Steel Pipe Flanges Exporter" />
                                 
                             </section>
-                        </article>
+                          </article>
 
 
 
@@ -247,14 +244,9 @@ We are engaged in importing and supplying a wide range of Flanges that are avail
 <div className="clear"></div>
 <div className="mb50"></div>
 
-<p style={{"marginBottom":"10px","color":"var(--color-deep)"}}><strong>EXPORT DESTINATIONS FOR STEEL FLANGES, SS PIPE FLANGES, STEEL SLIP ON FLANGES, CARBON FLANGES, STAINLESS PIPE FLANGES</strong></p>
+<ExportDestinations heading="EXPORT DESTINATIONS FOR STEEL FLANGES, SS PIPE FLANGES, STEEL SLIP ON FLANGES, CARBON FLANGES, STAINLESS PIPE FLANGES" />
 
-<p>
-London, Peru, Egypt, Cameroon, Sudan, Azerbaijan, Germany, South Africa, Iran, Tunisia, Morocco, Sri Lanka, United States, Ghana, Angola, Mexico, Kazakhstan, Thailand (Bangkok), Turkey, Indonesia, Mozambique, Malaysia, Australia, Brazil, Argentina, Iraq, Houston, Russia, Uganda, Ethiopa, Colombia, UK, Saudi Arabia, Venezuela, Italy, Kuwait, New Zealand, Israel, Nigeria, Africa, Vietnam, UAE, Democratic Republic of the Congo, Algeria, Dubai, Chine, Trinidad and Tobago, Bahrain, Canada, Jordan.<br /><br />
-Maputo, Yaoundé, New York, Dar es Salaam, Jeddah, Manama, Data from the UN, Alexandria, Omdurman, Abu Dhabi, Tripoli, Conakry, Muscat, Kano, Benin, Abidjan, Accra, Mecca, Beirut, Port Harcourt, Khartoum, Fez, Soweto, Dakar, Riyadh, Ibadan, Rabat, Mogadishu, Sharm el-Sheikh, Doha, Lubumbashi, Aqaba, Johannesburg, Subra al-Haymah, Zaria, Casablanca, Algiers, Bethlehem, Giza, Dubai, Tehran, Lusaka, Kolwezi, Mbuji-Mayi, Luanda, Kinshasa, Addis Ababa, Bulawayo, Byblos, Harare, Tel Aviv, Amman, Istanbul, Bamako, Cairo, Hong Kong, Colombo, Antananarivo, Lagos, Durban, Kaduna, Port Elizabeth, Ouagadougou, Brazzaville, Singapore, Cairo, Jerusalem, Dammam, Cape Town, Maiduguri, Freetown, Kampala, Douala, Pretoria, Nairobi.	
-</p>
-
-<div className="mb50"></div>
+              <RelatedProducts currentSlug="flanges" />
 
 
                           
@@ -277,28 +269,7 @@ Maputo, Yaoundé, New York, Dar es Salaam, Jeddah, Manama, Data from the UN, Ale
 </a> 
 
             
-        <div className="popup-wrapper" id="popup">
-	<div className="popup-container">
-		<form action="download.php" method="post" className="popup-form">
-			<h3>Download Catalogue</h3>
-			<p>To Download Our Corporate Brochure please fill below details.</p>
-			<div className="input-group">
-            <p><input type="name" name="name" placeholder="Full Name" /></p>
-				<p><input type="email" name="email" placeholder="Email Address" /></p>
-                <p><input type="contact" name="contact" placeholder="Contact No." /></p>
-                <p><textarea name="comments" id="comments" cols="82" rows="5" placeholder="Comments"></textarea></p>
-                <p>      </p><div className="g-recaptcha" data-sitekey="6LeZ2cwUAAAAAEqjldz__1uhQdNQoybLdrfd5DJO"></div><p></p>
-
-
-				<p> 
-				 
-				<input type="submit" value="Submit" name="jetpack_subscriptions_widget" />
-				</p>
-			</div>
-		</form>
-		<a className="popup-close" href="#closed">X</a>
-	</div>
-</div>        
+                
            
          
         

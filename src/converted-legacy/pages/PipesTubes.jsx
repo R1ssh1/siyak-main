@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import ExportDestinations from '../../components/ExportDestinations';
+import RelatedProducts from '../../components/RelatedProducts';
 
 export default function PipesTubes() {
   return (
@@ -66,13 +68,7 @@ export default function PipesTubes() {
     <li className="widget widget_productlist ">
       <h2>PIPES &amp; TUBES</h2>
        <ul className="">
-        <li><Link to="/nickel-alloy-pipes-tubes">Nickel Alloy Pipes &amp; Tubes</Link></li>
-        <li><Link to="/copper-alloy-pipes-tubes">Copper Alloy Pipes &amp; Tubes</Link></li>
-         <li><Link to="/stainless-steel-pipes-tubes">Stainless Steel Pipes &amp; Tubes</Link></li>
-          <li><Link to="/duplex-steel-pipes-tubes">Duplex Steel Pipes &amp; Tubes</Link></li>
-         <li><Link to="/carbon-steel-pipes-tubes">Carbon Steel Pipes &amp; Tubes</Link></li>        
-         <li><Link to="/alloy-steel-pipes-tubes">Alloy Steel Pipes &amp; Tubes</Link></li>
-      </ul>  
+</ul>  
       </li>
   </ul>
  
@@ -142,9 +138,7 @@ export default function PipesTubes() {
         <li><Link to="/cladded-plates">Cladded Plates</Link></li>
         <li><Link to="/olets">Olets</Link></li>
         <li><Link to="/valves">Valves</Link></li>
-        <li><Link to="/graphite-filled-bronze-bushes">Graphite Filled Bronze Bush</Link></li>
-		   <li><Link to="/billets-manufacturer-supplier">Billets</Link></li>
-      </ul>  
+</ul>  
       </li>
   </ul>
 
@@ -175,7 +169,7 @@ export default function PipesTubes() {
                                 <img src="img/products/pipes-tubes.jpg" alt="SS Tubes" />
                                 
                             </section>
-                        </article>
+                          </article>
 
 
 
@@ -291,14 +285,9 @@ ASTM / ASME A691 GR A.B &amp; C<br />
 <div className="clear"></div>
 <div className="mb50"></div>
 
-<p style={{"marginBottom":"10px","color":"var(--color-deep)"}}><strong>EXPORT DESTINATIONS FOR STEEL PIPES, STEEL TUBES, SS PIPES, SS TUBES, STEEL SEAMLESS PIPES, STEEL WELDED TUBES</strong></p>
+<ExportDestinations heading="EXPORT DESTINATIONS FOR STEEL PIPES, STEEL TUBES, SS PIPES, SS TUBES, STEEL SEAMLESS PIPES, STEEL WELDED TUBES" />
 
-<p>
-Turkey, Malaysia, Egypt, Kazakhstan, Italy, Morocco, Venezuela, Brazil, Ghana, UAE, Peru, Dubai, Colombia, Tunisia, Azerbaijan, Uganda, London, Thailand (Bangkok), Houston, Algeria, Canada, United States, Ethiopa, Argentina, South Africa, Vietnam, Sri Lanka, Israel, Australia, Trinidad and Tobago, Mexico, Saudi Arabia, Angola, New Zealand, Jordan, Indonesia, Bahrain, UK, Germany, Democratic Republic of the Congo, Chine, Sudan, Iraq, Cameroon, Russia, Mozambique, Iran, Nigeria, Africa, Kuwait.<br /><br />
-Riyadh, Douala, Dubai, Casablanca, Colombo, Conakry, Harare, Cairo, Addis Ababa, Kaduna, Benin, Doha, Omdurman, Soweto, New York, Freetown, Aqaba, Khartoum, Lubumbashi, Jeddah, Antananarivo, Fez, Muscat, Jerusalem, Abidjan, Ouagadougou, Pretoria, Giza, Kinshasa, Amman, Istanbul, Zaria, Durban, Manama, Data from the UN, Hong Kong, Maiduguri, Mbuji-Mayi, Dammam, Bamako, Luanda, Kano, Algiers, Kolwezi, Abu Dhabi, Ibadan, Kampala, Tel Aviv, Mecca, Bethlehem, Cairo, Bulawayo, Yaoundé, Sharm el-Sheikh, Lusaka, Port Elizabeth, Byblos, Rabat, Subra al-Haymah, Singapore, Port Harcourt, Accra, Dakar, Beirut, Alexandria, Nairobi, Tripoli, Lagos, Maputo, Dar es Salaam, Tehran, Cape Town, Brazzaville, Johannesburg, Mogadishu.	
-</p>
-
-<div className="mb50"></div>
+              <RelatedProducts currentSlug="pipes-tubes" />
 
 
                           
@@ -323,28 +312,7 @@ Riyadh, Douala, Dubai, Casablanca, Colombo, Conakry, Harare, Cairo, Addis Ababa,
 </a> 
 
             
-        <div className="popup-wrapper" id="popup">
-	<div className="popup-container">
-		<form action="download.php" method="post" className="popup-form">
-			<h3>Download Catalogue</h3>
-			<p>To Download Our Corporate Brochure please fill below details.</p>
-			<div className="input-group">
-            <p><input type="name" name="name" placeholder="Full Name" /></p>
-				<p><input type="email" name="email" placeholder="Email Address" /></p>
-                <p><input type="contact" name="contact" placeholder="Contact No." /></p>
-                <p><textarea name="comments" id="comments" cols="82" rows="5" placeholder="Comments"></textarea></p>
-                <p>      </p><div className="g-recaptcha" data-sitekey="6LeZ2cwUAAAAAEqjldz__1uhQdNQoybLdrfd5DJO"></div><p></p>
-
-
-				<p> 
-				 
-				<input type="submit" value="Submit" name="jetpack_subscriptions_widget" />
-				</p>
-			</div>
-		</form>
-		<a className="popup-close" href="#closed">X</a>
-	</div>
-</div>        
+                
            
          
         

@@ -4,7 +4,6 @@ import Reveal from "./Reveal";
 import ProductImage from "./ProductImage";
 import TiltCard from "./TiltCard";
 import { productCategories } from "../data/products";
-import { catSeoSlug } from "../lib/slugify";
 
 // Show every product line except the last one on the homepage grid — the
 // last one is still available on the dedicated /products page.
@@ -41,7 +40,7 @@ export default function FeaturedProducts() {
               <Reveal key={cat.slug} delay={(i % 6) * 0.06}>
                 <TiltCard className="group h-full" maxTilt={4}>
                   <Link
-                    to={`/products/${catSeoSlug(cat.slug)}`}
+                    to={`/${cat.slug}`}
                     className="flex h-full flex-col bg-white border border-teal-pale rounded-xl overflow-hidden transition-all duration-300 hover:border-teal-light hover:shadow-hover"
                   >
                     <div className="relative overflow-hidden">

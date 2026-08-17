@@ -64,7 +64,6 @@ html, body {
 }
 
 html {
-  scroll-behavior: smooth;
 }
 
 body {
@@ -282,6 +281,7 @@ a.float:hover{
   background-color: #fff !important;
   box-shadow: 0 1px 4px rgba(0,0,0,0.1);
   overflow: hidden;
+  transition: all 0.3s ease;
 }
 
 .masobox .imgt, .masobox2 .imgt {
@@ -294,8 +294,9 @@ a.float:hover{
   display: flex;
   flex-direction: column;
   padding: 15px;
-  background-color: #fff;
+  background-color: transparent;
   z-index: 10;
+  transition: all 0.3s ease;
 }
 
 .masobox .heading-link, .masobox2 .heading-link {
@@ -307,6 +308,26 @@ a.float:hover{
   font-weight: 500;
   line-height: 1.5;
   display: block;
+  transition: all 0.3s ease;
+}
+
+.masobox:hover {
+  background-color: var(--color-teal) !important;
+}
+
+.masobox2:hover {
+  background-color: var(--color-teal-light) !important;
+}
+
+.masobox:hover .content-maso, .masobox2:hover .content-maso {
+  background-color: transparent !important;
+}
+
+.masobox:hover .spant, .masobox2:hover .spant,
+.masobox:hover .heading-link, .masobox2:hover .heading-link,
+.masobox:hover .heading-link a, .masobox2:hover .heading-link a,
+.masobox:hover p, .masobox2:hover p {
+  color: #fff !important;
 }
 
 /* Make sure the main grid_4 wrapper for products is flex so cards stretch to match heights */
@@ -320,4 +341,85 @@ a.float:hover{
   flex-direction: column;
   gap: 20px;
   margin-bottom: 20px;
+}
+
+/* -------------------------------------------------------------------------
+ * Header Nav Dropdown Fixes
+ * ------------------------------------------------------------------------- */
+#nav > ul > li {
+  position: relative;
+}
+#nav > ul > li > ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 250px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  z-index: 1000;
+  padding: 10px 0;
+  border-top: 3px solid var(--color-teal);
+}
+#nav > ul > li:hover > ul {
+  display: block !important;
+}
+#nav > ul > li > ul > li {
+  display: block;
+  width: 100%;
+}
+#nav > ul > li > ul > li > a {
+  display: block;
+  padding: 10px 20px;
+  color: var(--color-deep);
+  text-decoration: none;
+  font-size: 14px;
+  text-transform: capitalize;
+  border-bottom: 1px solid #f1f1f1;
+  transition: all 0.2s ease;
+}
+#nav > ul > li > ul > li:last-child > a {
+  border-bottom: none;
+}
+#nav > ul > li > ul > li > a:hover {
+  background-color: var(--color-teal-pale);
+  color: var(--color-teal);
+  padding-left: 25px; /* slight indent on hover */
+}
+
+/* -------------------------------------------------------------------------
+ * Legacy masobox and masobox2 custom hover effects
+ * alternating between primary teal and secondary teal
+ * ------------------------------------------------------------------------- */
+.masobox, .masobox2 {
+  transition: all 0.3s ease;
+}
+
+/* Default state styling */
+.masobox .content-maso, .masobox2 .content-maso {
+  transition: all 0.3s ease;
+}
+.masobox .spant, .masobox2 .spant,
+.masobox .heading-link, .masobox2 .heading-link,
+.masobox .heading-link > a, .masobox2 .heading-link > a,
+.masobox .heading-link i, .masobox2 .heading-link i,
+.masobox p, .masobox2 p {
+  transition: all 0.3s ease;
+}
+
+/* Hover background changes */
+.masobox:hover, .masobox:hover .content-maso {
+  background-color: #005d65 !important;
+}
+.masobox2:hover, .masobox2:hover .content-maso {
+  background-color: #14b8ad !important;
+}
+
+/* Hover text changes to white */
+.masobox:hover .spant, .masobox2:hover .spant,
+.masobox:hover .heading-link, .masobox2:hover .heading-link,
+.masobox:hover .heading-link > a, .masobox2:hover .heading-link > a,
+.masobox:hover .heading-link i, .masobox2:hover .heading-link i,
+.masobox:hover p, .masobox2:hover p {
+  color: #ffffff !important;
 }

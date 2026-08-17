@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import ExportDestinations from '../../components/ExportDestinations';
+import RelatedProducts from '../../components/RelatedProducts';
 
 export default function Olets() {
   return (
@@ -128,9 +130,7 @@ finest materials are used at reasonable prices.</p>
         <li><Link to="/cladded-plates">Cladded Plates</Link></li>
         <li><Link to="/olets">Olets</Link></li>
         <li><Link to="/valves">Valves</Link></li>
-        <li><Link to="/graphite-filled-bronze-bushes">Graphite Filled Bronze Bush</Link></li>
-		   <li><Link to="/billets-manufacturer-supplier">Billets</Link></li>
-      </ul>  
+</ul>  
       </li>
   </ul>
 
@@ -238,14 +238,9 @@ finest materials are used at reasonable prices.</p>
 <div className="clear"></div>
 <div className="mb50"></div>
 
-<p style={{"marginBottom":"10px","color":"var(--color-deep)"}}><strong>EXPORT DESTINATIONS FOR STEEL OLETS, STEEL OUTLET FITTINGS, INSERT WELDOLET, SOCKOLET, THREADOLET, NIPOLET, ELBOLET</strong></p>
+<ExportDestinations heading="EXPORT DESTINATIONS FOR STEEL OLETS, STEEL OUTLET FITTINGS, INSERT WELDOLET, SOCKOLET, THREADOLET, NIPOLET, ELBOLET" />
 
-<p>
-Vietnam, Venezuela, Nigeria, Cameroon, Germany, Brazil, Egypt, UAE, Dubai, Ethiopa, Bahrain, United States, Canada, Mexico, Russia, Turkey, Angola, Colombia, Argentina, Italy, Trinidad and Tobago, Jordan, Kuwait, Ghana, Iraq, UK, New Zealand, Iran, Malaysia, South Africa, Kazakhstan, Africa, Sudan, Saudi Arabia, Israel, London, Indonesia, Azerbaijan, Uganda, Morocco, Peru, Democratic Republic of the Congo, Chine, Tunisia, Houston, Mozambique, Algeria, Australia, Sri Lanka, Thailand (Bangkok).<br /><br />
-Ouagadougou, Nairobi, Brazzaville, Douala, Maputo, Conakry, Luanda, New York, Yaoundé, Durban, Doha, Dammam, Pretoria, Lusaka, Colombo, Riyadh, Jeddah, Benin, Casablanca, Sharm el-Sheikh, Kano, Aqaba, Cairo, Alexandria, Byblos, Zaria, Soweto, Istanbul, Manama, Fez, Kinshasa, Mbuji-Mayi, Jerusalem, Dakar, Cairo, Lubumbashi, Mogadishu, Data from the UN, Singapore, Muscat, Omdurman, Antananarivo, Freetown, Johannesburg, Addis Ababa, Giza, Algiers, Dar es Salaam, Kampala, Rabat, Tehran, Cape Town, Abu Dhabi, Bethlehem, Accra, Dubai, Maiduguri, Ibadan, Bamako, Khartoum, Kaduna, Bulawayo, Mecca, Amman, Subra al-Haymah, Port Harcourt, Kolwezi, Harare, Tel Aviv, Beirut, Hong Kong, Lagos, Tripoli, Port Elizabeth, Abidjan.	
-</p>
-
-<div className="mb50"></div>
+              <RelatedProducts currentSlug="olets" />
 
 
 
@@ -253,7 +248,7 @@ Ouagadougou, Nairobi, Brazzaville, Douala, Maputo, Conakry, Luanda, New York, Ya
 
 
 
-</article>
+  </article>
 </div></div></section>
 
 
@@ -268,28 +263,7 @@ Ouagadougou, Nairobi, Brazzaville, Douala, Maputo, Conakry, Luanda, New York, Ya
 </a> 
 
             
-        <div className="popup-wrapper" id="popup">
-	<div className="popup-container">
-		<form action="download.php" method="post" className="popup-form">
-			<h3>Download Catalogue</h3>
-			<p>To Download Our Corporate Brochure please fill below details.</p>
-			<div className="input-group">
-            <p><input type="name" name="name" placeholder="Full Name" /></p>
-				<p><input type="email" name="email" placeholder="Email Address" /></p>
-                <p><input type="contact" name="contact" placeholder="Contact No." /></p>
-                <p><textarea name="comments" id="comments" cols="82" rows="5" placeholder="Comments"></textarea></p>
-                <p>      </p><div className="g-recaptcha" data-sitekey="6LeZ2cwUAAAAAEqjldz__1uhQdNQoybLdrfd5DJO"></div><p></p>
-
-
-				<p> 
-				 
-				<input type="submit" value="Submit" name="jetpack_subscriptions_widget" />
-				</p>
-			</div>
-		</form>
-		<a className="popup-close" href="#closed">X</a>
-	</div>
-</div>        
+                
            
          
         
