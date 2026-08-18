@@ -48,76 +48,74 @@ export default function HsCodes() {
 
   return (
     <>
-      <div id="page-wrapper" className="clearfix">
-        <section id="page-title-abt" className="page-title-1 " data-stellar-background-ratio="0.3">
-          <div className="container">
-            <div className="row">
-              <div className="grid_9">
-                <div className="pt-box">
-                  <div className="pt-title triggerAnimation animated fadeInLeft" data-animate="fadeInLeft">
-                    <h1>We are <span className="strong">NEONALLOYS</span></h1>
-                    <h4>Ensuring Stainless Performance.<br/>
-                      We are offering quality range of industrial <br/>
-                      Raw Material ant its Fittings</h4>
-                  </div>
+      <section id="page-title-abt" className="page-title-1" data-stellar-background-ratio="0.3">
+        <div className="container">
+          <div className="row">
+            <div className="grid_9">
+              <div className="pt-box" style={{ backgroundColor: 'rgba(29, 140, 160, 0.86)' }}>
+                <div className="pt-title triggerAnimation animated" data-animate="fadeInLeft">
+                  <h1><span className="strong">HS Codes</span></h1>
+                  <h4>Harmonized System codes for steel and industrial products.</h4>
                 </div>
               </div>
             </div>
           </div>
-          <div className="breadcrumbs-box">
-            <div className="container">
-              <div className="row">
-                <div className="grid_12">
+          <div className="row">
+            <div className="grid_8">
+              <div className="breadcrumbs triggerAnimation animated" data-animate="fadeInUp">
+                <ul>
+                  <li><span>You are here:</span></li>
+                  <li><a href="/">Home / </a></li>
+                  <li><span className="active">HS Codes</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="page-content" className="page-content-1">
+        <div className="container">
+          <div className="row">
+            <aside className="grid_3 aside-right triggerAnimation animated" data-animate="fadeInLeft">
+              <div className="clrspace"></div>
+              <ul className="aside_widgets">
+                <li className="widget widget_custom_menu">
+                  <h2>ABOUT SIYAK STEEL</h2>
                   <ul>
-                    <li>You are here: <a href="/">Home</a> / <span>HS Code</span></li>
+                    <li><a href="/about-us">About Us</a></li>
+                    <li><a href="/quality-policy">Quality Policy</a></li>
+                    <li><a href="/certification">Certification</a></li>
+                    <li><a href="/technical-info">Technical Info</a></li>
+                    <li><a href="/contact">Contact Us</a></li>
                   </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+                </li>
+                <li className="widget widget_productlist">
+                  <h2>PRODUCT RANGE</h2>
+                  <ul>
+                    <li><a href="/pipes-tubes">Pipes &amp; Tubes</a></li>
+                    <li><a href="/sheets-plates">Sheets &amp; Plates</a></li>
+                    <li><a href="/round-bars">Round Bars</a></li>
+                    <li><a href="/flanges">Flanges</a></li>
+                    <li><a href="/buttweld-fittings">Buttweld Fittings</a></li>
+                    <li><a href="/socketweld-fittings">Socketweld Fittings</a></li>
+                    <li><a href="/fasteners">Fasteners</a></li>
+                    <li><a href="/refractory-fixings-anchors">Refractory Fixings &amp; Anchors</a></li>
+                    <li><a href="/angles-channels">Angles &amp; Channels</a></li>
+                    <li><a href="/tube-sheet">Tube Sheets</a></li>
+                    <li><a href="/ferrule-fittings">Ferrule Fittings</a></li>
+                    <li><a href="/cladded-plates">Cladded Plates</a></li>
+                    <li><a href="/olets">Olets</a></li>
+                    <li><a href="/valves">Valves</a></li>
+                    <li><a href="/perforated-sheets">Perforated Sheets</a></li>
+                    <li><a href="/wire-mesh">Wire Mesh</a></li>
+                    <li><a href="/nickel-products">Nickel Products</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </aside>
 
-        <section id="page-content" className="page-content-1">
-          <div className="container">
-            <div className="row">
-              <div className="grid_3">
-                <aside id="sidebar" className="sidebar left">
-                  <div className="widget-container widget_custom_menu">
-                    <h3 className="widget-title">ABOUT NEON ALLOYS</h3>
-                    <ul>
-                      <li><a href="/about-us">About Us</a></li>
-                      <li><a href="#">Team</a></li>
-                      <li><a href="#">Growth</a></li>
-                      <li><a href="#">Markets</a></li>
-                      <li><a href="#">Strength & Strategy</a></li>
-                    </ul>
-                  </div>
-                  <div className="widget-container widget_custom_menu">
-                    <h3 className="widget-title">PRODUCT RANGE</h3>
-                    <ul>
-                      <li><a href="/pipes-tubes">Pipes & Tubes</a></li>
-                      <li><a href="/sheets-plates">Sheets & Plates</a></li>
-                      <li><a href="/round-bars">Round Bars</a></li>
-                      <li><a href="/flanges">Flanges</a></li>
-                      <li><a href="/buttweld-fittings">Buttweld Fittings</a></li>
-                      <li><a href="/socketweld-fittings">Socketweld Fittings</a></li>
-                      <li><a href="/fasteners">Fasteners</a></li>
-                      <li><a href="/refractory-fixings-anchors">Refractory Fixings & Anchors</a></li>
-                      <li><a href="/angles-channels">Angles & Channels</a></li>
-                      <li><a href="/tube-sheet">Tube Sheets</a></li>
-                      <li><a href="/ferrule-fittings">Ferrule Fittings</a></li>
-                      <li><a href="/cladded-plates">Cladded Plates</a></li>
-                      <li><a href="/olets">Olets</a></li>
-                      <li><a href="/valves">Valves</a></li>
-                      <li><a href="#">Graphite Filled Bronze Bush</a></li>
-                      <li><a href="#">Billets</a></li>
-                    </ul>
-                  </div>
-                </aside>
-              </div>
-
-              <div className="grid_9">
-                <article>
+            <article className="grid_9">
                   <section className="heading-bordered">
                     <h3>HS CODE</h3>
                   </section>
@@ -190,12 +188,10 @@ export default function HsCodes() {
                       )}
                     </tbody>
                   </table>
-                </article>
-              </div>
-            </div>
+            </article>
           </div>
-        </section>
-      </div>
+        </div>
+      </section>
     </>
   );
 }

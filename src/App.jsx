@@ -60,7 +60,6 @@ export default function App() {
   return (
     <>
       <GlobalLogicManager />
-      <CustomScrollbar />
       <DownloadCatalogueModal open={isCatalogueModalOpen} onClose={() => setIsCatalogueModalOpen(false)} />
       <Routes>
         <Route path="/nickel-alloy-catalogue" element={<NickelAlloyCatalogue />} />
