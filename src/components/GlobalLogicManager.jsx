@@ -64,5 +64,23 @@ export default function GlobalLogicManager() {
     }, 100);
   }, [location.pathname]);
 
+  // 5. Initialize dlmenu hamburger on mount and re-init on route change
+  useEffect(() => {
+    const initDlMenu = () => {
+      const $ = window.jQuery;
+      if (!$ || !$.fn.dlmenu) return;
+      const $menu = $('#dl-menu');
+      if ($menu.length === 0) return;
+      // Destroy existing instance if any, then re-init
+      try { $menu.dlmenu('destroy'); } catch(e) { /* ignore */ }
+      $menu.dlmenu({
+        animationClasses: { classin: 'dl-animate-in-2', classout: 'dl-animate-out-2' }
+      });
+    };
+    // Wait for DOM to settle after React renders header
+    const t = setTimeout(initDlMenu, 200);
+    return () => clearTimeout(t);
+  }, [location.pathname]);
+
   return null; // This component doesn't render anything
 }
