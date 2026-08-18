@@ -62,8 +62,8 @@ export default function App() {
       <CustomScrollbar />
       <DownloadCatalogueModal open={isCatalogueModalOpen} onClose={() => setIsCatalogueModalOpen(false)} />
       <Routes>
+        <Route path="/nickel-alloy-catalogue" element={<NickelAlloyCatalogue />} />
         <Route element={<MainLayout />}>
-          <Route path="/nickel-alloy-catalogue" element={<NickelAlloyCatalogue />} />
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/angles-channels" element={<AnglesChannels />} />
           <Route path="/blog" element={<Blog />} />

@@ -57,7 +57,7 @@ export default function Sitemap() {
               <ul style={{ lineHeight: 2 }}>
                 <li><Link to="/weight-calculator">Weight Calculator</Link></li>
                 <li><Link to="/hs-codes">HS Codes</Link></li>
-                <li><Link to="/nickel-alloy-catalogue">Nickel Alloy Catalogue</Link></li>
+                <li><Link to="/nickel-alloy-catalogue" target="_blank" rel="noopener noreferrer">Nickel Alloy Catalogue</Link></li>
               </ul>
             </div>
           </div>

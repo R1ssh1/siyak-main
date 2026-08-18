@@ -543,7 +543,7 @@ export default function BookCatalogue() {
           <div style={{
             width:"100%", height:"100%",
             position:"absolute", padding:"10px 0 0 0",
-            background: `#000 url(${coverBg}) center/cover no-repeat`,
+            background: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), #000 url(${coverBg}) center/cover no-repeat`,
             backfaceVisibility: "hidden",
             boxShadow: PAGE_INSET,
             overflow:"hidden",

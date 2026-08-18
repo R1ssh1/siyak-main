@@ -11,17 +11,11 @@ export default function Products() {
     <>
       <section className="page-content bg-paper min-h-screen">
         <div className="container" style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 20px' }}>
-          <div className="row" style={{ marginLeft: '10px' }}>
-            <div className="grid_12">
-              <div className="box-pro1" style={{ background: '#005d65' }}>
-                <div className="bphead">OUR PRODUCTS</div>
-              </div>
-            </div>
+          <div className="box-pro1" style={{ background: '#005d65', width: '100%', marginBottom: '40px' }}>
+            <div className="bphead">OUR PRODUCTS</div>
           </div>
-          <div className="clear"></div>
-          <div className="clrspace40"></div>
 
-          <div className="grid_12" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(250px, 1fr))', gap: '20px', marginBottom: '20px' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '20px', marginBottom: '20px', width: '100%' }}>
             {productCategories.map((cat, i) => (
               <div style={{ display: 'flex' }} key={cat.slug}>
                 <div className={i % 2 === 0 ? "masobox" : "masobox2"} style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', background: '#fff', border: '1px solid #e5e5e5' }}>

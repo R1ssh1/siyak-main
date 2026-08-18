@@ -1516,7 +1516,7 @@ Carbon Steel: IS 2062 / A516 Gr.70 — Nickel Alloy: Monel 400, Inconel 625`,
   {
     slug: "cladded-plates",
     name: "Cladded Plates",
-    short: "According to customer requirements we produce clad plates of carbon or chromium-molybdenum steel and stainless steel.\n\nExplosion cladding is a process wherein a cladding plate is positioned over the backer plate with a small gap. Specially made explosives are spread on top of the cladding plate. On detonation the cladding plate is accelerated towards the backer plate and collides with it at a high velocity. This collision takes place progressively from one end of the plate to the other in micro seconds.",
+    short: "We produce clad plates of carbon or chromium-molybdenum steel and stainless steel via explosion cladding or weld overlay, tailored to customer requirements for severe corrosive environments.",
     grades: ["SS 304L/316L Clad Carbon Steel", "Inconel 625 Clad", "Duplex 2205 Clad"],
     sizes: "Base 6mm–150mm thick, clad layer 1.5mm–6mm",
     standards: ["ASTM A263 / A264 / A265"],

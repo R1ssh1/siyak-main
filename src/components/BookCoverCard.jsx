@@ -11,6 +11,8 @@ export default function BookCoverCard() {
   return (
     <Link
       to="/nickel-alloy-catalogue"
+      target="_blank"
+      rel="noopener noreferrer"
       className="group relative block overflow-hidden rounded-sm shadow-lg hover:shadow-2xl transition-shadow duration-300"
     >
       <div className="relative overflow-hidden aspect-[4/3]">

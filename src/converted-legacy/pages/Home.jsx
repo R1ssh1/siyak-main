@@ -106,21 +106,21 @@ export default function Home() {
 
                     <article className="grid_4">
 
-                      <Link to="/pipes-tubes"><img src="/img/special/pipes-tubes.jpg" alt="Pipes & Tubes" title="Pipes & Tubes" style={{aspectRatio: '4/3', objectFit: 'cover'}}/></Link>
+                      <Link to="/pipes-tubes"><img src="/img/special/pipes-tubes.png" alt="Pipes & Tubes" title="Pipes & Tubes" style={{aspectRatio: '4/3', objectFit: 'cover'}}/></Link>
 
                     </article>
 
 
                     <article className="grid_4">
 
-                      <Link to="/nickel-alloy-catalogue"><img src="/img/special/nickel-catalogue.jpg" alt="Nickel Alloy Catalogue" title="Nickel Alloy Catalogue" style={{aspectRatio: '4/3', objectFit: 'cover'}} /></Link>
+                      <Link to="/nickel-alloy-catalogue" target="_blank" rel="noopener noreferrer"><img src="/img/special/nickel-catalogue.png" alt="Nickel Alloy Catalogue" title="Nickel Alloy Catalogue" style={{aspectRatio: '4/3', objectFit: 'cover'}} /></Link>
 
                     </article>
 
 
                     <article className="grid_4 right">
 
-                      <Link to="/flanges"><img src="/img/special/flanges.jpg" alt="Flanges" title="Flanges" style={{aspectRatio: '4/3', objectFit: 'cover'}} /></Link>
+                      <Link to="/flanges"><img src="/img/special/flanges.png" alt="Flanges" title="Flanges" style={{aspectRatio: '4/3', objectFit: 'cover'}} /></Link>
 
                     </article>
                   </div>
@@ -167,7 +167,7 @@ export default function Home() {
               <div className="clear"></div>
               <div className="clrspace40"></div>
               
-              <div className="grid_12" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(250px, 1fr))', gap: '20px', marginBottom: '20px' }}>
+              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '20px', marginBottom: '20px', width: '100%' }}>
                 {productCategories.slice(0, 9).map((cat, i) => (
                   <div style={{ display: 'flex' }} key={cat.slug}>
                     <div className={i % 2 === 0 ? "masobox" : "masobox2"} style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', background: '#fff', border: '1px solid #e5e5e5' }}>

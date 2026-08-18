@@ -423,3 +423,12 @@ a.float:hover{
 .masobox:hover p, .masobox2:hover p {
   color: #ffffff !important;
 }
+
+/* ── About Us banner image override ── */
+#page-title-abt {
+  background-image: url('/img/about-banner.png') !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  padding: 90px 0 !important;
+}
