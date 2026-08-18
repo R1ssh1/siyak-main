@@ -426,7 +426,7 @@ a.float:hover{
 
 /* ── About Us banner image override ── */
 #page-title-abt {
-  background-image: url('/img/about-banner.png') !important;
+  background-image: url('/img/about-banner.webp') !important;
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
@@ -435,7 +435,7 @@ a.float:hover{
 
 /* ── Quality Policy & Certifications banner image overrides ── */
 #page-title-quality {
-  background-image: url('/img/quality-bannner.png') !important;
+  background-image: url('/img/quality-bannner.webp') !important;
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
@@ -443,7 +443,7 @@ a.float:hover{
 }
 
 #page-title-cert {
-  background-image: url('/img/certificate-banner.png') !important;
+  background-image: url('/img/certificate-banner.webp') !important;
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
@@ -459,7 +459,7 @@ a.float:hover{
 }
 
 #page-title-enquiry {
-  background-image: url('/img/enquiry-banner.png') !important;
+  background-image: url('/img/enquiry-banner.webp') !important;
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
@@ -482,7 +482,7 @@ a.float:hover{
 }
 
 #page-title-calcy {
-  background-image: url('/img/calculator-banner.png') !important;
+  background-image: url('/img/calculator-banner.webp') !important;
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
