@@ -15,11 +15,10 @@ export default function Footer() {
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/about-us">About Us</Link></li>
                     <li><Link to="/quality-policy">Quality Policy</Link></li>
-                    <li><Link to="/presence">Presence</Link></li>
+                    <li><Link to="/technical-info">Technical Info</Link></li>
                     <li><Link to="/contact">Contact Us</Link></li>
                     <li><Link to="/sitemap">Sitemap</Link></li>
                     <li><Link to="/hs-codes">HS Codes</Link></li>
-                    <li><Link to="/blog">Blog</Link></li>
                   </ul>
                 </li>
               </ul>
@@ -42,6 +41,9 @@ export default function Footer() {
                     <li><Link to="/cladded-plates">Cladded Plates</Link></li>
                     <li><Link to="/olets">Olets</Link></li>
                     <li><Link to="/valves">Valves</Link></li>
+                    <li><Link to="/perforated-sheets">Perforated Sheets</Link></li>
+                    <li><Link to="/wire-mesh">Wire Mesh</Link></li>
+                    <li><Link to="/nickel-products">Nickel Products</Link></li>
                   </ul>
                 </li>
               </ul>
@@ -62,6 +64,12 @@ export default function Footer() {
                         + 91 22 6615 1478<br />
                         + 91 22 6659 5225<br />
                         + 91 98209 76537
+                      </p>
+                    </li>
+                    <li>
+                      <p> <i className="icon-envelope"></i> <span className="strong">Email: </span><br />
+                        <a href="mailto:info@siyaksteel.com" style={{ color: 'inherit' }}>info@siyaksteel.com</a><br />
+                        <a href="mailto:siyaksteel@gmail.com" style={{ color: 'inherit' }}>siyaksteel@gmail.com</a>
                       </p>
                     </li>
                   </ul>
@@ -89,7 +97,7 @@ export default function Footer() {
                   </Link>
                 </li>
                 <li className="widget qrcode">
-                  <p><img src="/img/static_qr_code_without_logo.jpg" alt="QR Code" /></p>
+                  <p><img src="/qr.svg" alt="QR Code" /></p>
                 </li>
               </ul>
             </section>
@@ -101,11 +109,11 @@ export default function Footer() {
         <div className="container">
           <div className="row">
             <section className="grid_6">
-              <p>Copyright © SiyakSteel 2016-2023. All Rights Reserved.</p>
+              <p>Copyright © SiyakSteel 2026. All Rights Reserved.</p>
             </section>
             <section className="grid_6">
               <div className="footer-breadcrumbs">
-                <a href="http://www.indiawebsolutions.com">Website Hosting</a> & Developed By: <a href="http://www.iwstechnologies.com" target="_blank" rel="noreferrer">IWS</a>
+                Designed & Developed By: <a href="https://sunmargindia.com/" target="_blank" rel="noreferrer">SunMarg</a>
               </div>
             </section>
           </div>

@@ -432,3 +432,59 @@ a.float:hover{
   background-repeat: no-repeat !important;
   padding: 90px 0 !important;
 }
+
+/* ── Quality Policy & Certifications banner image overrides ── */
+#page-title-quality {
+  background-image: url('/img/quality-bannner.png') !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  padding: 90px 0 !important;
+}
+
+#page-title-cert {
+  background-image: url('/img/certificate-banner.png') !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  padding: 90px 0 !important;
+}
+
+#page-title-tech-info {
+  background-image: url('/img/technical-banner.png') !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  padding: 90px 0 !important;
+}
+
+#page-title-enquiry {
+  background-image: url('/img/enquiry-banner.png') !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  padding: 90px 0 !important;
+}
+
+/* ── Perforated Sheets & Wire Mesh Banners ── */
+#page-title-perforated {
+  background-image: url('./assets/products/perforated-sheets-notext.jpg') !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+#page-title-wire-mesh {
+  background-image: url('./assets/products/wire-mesh.webp') !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+#page-title-calcy {
+  background-image: url('/img/calculator-banner.png') !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  padding: 90px 0 !important;
+}

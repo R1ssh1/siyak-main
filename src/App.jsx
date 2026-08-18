@@ -15,6 +15,7 @@ import Certification from './converted-legacy/pages/Certification';
 import CladdedPlates from './converted-legacy/pages/CladdedPlates';
 import Contact from './converted-legacy/pages/Contact';
 import Enquiry from './converted-legacy/pages/Enquiry';
+import TechnicalInfo from './converted-legacy/pages/TechnicalInfo';
 import Fasteners from './converted-legacy/pages/Fasteners';
 import FerruleFittings from './converted-legacy/pages/FerruleFittings';
 import Flanges from './converted-legacy/pages/Flanges';
@@ -72,6 +73,7 @@ export default function App() {
           <Route path="/cladded-plates" element={<CladdedPlates />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/enquiry" element={<Enquiry />} />
+          <Route path="/technical-info" element={<TechnicalInfo />} />
           <Route path="/fasteners" element={<Fasteners />} />
           <Route path="/ferrule-fittings" element={<FerruleFittings />} />
           <Route path="/flanges" element={<Flanges />} />

@@ -168,7 +168,7 @@ export default function Home() {
               <div className="clrspace40"></div>
               
               <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '20px', marginBottom: '20px', width: '100%' }}>
-                {productCategories.slice(0, 9).map((cat, i) => (
+                {productCategories.slice(0, 8).map((cat, i) => (
                   <div style={{ display: 'flex' }} key={cat.slug}>
                     <div className={i % 2 === 0 ? "masobox" : "masobox2"} style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', background: '#fff', border: '1px solid #e5e5e5' }}>
                       <div className="imgt" style={{ overflow: 'hidden', display: 'flex', alignItems: 'center', justifyContent: 'center', background: '#fff' }}>

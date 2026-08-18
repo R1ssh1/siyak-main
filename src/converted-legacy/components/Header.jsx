@@ -86,8 +86,7 @@ export default function Header() {
               </li>
               <li className={isActive('/quality-policy')}> <Link to="/quality-policy">Quality Policy</Link> </li>
               <li className={isActive('/certification')}> <Link to="/certification">Certification</Link> </li>
-              <li className={isActive('/presence')}> <Link to="/presence">Presence</Link> </li>
-              <li className={isActive('/gallery')}> <Link to="/gallery">Gallery</Link> </li>
+              <li className={isActive('/technical-info')}> <Link to="/technical-info">Technical Info</Link> </li>
               <li className={isActive('/enquiry')}> <Link to="/enquiry">Enquiry</Link> </li>
               <li className={isActive('/contact')}><Link to="/contact">Contact</Link></li>
             </ul>
@@ -109,8 +108,7 @@ export default function Header() {
             </li>
             <li> <Link to="/quality-policy">Quality Policy</Link> </li>
             <li> <Link to="/certification">Certification</Link> </li>
-            <li> <Link to="/presence">Presence</Link> </li>
-            <li> <Link to="/gallery">Gallery</Link> </li>
+            <li> <Link to="/technical-info">Technical Info</Link> </li>
             <li> <Link to="/enquiry">Enquiry</Link> </li>
             <li><Link to="/contact">Contact Us</Link></li>
           </ul>

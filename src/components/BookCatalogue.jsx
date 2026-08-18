@@ -202,12 +202,12 @@ const PRODUCTS = {
    Last word at y:86% = 559px. VIEW PRODUCTS bar starts at 605px (93%). Clear. */
 const COVER_WORDS = [
   { text:"NICKEL 200",          x:"46%", y:"15%", size:26, color:"#ffffff" },
-  { text:"INCONEL",             x:"18%", y:"24%", size:22, color:"#ffffff" },
+  { text:"INCONEL",             x:"35%", y:"24%", size:22, color:"#ffffff" },
   { text:"NICKEL ALLOYS",       x:"68%", y:"33%", size:22, color:"#14b8ad" },
   { text:"INCONEL 601",         x:"42%", y:"42%", size:18, color:"#ffffff" },
   { text:"INCONEL 718",         x:"70%", y:"51%", size:18, color:"#ffffff" },
   { text:"INCONEL alloy 600",   x:"44%", y:"60%", size:18, color:"#4a97d3" },
-  { text:"MONEL alloys K-500",  x:"28%", y:"68%", size:17, color:"#ffffff" },
+  { text:"MONEL alloys K-500",  x:"45%", y:"68%", size:17, color:"#ffffff" },
   { text:"MONEL 400",           x:"68%", y:"75%", size:22, color:"#14b8ad" },
   { text:"Hastelloy C276",      x:"36%", y:"82%", size:16, color:"#ffffff" },
   { text:"Hastelloy C22",       x:"68%", y:"86%", size:16, color:"#4a97d3" },

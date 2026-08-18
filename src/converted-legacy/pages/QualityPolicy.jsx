@@ -18,8 +18,8 @@ export default function QualityPolicy() {
                    <div className="pt-box">
                             <div className="pt-title triggerAnimation animated" data-animate="fadeInLeft">
                                 <h1>We are <span className="strong">SIYAK STEEL</span></h1>
-                                <h4>QUALITY is not a Slogan, its  our way of life<br />
-Quality is our prime concern &amp; continually improving our quality to serve our clients better.
+                                <h4>Quality isn't just a department. It's the process.<br />
+Our committment to quality allows us to serve our clients better.
 </h4>
                             </div>
                             </div>
@@ -149,23 +149,42 @@ Quality is our prime concern &amp; continually improving our quality to serve ou
                                 <h3>Quality Policy</h3>
                             </section>
                             
-<div className="heading-bordered2">
-							<h6><b>OUR EXCELLENCE</b></h6></div>
-                            <p>Quality is our prime concern. We are able to maintain high quality standards through our committed personnel and sound infrastructure. We ensure that finest quality material is used for our products. For ensure the quality of each material, we are providing Materials Test Certificate along with supply.<br />
-<br />
-Our team of experts maintain a vigil on the quality of the products. Every single piece is attached with test certificates and reports. We are continually improving our quality to serve our clients better.<br />
-<br />
-We provide Relevant Chemicals &amp; Physical Analysis Certificate along with the supply of Materials, according with the International standards.</p><br />
+                            <div className="heading-bordered2">
+                                <h6><b>EXCELLENCE</b></h6>
+                            </div>
+                            <p>
+                                Excellence is at the core of everything we do. We uphold the highest standards through our dedicated team and robust infrastructure, ensuring only premium grade materials reach our customers. Every product is backed by a comprehensive Materials Test Certificate.
+                                <br /><br />
+                                Our quality control experts rigorously inspect each item, attaching detailed reports and test certificates to guarantee performance. We continuously refine our processes to deliver unparalleled reliability.
+                                <br /><br />
+                                To meet global demands, we provide physical and chemical analysis certificates compliant with international standards alongside every supply.
+                            </p><br />
 
-<div className="heading-bordered2">
-							<h6><b>OUR facilities</b></h6></div>
-<p>We have a sound infrastructure. Our spacious warehouse has the capacity to store large quantities of products. We possess a team of experts who are sourcing products of international standard to keep abreast with the global markets. Our quality professionals have served as a beacon not only for us but also for the entire industry in establishing top-notch quality standards.</p><br />
-<h5>Additional testing &amp; Services provided</h5>
-<p>
-</p><li>Destructive &amp; Non-destructive tests like Chemical Analysis</li>
-<li>Mechanical Testing Hydro testing</li>
-<li>Eddy current PMI</li>
-<li>Spectra Analysis etc.</li><p></p>
+                            <section className="heading-bordered" style={{ clear: 'both', paddingTop: '20px' }}>
+                                <h3>FOUR CHECKPOINTS, ZERO SHORTCUTS.</h3>
+                            </section>
+                            <p style={{ marginBottom: '30px' }}>
+                                From the moment raw material arrives to the moment a container is sealed for export, every step is documented, inspected and signed off — so the test certificate in your hand always matches the metal in your hands.
+                            </p>
+
+                            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '20px', width: '100%', boxSizing: 'border-box', marginBottom: '40px' }}>
+                                <div style={{ background: '#fff', border: '1px solid #e5e5e5', padding: '20px' }}>
+                                    <h4 style={{ color: '#005d65', marginBottom: '10px', fontSize: '18px' }}>01. RAW MATERIAL TESTING</h4>
+                                    <p style={{ margin: 0 }}>Every incoming batch is verified against chemical and mechanical composition standards before it enters our stock.</p>
+                                </div>
+                                <div style={{ background: '#fff', border: '1px solid #e5e5e5', padding: '20px' }}>
+                                    <h4 style={{ color: '#005d65', marginBottom: '10px', fontSize: '18px' }}>02. IN-PROCESS INSPECTION</h4>
+                                    <p style={{ margin: 0 }}>Dimensional and visual checks run continuously through fabrication, finishing and surface treatment.</p>
+                                </div>
+                                <div style={{ background: '#fff', border: '1px solid #e5e5e5', padding: '20px' }}>
+                                    <h4 style={{ color: '#005d65', marginBottom: '10px', fontSize: '18px' }}>03. THIRD-PARTY CERTIFICATION</h4>
+                                    <p style={{ margin: 0 }}>Independent inspection agencies verify the consignment and issue test certificates that travel with the goods.</p>
+                                </div>
+                                <div style={{ background: '#fff', border: '1px solid #e5e5e5', padding: '20px' }}>
+                                    <h4 style={{ color: '#005d65', marginBottom: '10px', fontSize: '18px' }}>04. EXPORT-GRADE PACKING</h4>
+                                    <p style={{ margin: 0 }}>Materials are packed to withstand long-haul sea and air freight without compromising finish or integrity.</p>
+                                </div>
+                            </div>
 
                             
 			</article>

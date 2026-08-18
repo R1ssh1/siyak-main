@@ -26,34 +26,38 @@ export default function Enquiry() {
     }
 
     setStatus({ loading: true, success: false, error: "" });
-    const endpoint = import.meta.env.VITE_FORM_ENDPOINT;
-
-    if (!endpoint) {
-      window.location.href = `mailto:${companyInfo?.emails?.[0] || 'info@siyaksteel.com'}?subject=${encodeURIComponent(`Enquiry from ${form.name}`)}&body=${encodeURIComponent(`Company: ${form.company_name}\nName: ${form.name}\nEmail: ${form.email}\nPhone: ${form.phone}\nMessage: ${form.message}`)}`;
-      setStatus({ loading: false, success: true, error: "" });
-      
-      setTimeout(() => {
-        setStatus({ loading: false, success: false, error: "" });
-        setForm({ company_name: "", name: "", email: "", phone: "", message: "" });
-      }, 3000);
-      return;
-    }
-
+    
     try {
-      const response = await fetch(endpoint, {
+      const response = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ ...form, _subject: `Enquiry from ${form.name}`, _redirect: window.location.href }),
+        headers: { 
+          "Content-Type": "application/json", 
+          "Accept": "application/json" 
+        },
+        body: JSON.stringify({
+          access_key: "0e9b7141-66e9-42e5-9fb9-8c055b27c871",
+          subject: `Enquiry from ${form.name} via Siyak Steel Website`,
+          company_name: form.company_name,
+          name: form.name,
+          email: form.email,
+          phone: form.phone,
+          message: form.message
+        }),
       });
-      if (!response.ok) throw new Error("Failed to submit form.");
-      setStatus({ loading: false, success: true, error: "" });
       
-      setTimeout(() => {
-        setStatus({ loading: false, success: false, error: "" });
-        setForm({ company_name: "", name: "", email: "", phone: "", message: "" });
-      }, 3000);
+      const result = await response.json();
+      
+      if (response.status === 200) {
+        setStatus({ loading: false, success: true, error: "" });
+        setTimeout(() => {
+          setStatus({ loading: false, success: false, error: "" });
+          setForm({ company_name: "", name: "", email: "", phone: "", message: "" });
+        }, 3000);
+      } else {
+        throw new Error(result.message || "Failed to submit form.");
+      }
     } catch (error) {
-      setStatus({ loading: false, success: false, error: "Unable to send your request right now. Please try again later." });
+      setStatus({ loading: false, success: false, error: error.message || "Unable to send your request right now. Please try again later." });
     }
   };
 
@@ -70,7 +74,7 @@ export default function Enquiry() {
                 <div className="container">
                     <div className="row">
                     <div className="grid_9">
-                    <div className="pt-box">
+                    <div className="pt-box" style={{ backgroundColor: 'rgba(29, 140, 160, 0.86)' }}>
                             <div className="pt-title triggerAnimation animated" data-animate="fadeInLeft">
                                 <h1><span className="strong">Send An Enquiry</span></h1>
                                 <h4>Are you looking for some more information? <br />
@@ -187,6 +191,9 @@ We are sure your search will be end here.</h4>
         <li><Link to="/cladded-plates">Cladded Plates</Link></li>
         <li><Link to="/olets">Olets</Link></li>
         <li><Link to="/valves">Valves</Link></li>
+        <li><Link to="/perforated-sheets">Perforated Sheets</Link></li>
+        <li><Link to="/wire-mesh">Wire Mesh</Link></li>
+        <li><Link to="/nickel-products">Nickel Products</Link></li>
 </ul>  
       </li>
   </ul>
@@ -196,7 +203,7 @@ We are sure your search will be end here.</h4>
                         </aside>
 
                         
-                        <article className="grid_6 triggerAnimation animated" data-animate="fadeInRight">
+                        <article className="grid_9 triggerAnimation animated" data-animate="fadeInRight">
                            
 
                            
@@ -208,7 +215,7 @@ We are sure your search will be end here.</h4>
                                 <h3>Make An Enquiry</h3>
                                 
                             </section>
-                            <p>Please fill the form below to make an product enquiry. All fields are mandatory</p><br /><br />
+                            <p>Please fill the form below to make a product enquiry. Fields marked with <strong>*</strong> are mandatory.</p><br /><br />
 
                             <p>
                                 </p><form className="wpcf7" onSubmit={handleSubmit}>

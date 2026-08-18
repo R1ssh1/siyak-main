@@ -47,26 +47,7 @@ export default function GlobalLogicManager() {
     };
   }, [navigate]);
 
-  // 2. Form Submission Interceptor
-  useEffect(() => {
-    const handleFormSubmit = (e) => {
-      e.preventDefault();
-      
-      // Gather form data to mock submission
-      const form = e.target;
-      const formData = new FormData(form);
-      const data = Object.fromEntries(formData.entries());
-      
-      console.log("Mock Form Submission Intercepted:", data);
-      alert("Form submitted successfully! (Mocked via React)");
-      form.reset();
-    };
 
-    document.addEventListener('submit', handleFormSubmit);
-    return () => {
-      document.removeEventListener('submit', handleFormSubmit);
-    };
-  }, []);
 
   // 3. Scroll to top on route change
   useEffect(() => {
