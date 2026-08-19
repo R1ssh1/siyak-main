@@ -1,10 +1,38 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import logoImg from '../../assets/siyak-logo-original.jpg';
 import { productCategories } from '../../data/products';
 
 export default function Header() {
   const location = useLocation();
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isProductsOpen, setIsProductsOpen] = useState(false);
+  const drawerRef = useRef(null);
+
+  // Close menu on route change
+  useEffect(() => {
+    setIsMenuOpen(false);
+    setIsProductsOpen(false);
+  }, [location.pathname]);
+
+  // Lock body scroll when mobile drawer is open
+  useEffect(() => {
+    if (isMenuOpen) {
+      document.body.classList.add('mobile-menu-open');
+    } else {
+      document.body.classList.remove('mobile-menu-open');
+    }
+    return () => document.body.classList.remove('mobile-menu-open');
+  }, [isMenuOpen]);
+
+  // Close on Escape key
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (e.key === 'Escape') setIsMenuOpen(false);
+    };
+    document.addEventListener('keydown', handleKeyDown);
+    return () => document.removeEventListener('keydown', handleKeyDown);
+  }, []);
 
   useEffect(() => {
     // Inject Google Translate script if it doesn't exist
@@ -46,6 +74,8 @@ export default function Header() {
                            location.pathname === '/perforated-sheets' ||
                            location.pathname === '/wire-mesh'
                            ? 'current-menu-item' : '';
+
+  const closeMenu = () => setIsMenuOpen(false);
 
   return (
     <div id="header-wrapper" className="clearfix">
@@ -92,28 +122,118 @@ export default function Header() {
             </ul>
           </nav>
         </section>
-        
-        {/* Mobile Menu */}
-        <div id="dl-menu" className="dl-menuwrapper">
-          <button className="dl-trigger">Open Menu</button>
-          <ul className="dl-menu">
-            <li> <Link to="/">Home</Link> </li>
-            <li> <Link to="/about-us">About US</Link> </li>
-            <li> <Link to="/products">Products</Link>
-              <ul className="dl-submenu">
-                {productCategories.map((cat) => (
-                  <li key={cat.slug}><Link to={`/${cat.slug}`}>{cat.name}</Link></li>
-                ))}
-              </ul>
-            </li>
-            <li> <Link to="/quality-policy">Quality Policy</Link> </li>
-            <li> <Link to="/certification">Certification</Link> </li>
-            <li> <Link to="/technical-info">Technical Info</Link> </li>
-            <li> <Link to="/enquiry">Enquiry</Link> </li>
-            <li><Link to="/contact">Contact Us</Link></li>
-          </ul>
-        </div>
+
+        {/* Hamburger Button — mobile only */}
+        <button
+          id="mobile-menu-toggle"
+          className="mobile-hamburger"
+          aria-label={isMenuOpen ? 'Close navigation menu' : 'Open navigation menu'}
+          aria-expanded={isMenuOpen}
+          aria-controls="mobile-nav-drawer"
+          onClick={() => setIsMenuOpen((prev) => !prev)}
+        >
+          <span className={`hamburger-bar bar-1${isMenuOpen ? ' open' : ''}`}></span>
+          <span className={`hamburger-bar bar-2${isMenuOpen ? ' open' : ''}`}></span>
+          <span className={`hamburger-bar bar-3${isMenuOpen ? ' open' : ''}`}></span>
+        </button>
       </header>
+
+      {/* Backdrop */}
+      {isMenuOpen && (
+        <div
+          id="mobile-nav-backdrop"
+          className="mobile-nav-backdrop"
+          onClick={closeMenu}
+          aria-hidden="true"
+        />
+      )}
+
+      {/* Mobile Slide-in Drawer */}
+      <nav
+        id="mobile-nav-drawer"
+        className={`mobile-nav-drawer${isMenuOpen ? ' drawer-open' : ''}`}
+        aria-label="Mobile navigation"
+        ref={drawerRef}
+      >
+        {/* Drawer Header */}
+        <div className="drawer-header">
+          <Link to="/" onClick={closeMenu}>
+            <img src={logoImg} alt="Siyak Steel International" className="drawer-logo" />
+          </Link>
+          <button
+            className="drawer-close-btn"
+            onClick={closeMenu}
+            aria-label="Close navigation menu"
+          >
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+              <path d="M15 5L5 15M5 5l10 10" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
+            </svg>
+          </button>
+        </div>
+
+        {/* Drawer Links */}
+        <ul className="drawer-nav-list">
+          <li className={`drawer-nav-item${location.pathname === '/' ? ' active' : ''}`}>
+            <Link to="/" className="drawer-nav-link" onClick={closeMenu}>Home</Link>
+          </li>
+          <li className={`drawer-nav-item${location.pathname === '/about-us' ? ' active' : ''}`}>
+            <Link to="/about-us" className="drawer-nav-link" onClick={closeMenu}>About</Link>
+          </li>
+
+          {/* Products — accordion */}
+          <li className={`drawer-nav-item drawer-has-sub${isProductsActive ? ' active' : ''}`}>
+            <div className="drawer-nav-row">
+              <Link to="/products" className="drawer-nav-link" onClick={closeMenu}>Products</Link>
+              <button
+                className={`drawer-accordion-btn${isProductsOpen ? ' rotated' : ''}`}
+                aria-expanded={isProductsOpen}
+                aria-label="Toggle product categories"
+                onClick={() => setIsProductsOpen((prev) => !prev)}
+              >
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                  <path d="M4 6l4 4 4-4" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </button>
+            </div>
+            <ul className={`drawer-submenu${isProductsOpen ? ' submenu-open' : ''}`}>
+              {productCategories.map((cat) => (
+                <li key={cat.slug} className="drawer-submenu-item">
+                  <Link to={`/${cat.slug}`} className="drawer-submenu-link" onClick={closeMenu}>
+                    {cat.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </li>
+
+          <li className={`drawer-nav-item${location.pathname === '/quality-policy' ? ' active' : ''}`}>
+            <Link to="/quality-policy" className="drawer-nav-link" onClick={closeMenu}>Quality Policy</Link>
+          </li>
+          <li className={`drawer-nav-item${location.pathname === '/certification' ? ' active' : ''}`}>
+            <Link to="/certification" className="drawer-nav-link" onClick={closeMenu}>Certification</Link>
+          </li>
+          <li className={`drawer-nav-item${location.pathname === '/technical-info' ? ' active' : ''}`}>
+            <Link to="/technical-info" className="drawer-nav-link" onClick={closeMenu}>Technical Info</Link>
+          </li>
+          <li className={`drawer-nav-item${location.pathname === '/enquiry' ? ' active' : ''}`}>
+            <Link to="/enquiry" className="drawer-nav-link" onClick={closeMenu}>Enquiry</Link>
+          </li>
+          <li className={`drawer-nav-item${location.pathname === '/contact' ? ' active' : ''}`}>
+            <Link to="/contact" className="drawer-nav-link" onClick={closeMenu}>Contact</Link>
+          </li>
+        </ul>
+
+        {/* Drawer Footer — quick contact */}
+        <div className="drawer-footer">
+          <a href="mailto:info@siyaksteel.com" className="drawer-footer-link">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <rect x="2" y="4" width="20" height="16" rx="2" stroke="currentColor" strokeWidth="2"/>
+              <path d="M2 7l10 7 10-7" stroke="currentColor" strokeWidth="2"/>
+            </svg>
+            info@siyaksteel.com
+          </a>
+        </div>
+      </nav>
     </div>
   );
 }

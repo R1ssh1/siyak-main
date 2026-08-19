@@ -532,3 +532,368 @@ a.float:hover{
   background-repeat: no-repeat !important;
   padding: 90px 0 !important;
 }
+
+/* ============================================================
+ * MOBILE NAV — Responsive hamburger drawer
+ * Breakpoint: 900px — desktop nav hides, hamburger appears
+ * ============================================================ */
+
+/* ── Hamburger button ── */
+.mobile-hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 42px;
+  height: 42px;
+  background: none;
+  border: 1.5px solid rgba(0, 93, 101, 0.3);
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 0;
+  flex-shrink: 0;
+  transition: border-color 0.2s ease, background 0.2s ease;
+  /* Position within the header — pushed to the right */
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10001;
+}
+
+.mobile-hamburger:hover {
+  background: rgba(0, 93, 101, 0.06);
+  border-color: var(--color-teal);
+}
+
+.hamburger-bar {
+  display: block;
+  width: 20px;
+  height: 2px;
+  background-color: var(--color-teal);
+  border-radius: 2px;
+  transition: transform 0.3s ease, opacity 0.3s ease, width 0.3s ease;
+  transform-origin: center;
+}
+
+/* Animate bars → X when open */
+.bar-1.open { transform: translateY(7px) rotate(45deg); }
+.bar-2.open { opacity: 0; transform: scaleX(0); }
+.bar-3.open { transform: translateY(-7px) rotate(-45deg); }
+
+/* ── Backdrop ── */
+.mobile-nav-backdrop {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(10, 20, 22, 0.55);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  z-index: 10002;
+  animation: backdropFadeIn 0.25s ease forwards;
+}
+
+@keyframes backdropFadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* ── Drawer ── */
+.mobile-nav-drawer {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: min(320px, 88vw);
+  height: 100dvh;
+  background: #ffffff;
+  border-right: 3px solid var(--color-teal);
+  box-shadow: 4px 0 32px rgba(0, 93, 101, 0.18);
+  z-index: 10003;
+  overflow-y: auto;
+  overflow-x: hidden;
+  flex-direction: column;
+  transform: translateX(-100%);
+  transition: transform 0.32s cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-overflow-scrolling: touch;
+}
+
+.mobile-nav-drawer.drawer-open {
+  transform: translateX(0);
+}
+
+/* ── Drawer header ── */
+.drawer-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 16px;
+  border-bottom: 1px solid #e9eef0;
+  background: #f8fafb;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.drawer-logo {
+  height: 52px;
+  width: auto;
+  object-fit: contain;
+}
+
+.drawer-close-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  background: none;
+  border: 1.5px solid rgba(0, 93, 101, 0.25);
+  border-radius: 6px;
+  color: var(--color-teal);
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.drawer-close-btn:hover {
+  background: rgba(0, 93, 101, 0.08);
+  border-color: var(--color-teal);
+}
+
+/* ── Drawer nav list ── */
+.drawer-nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 8px 0;
+  flex: 1;
+}
+
+.drawer-nav-item {
+  border-bottom: 1px solid #f0f4f5;
+}
+
+.drawer-nav-item:last-child {
+  border-bottom: none;
+}
+
+.drawer-nav-link {
+  display: block;
+  padding: 13px 20px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #222;
+  text-decoration: none;
+  letter-spacing: 0.01em;
+  transition: color 0.2s ease, background 0.2s ease, padding-left 0.2s ease;
+}
+
+.drawer-nav-link:hover {
+  color: var(--color-teal);
+  background: rgba(0, 93, 101, 0.04);
+  padding-left: 26px;
+}
+
+.drawer-nav-item.active > .drawer-nav-link,
+.drawer-nav-item.active > .drawer-nav-row > .drawer-nav-link {
+  color: var(--color-teal);
+  font-weight: 600;
+  border-left: 3px solid var(--color-teal);
+  padding-left: 17px;
+}
+
+/* ── Products row (link + chevron) ── */
+.drawer-nav-row {
+  display: flex;
+  align-items: center;
+}
+
+.drawer-nav-row .drawer-nav-link {
+  flex: 1;
+}
+
+.drawer-accordion-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 46px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #555;
+  flex-shrink: 0;
+  transition: color 0.2s ease, transform 0.3s ease;
+}
+
+.drawer-accordion-btn svg {
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.drawer-accordion-btn.rotated svg {
+  transform: rotate(180deg);
+}
+
+.drawer-accordion-btn:hover {
+  color: var(--color-teal);
+}
+
+/* ── Products submenu (accordion) ── */
+.drawer-submenu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: 0;
+  overflow: hidden;
+  background: #f4f8f8;
+  border-top: 1px solid #e2eded;
+  transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.drawer-submenu.submenu-open {
+  /* Large enough for any number of items */
+  max-height: 1200px;
+}
+
+.drawer-submenu-item {
+  border-bottom: 1px solid #eaf0f0;
+}
+
+.drawer-submenu-item:last-child {
+  border-bottom: none;
+}
+
+.drawer-submenu-link {
+  display: block;
+  padding: 10px 20px 10px 30px;
+  font-size: 13.5px;
+  color: #444;
+  text-decoration: none;
+  transition: color 0.2s ease, background 0.2s ease, padding-left 0.2s ease;
+}
+
+.drawer-submenu-link:hover {
+  color: var(--color-teal);
+  background: rgba(0, 93, 101, 0.06);
+  padding-left: 36px;
+}
+
+.drawer-submenu-link::before {
+  content: '— ';
+  color: var(--color-teal-light);
+  font-size: 11px;
+}
+
+/* ── Drawer footer ── */
+.drawer-footer {
+  padding: 16px 20px;
+  border-top: 1px solid #e9eef0;
+  background: #f4f8f8;
+  margin-top: auto;
+}
+
+.drawer-footer-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: var(--color-teal);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.drawer-footer-link:hover {
+  color: var(--color-teal-light);
+}
+
+/* ── Body scroll lock ── */
+body.mobile-menu-open {
+  overflow: hidden;
+}
+
+/* ── Show mobile elements at ≤ 900px ── */
+@media (max-width: 900px) {
+  /* Show hamburger */
+  .mobile-hamburger {
+    display: flex;
+  }
+
+  /* Show backdrop and drawer (visibility is still controlled by JS classes) */
+  .mobile-nav-backdrop {
+    display: block;
+  }
+
+  .mobile-nav-drawer {
+    display: flex;
+  }
+
+  /* Hide desktop nav */
+  #nav-container {
+    display: none !important;
+  }
+
+  /* Ensure header has relative positioning for the absolute hamburger */
+  #header {
+    position: relative;
+  }
+
+  /* Give logo section enough space alongside hamburger */
+  #header #logo {
+    padding-right: 60px;
+  }
+
+  /* ── Top bar: keep ISO text + HS Codes visible in one compact line ── */
+
+  /* Show the ISO text strip on mobile (override mobile-hide + inline style) */
+  #top-bar-wrapper .mscroll {
+    display: flex !important;
+  }
+
+  /* Make the top-bar a flex row so ISO and contact-info sit side by side */
+  #top-bar {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    padding: 0 12px !important;
+    min-height: 32px;
+    flex-wrap: nowrap;
+    overflow: hidden;
+  }
+
+  /* Shrink ISO text on mobile */
+  #top-bar-wrapper .mscroll .callout-content {
+    font-size: 10px !important;
+  }
+
+  #top-bar-wrapper .mscroll img {
+    height: 20px !important;
+    margin-right: 6px !important;
+  }
+
+  /* Hide email and Google Translate on mobile to keep it compact */
+  #top-bar .contact-info li:has(#google_translate_element),
+  #top-bar .contact-info li:has(.icon-envelope-alt) {
+    display: none !important;
+  }
+
+  /* Make HS Codes link compact */
+  #top-bar .contact-info {
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+  }
+
+  #top-bar .contact-info li {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* ── Extra small screens ── */
+@media (max-width: 480px) {
+  #header #logo img {
+    max-height: 72px !important;
+  }
+}
