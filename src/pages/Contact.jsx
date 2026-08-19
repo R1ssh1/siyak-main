@@ -79,7 +79,7 @@ We are sure your search will be end here.</h4>
                             <h2>REGISTERED OFFICE</h2>
                             
                            
-    <p><strong>Neon Alloys</strong><br>807/808, 8th Floor, Parekh Market,<br>
+    <p><strong>Siyak Steel International</strong><br>807/808, 8th Floor, Parekh Market,<br>
 39 J.S.S. Road, Opera House,<br>
 Mumbai -400 004 (India).</p><br> 
 
@@ -116,7 +116,7 @@ Navi Mumbai - 410218, (India)</p>
 <br>Contact: Sanjeev Panchal
 <br>Phone: 404-474-8664(office)
 <br>Cell: 404-452-8978(cell)
-<br>Email: <a href="mailto:nitin@neonalloys.com">nitin@neonalloys.com</a>
+<br>Email: <a href="mailto:nitin@siyaksteel.com">nitin@siyaksteel.com</a>
 <br>Email: <a href="mailto:sanjeev@exelglobal.net">sanjeev@exelglobal.net</a>
 </p><br>
 <h3><strong>BAHRAIN </strong></h3>
@@ -147,7 +147,7 @@ Kingdom Of Saudi Arabia<br></p>
   
   
     <td><a onclick="Skype.tryAnalyzeSkypeUri('call', '0');" href="skype:nitin.mehta50?call"><img src="img/skype.png" alt="nitin.mehta50" title="nitin.mehta50"></a></td>
-    <td><a href="mailto:nitin@neonalloys.com"><img src="img/mail.png" title="nitin@neonalloys.com"></a></td>
+    <td><a href="mailto:nitin@siyaksteel.com"><img src="img/mail.png" title="nitin@siyaksteel.com"></a></td>
     
    
   </tr>
@@ -162,7 +162,7 @@ Kingdom Of Saudi Arabia<br></p>
 <table border="0" cellspacing="0" cellpadding="0" style="border:none; text-align:center; ">
   <tbody><tr>
     <td><a onclick="Skype.tryAnalyzeSkypeUri('call', '0');" href="skype:chandresh.mehta4190?call"><img src="img/skype.png" title="chandresh.mehta4190"></a></td>
-    <td><a href="mailto:chandresh@neonalloys.com"><img src="img/mail.png" title="chandresh@neonalloys.com"></a></td>
+    <td><a href="mailto:chandresh@siyaksteel.com"><img src="img/mail.png" title="chandresh@siyaksteel.com"></a></td>
     
   </tr>
  
@@ -175,7 +175,7 @@ Kingdom Of Saudi Arabia<br></p>
                             
                             <br>
 <br>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d943.366962221121!2d72.82934774025784!3d18.954934644600012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce3d3f8ed309%3A0x76ba3ee4afcb906f!2sNeon+Alloys!5e0!3m2!1sen!2sin!4v1500287474842" width="400" height="250" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3414.7605869936883!2d72.8287446!3d18.9564628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cf216d65ca2d%3A0x73286d50f6b2c0bf!2sSIYAK%20STEEL%20INTERNATIONAL!5e1!3m2!1sen!2sin!4v1787130866463!5m2!1sen!2sin" width="400" height="250" frameborder="0" style="border:0" allowfullscreen=""></iframe>
 
                             
                             

@@ -19,7 +19,7 @@ export default function QualityPolicy() {
                     <div class="grid_9">
                    <div class="pt-box">
                             <div class="pt-title triggerAnimation animated" data-animate="fadeInLeft">
-                                <h1>We are <span class="strong">NEONALLOYS</span></h1>
+                                <h1>We are <span class="strong">SIYAK STEEL</span></h1>
                                 <h4>QUALITY is not a Slogan, its  our way of life<br>
 Quality is our prime concern &amp; continually improving our quality to serve our clients better.
 </h4>

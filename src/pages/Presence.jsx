@@ -47,7 +47,7 @@ export default function Presence() {
                     <div class="grid_9">
                     <div class="pt-box">
                             <div class="pt-title triggerAnimation animated" data-animate="fadeInLeft">
-                                <h1>We are <span class="strong">NEONALLOYS</span></h1>
+                                <h1>We are <span class="strong">SIYAK STEEL</span></h1>
                                 <h4>Aiming for bigger footprint <br>
 accorss the globe</h4>
 </div>

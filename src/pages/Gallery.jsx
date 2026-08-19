@@ -18,7 +18,7 @@ export default function Gallery() {
         <div class="grid_9">
           <div class="pt-box">
             <div class="pt-title triggerAnimation animated" data-animate="fadeInLeft">
-              <h1>We are <span class="strong">NEONALLOYS</span></h1>
+              <h1>We are <span class="strong">SIYAK STEEL</span></h1>
               <h4>Ensuring Stainless Performance.<br>
                 We are offering quality range of industrial <br>
                 Raw Material ant its Fittings</h4>
@@ -166,18 +166,18 @@ export default function Gallery() {
               <div class="portfolio-img-hover">
                 <div class="mask"></div>
                 <ul>
-                  <li class="portfolio-zoom"> <a href="img/gallery/ss-304l-bath-launder/ss-304l-bath-launder-neon-alloys-alba-project-1.jpg" data-gal="prettyPhoto[ss-304l-bath-launder]" class="icon-expand-2"></a></li>
-                  <li class="portfolio-zoom"> <a href="img/gallery/ss-304l-bath-launder/ss-304l-bath-launder-neon-alloys-alba-project-2.jpg" data-gal="prettyPhoto[ss-304l-bath-launder]" class="icon-expand-2"></a></li>
-                  <li class="portfolio-zoom"> <a href="img/gallery/ss-304l-bath-launder/ss-304l-bath-launder-neon-alloys-alba-project-3.jpg" data-gal="prettyPhoto[ss-304l-bath-launder]" class="icon-expand-2"></a></li>
-                  <li class="portfolio-zoom"> <a href="img/gallery/ss-304l-bath-launder/ss-304l-bath-launder-neon-alloys-alba-project-4.jpg" data-gal="prettyPhoto[ss-304l-bath-launder]" class="icon-expand-2"></a></li>
-                  <li class="portfolio-zoom"> <a href="img/gallery/ss-304l-bath-launder/ss-304l-bath-launder-neon-alloys-alba-project-5.jpg" data-gal="prettyPhoto[ss-304l-bath-launder]" class="icon-expand-2"></a></li>
-                  <li class="portfolio-zoom"> <a href="img/gallery/ss-304l-bath-launder/ss-304l-bath-launder-neon-alloys-alba-project-6.jpg" data-gal="prettyPhoto[ss-304l-bath-launder]" class="icon-expand-2"></a></li>
-                  <li class="portfolio-zoom"> <a href="img/gallery/ss-304l-bath-launder/ss-304l-bath-launder-neon-alloys-alba-project-7.jpg" data-gal="prettyPhoto[ss-304l-bath-launder]" class="icon-expand-2"></a></li>
-                  <li class="portfolio-zoom"> <a href="img/gallery/ss-304l-bath-launder/ss-304l-bath-launder-neon-alloys-alba-project-8.jpg" data-gal="prettyPhoto[ss-304l-bath-launder]" class="icon-expand-2"></a></li>
-                  <li class="portfolio-zoom"> <a href="img/gallery/ss-304l-bath-launder/ss-304l-bath-launder-neon-alloys-alba-project-9.jpg" data-gal="prettyPhoto[ss-304l-bath-launder]" class="icon-expand-2"></a></li>
-                  <li class="portfolio-zoom"> <a href="img/gallery/ss-304l-bath-launder/ss-304l-bath-launder-neon-alloys-alba-project-10.jpg" data-gal="prettyPhoto[ss-304l-bath-launder]" class="icon-expand-2"></a></li>
-                  <li class="portfolio-zoom"> <a href="img/gallery/ss-304l-bath-launder/ss-304l-bath-launder-neon-alloys-alba-project-11.jpg" data-gal="prettyPhoto[ss-304l-bath-launder]" class="icon-expand-2"></a></li>
-                  <li class="portfolio-zoom"> <a href="img/gallery/ss-304l-bath-launder/ss-304l-bath-launder-neon-alloys-alba-project-12.jpg" data-gal="prettyPhoto[ss-304l-bath-launder]" class="icon-expand-2"></a></li>
+                  <li class="portfolio-zoom"> <a href="img/gallery/ss-304l-bath-launder/ss-304l-bath-launder-siyak-steel-alba-project-1.jpg" data-gal="prettyPhoto[ss-304l-bath-launder]" class="icon-expand-2"></a></li>
+                  <li class="portfolio-zoom"> <a href="img/gallery/ss-304l-bath-launder/ss-304l-bath-launder-siyak-steel-alba-project-2.jpg" data-gal="prettyPhoto[ss-304l-bath-launder]" class="icon-expand-2"></a></li>
+                  <li class="portfolio-zoom"> <a href="img/gallery/ss-304l-bath-launder/ss-304l-bath-launder-siyak-steel-alba-project-3.jpg" data-gal="prettyPhoto[ss-304l-bath-launder]" class="icon-expand-2"></a></li>
+                  <li class="portfolio-zoom"> <a href="img/gallery/ss-304l-bath-launder/ss-304l-bath-launder-siyak-steel-alba-project-4.jpg" data-gal="prettyPhoto[ss-304l-bath-launder]" class="icon-expand-2"></a></li>
+                  <li class="portfolio-zoom"> <a href="img/gallery/ss-304l-bath-launder/ss-304l-bath-launder-siyak-steel-alba-project-5.jpg" data-gal="prettyPhoto[ss-304l-bath-launder]" class="icon-expand-2"></a></li>
+                  <li class="portfolio-zoom"> <a href="img/gallery/ss-304l-bath-launder/ss-304l-bath-launder-siyak-steel-alba-project-6.jpg" data-gal="prettyPhoto[ss-304l-bath-launder]" class="icon-expand-2"></a></li>
+                  <li class="portfolio-zoom"> <a href="img/gallery/ss-304l-bath-launder/ss-304l-bath-launder-siyak-steel-alba-project-7.jpg" data-gal="prettyPhoto[ss-304l-bath-launder]" class="icon-expand-2"></a></li>
+                  <li class="portfolio-zoom"> <a href="img/gallery/ss-304l-bath-launder/ss-304l-bath-launder-siyak-steel-alba-project-8.jpg" data-gal="prettyPhoto[ss-304l-bath-launder]" class="icon-expand-2"></a></li>
+                  <li class="portfolio-zoom"> <a href="img/gallery/ss-304l-bath-launder/ss-304l-bath-launder-siyak-steel-alba-project-9.jpg" data-gal="prettyPhoto[ss-304l-bath-launder]" class="icon-expand-2"></a></li>
+                  <li class="portfolio-zoom"> <a href="img/gallery/ss-304l-bath-launder/ss-304l-bath-launder-siyak-steel-alba-project-10.jpg" data-gal="prettyPhoto[ss-304l-bath-launder]" class="icon-expand-2"></a></li>
+                  <li class="portfolio-zoom"> <a href="img/gallery/ss-304l-bath-launder/ss-304l-bath-launder-siyak-steel-alba-project-11.jpg" data-gal="prettyPhoto[ss-304l-bath-launder]" class="icon-expand-2"></a></li>
+                  <li class="portfolio-zoom"> <a href="img/gallery/ss-304l-bath-launder/ss-304l-bath-launder-siyak-steel-alba-project-12.jpg" data-gal="prettyPhoto[ss-304l-bath-launder]" class="icon-expand-2"></a></li>
                  
                 </ul>
               </div>
@@ -514,10 +514,10 @@ export default function Gallery() {
 
               <div class="grid_2">
                   <div class="masobox3">
-                      <div class="imgt"> <img src="img/gallery/ss-304l-bath-launder/ss-304l-bath-launder-neon-alloys-alba-project.jpg"></div>
+                      <div class="imgt"> <img src="img/gallery/ss-304l-bath-launder/ss-304l-bath-launder-siyak-steel-alba-project.jpg"></div>
                       <div class="clear"></div>
                       <div class="content-maso">
-                          <div class="heading-link"><a href="img/gallery/ss-304l-bath-launder/ss-304l-bath-launder-neon-alloys-alba-project-1.jpg" data-gal="prettyPhoto[ss-304l-bath-launder]">S.S. 304L Bath Launder<br>
+                          <div class="heading-link"><a href="img/gallery/ss-304l-bath-launder/ss-304l-bath-launder-siyak-steel-alba-project-1.jpg" data-gal="prettyPhoto[ss-304l-bath-launder]">S.S. 304L Bath Launder<br>
                                   for ALBA Project<i class="icon icon-arrow-right-3" style="float:right; font-size:18px; margin-right:0px;"></i> </a></div>
                       </div>
                   </div>

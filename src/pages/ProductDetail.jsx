@@ -14,9 +14,9 @@ import { slugify, seoSlug, catSeoSlug } from "../lib/slugify";
 
 // ------------------------------------------------------------------
 // EXPORT DESTINATIONS — master list shared by every product page,
-// mirrors the long country block that closes every neonalloys detail
+// mirrors the long country block that closes every siyaksteel detail
 // page (info@siyaksteel.com for quick response → EXPORT DESTINATIONS
-// header → comma-separated country list). Replaces neonalloys email
+// header → comma-separated country list). Replaces siyaksteel email
 // with Siyak branding, keeps the country set 1:1 point-to-point.
 // ------------------------------------------------------------------
 const EXPORT_COUNTRIES =
@@ -25,7 +25,7 @@ const EXPORT_COUNTRIES =
 // ------------------------------------------------------------------
 // GROUP-PANEL BUILDER — maps the 6 standard materialTypes (Nickel,
 // Copper, Stainless, Duplex, Carbon, Alloy) into the classic 3 H2
-// family panels that neonalloys renders on every pipes/flanges/
+// family panels that siyaksteel renders on every pipes/flanges/
 // fittings category page. If a category has a different number of
 // types (e.g. Flanges = 4 types with no pair-grouping) we fall back
 // to rendering each type as its own H2-grade block directly.
@@ -133,7 +133,7 @@ export default function ProductDetail() {
       />
       <PageHero eyebrow="Product Line" title={category.name} crumb={category.name} />
 
-      {/* NEONALLOYS STYLE BREADCRUMB STRIP — "You are here: Products /" */}
+      {/* siyaksteel STYLE BREADCRUMB STRIP — "You are here: Products /" */}
       <section className="bg-white border-b border-teal-pale/50">
         <div className="max-w-7xl px-6 py-3 text-xs">
           <span className="text-steel-dark">You are here:&nbsp;&nbsp;</span>
@@ -149,7 +149,7 @@ export default function ProductDetail() {
       <section className="bg-white py-10">
         <div className="max-w-7xl px-6 grid lg:grid-cols-[260px_1fr] gap-10">
           {/* =============================================================
-              LEFT SIDEBAR — mirrors neonalloys 2-widget sidebar layout:
+              LEFT SIDEBAR — mirrors siyaksteel 2-widget sidebar layout:
               (1) Category-level nav box with all Types + nested Variants,
               (2) "Product Range" nav box listing every core 14 categories.
               ============================================================= */}
@@ -158,7 +158,7 @@ export default function ProductDetail() {
           </aside>
 
           {/* =============================================================
-              MAIN DOCUMENT COLUMN — point-to-point neonalloys structure:
+              MAIN DOCUMENT COLUMN — point-to-point siyaksteel structure:
               1. H1 + short
               2. RANGE / FORM spec block
               3. 3 family-group H2 panels with H3 grade subsections
@@ -234,7 +234,7 @@ export default function ProductDetail() {
               </div>
             </Reveal>
 
-            {/* ---- 2b. TYPES OF [PRODUCT] — mirrors neon alloys "» TYPES OF PIPE FITTINGS" block */}
+            {/* ---- 2b. TYPES OF [PRODUCT] — mirrors Siyak Steel "» TYPES OF PIPE FITTINGS" block */}
             {category.items?.length > 0 && (
               <Reveal className="mt-10">
                 <div>
@@ -272,10 +272,10 @@ export default function ProductDetail() {
               </Reveal>
             )}
 
-            {/* ---- 3. NEON ALLOYS STYLE SECTION PANELS ------------------ */}
+            {/* ---- 3. Siyak Steel STYLE SECTION PANELS ------------------ */}
             {/* Each section uses the exact "» HEADING" prefix format with a teal
                 underline and the verbatim grade / spec text below it, mirroring
-                the neonalloys detail page structure exactly. */}
+                the siyaksteel detail page structure exactly. */}
             <div className="mt-14 space-y-0">
               {groupPanels.map((gp, gi) => (
                 <Reveal key={gp.h2} delay={gi * 0.05}>
@@ -312,7 +312,7 @@ export default function ProductDetail() {
               ))}
             </div>
 
-            {/* ---- SPECIFICATION TABLES (1:1 neonalloys dark-header) -- */}
+            {/* ---- SPECIFICATION TABLES (1:1 siyaksteel dark-header) -- */}
             {category.specTables?.length > 0 && (
               <div className="mt-16 space-y-10">
                 <Reveal>
@@ -393,7 +393,7 @@ export default function ProductDetail() {
               </div>
             </Reveal>
 
-            {/* ---- 6. EXPORT DESTINATIONS BLOCK — neonalloys exact format */}
+            {/* ---- 6. EXPORT DESTINATIONS BLOCK — siyaksteel exact format */}
             <Reveal className="mt-14">
               <div className="border-t border-gray-200 pt-10">
                 <h3 className="font-display uppercase text-[13.5px] font-bold text-ink tracking-[0.05em] leading-snug">

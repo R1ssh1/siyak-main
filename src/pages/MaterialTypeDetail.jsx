@@ -70,7 +70,7 @@ export default function MaterialTypeDetail() {
       />
       <PageHero eyebrow={category.name} title={active.name} crumb={active.name} />
 
-      {/* NEONALLOYS STYLE BREADCRUMB STRIP — "You are here: Products / Cat / Type" */}
+      {/* siyaksteel STYLE BREADCRUMB STRIP — "You are here: Products / Cat / Type" */}
       <section className="bg-white border-b border-teal-pale/50">
         <div className="max-w-7xl px-6 py-3 text-xs">
           <span className="text-steel-dark">You are here:&nbsp;&nbsp;</span>
@@ -275,7 +275,7 @@ export default function MaterialTypeDetail() {
               </div>
             )}
 
-            {/* ---- 4. SPECIFICATION TABLES (1:1 neonalloys dark-header) ------------- */}
+            {/* ---- 4. SPECIFICATION TABLES (1:1 siyaksteel dark-header) ------------- */}
             {([...(active.specTables || []), ...(category.specTables || [])].length > 0) && (
               <div className="mt-16 space-y-10">
                 <Reveal>
@@ -379,7 +379,7 @@ export default function MaterialTypeDetail() {
               </div>
             </Reveal>
 
-            {/* ---- 6. EXPORT DESTINATIONS BLOCK — neonalloys exact format */}
+            {/* ---- 6. EXPORT DESTINATIONS BLOCK — siyaksteel exact format */}
             <Reveal className="mt-14">
               <div className="border-t border-gray-200 pt-10">
                 <h3 className="font-display uppercase text-[13.5px] font-bold text-ink tracking-[0.05em] leading-snug">

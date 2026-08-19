@@ -5,7 +5,7 @@ import { slugify, seoSlug, catSeoSlug } from "../lib/slugify";
 
 /**
  * Two-block product navigation used on every product-line, material-type
- * and material-variant page — styled to match neonalloys.com's reference
+ * and material-variant page — styled to match siyaksteel.com's reference
  * sidebar 1:1: a plain uppercase heading (no card header), a flat list of
  * links prefixed with a small left-hand chevron, and hairline dividers
  * between rows. A family's grade list only expands once you're actually

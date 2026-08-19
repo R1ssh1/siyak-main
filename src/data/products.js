@@ -1575,10 +1575,10 @@ Alloy Steel: ASTM A182 F11 (1¼Cr-½Mo), F22 (2¼Cr-1Mo), F91 (9Cr-1Mo-V)`,
   },
 ];
 
-// Catalogue display order — matches https://www.neonalloys.com/ footer
+// Catalogue display order — matches https://www.siyaksteel.com/ footer
 // Products list order, followed by Siyak specialty products.
 const CATALOGUE_ORDER = [
-  // EXACT neonalloys.com category sequence
+  // EXACT siyaksteel.com category sequence
   "pipes-tubes",
   "sheets-plates",
   "round-bars",
@@ -1592,7 +1592,7 @@ const CATALOGUE_ORDER = [
   "cladded-plates",
   "olets",
   "valves",
-  // Siyak Steel specialty products (appended after neonalloys core categories)
+  // Siyak Steel specialty products (appended after siyaksteel core categories)
   "perforated-sheets",
   "wire-mesh",
 ];
@@ -1688,7 +1688,7 @@ export const companyInfo = {
   whatsapp: "919820976537",
 };
 
-// HS Codes — main chapters (source: neonalloys.com HS Codes page)
+// HS Codes — main chapters (source: siyaksteel.com HS Codes page)
 // Top-level commodity chapters followed by their detailed sub-chapter codes.
 export const hsCodesData = {
   title: "HS Codes — Commodity Classification",
@@ -1714,7 +1714,7 @@ export const hsCodesData = {
       description: "ALUMINIUM AND ARTICLES THEREOF.",
     },
   ],
-  // Top-level table (rows = HS chapter + description, same format as neonalloys top table)
+  // Top-level table (rows = HS chapter + description, same format as siyaksteel top table)
   table: {
     headers: ["HS Code", "Commodity Description"],
     rows: [

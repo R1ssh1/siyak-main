@@ -200,7 +200,7 @@ The thickness of explosive layer, its propagation characteristics as well as sta
 <br>
 <p>Cladding on both sides of a backer metal with the same/different cladding metal is possible. Even multilayered clad composites are possible.<br>
 
-Certain <b>NEON ALLOYS</b> clad products can be further rolled/extruded into thinner gauges and can be considered when technically feasible and quantities are adequate.
+Certain <b>SIYAK STEEL</b> clad products can be further rolled/extruded into thinner gauges and can be considered when technically feasible and quantities are adequate.
 </p>
 <br>
 

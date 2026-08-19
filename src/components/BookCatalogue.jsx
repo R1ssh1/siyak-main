@@ -1,7 +1,7 @@
 /**
- * BookCatalogue.jsx — pixel-perfect recreation of neonalloys.com/nickel-products.php
+ * BookCatalogue.jsx — pixel-perfect recreation of siyaksteel.com/nickel-products.php
  *
- * CSS sourced verbatim from https://www.neonalloys.com/css/style-nickel.css
+ * CSS sourced verbatim from https://www.siyaksteel.com/css/style-nickel.css
  *
  * rm-container:  width 33%, max-width 370px, height 650px
  * Perspective:   1600px (from CSS)
@@ -17,13 +17,13 @@
  *   "open-modal" — book sinks translateZ(-500px); product detail flies forward
  *
  * Three book state machine (matches rm-open / rm-in classes from
- * neonalloys source CSS scraped verbatim):
+ * siyaksteel source CSS scraped verbatim):
  *   "closed"  → cover overlays inner pages; VIEW PRODUCTS visible.
  *   "open"    → cover rotated -180° on LEFT hinge, right flap +180°
- *               on RIGHT hinge (exactly neonalloys 0.6s ease-in-out).
+ *               on RIGHT hinge (exactly siyaksteel 0.6s ease-in-out).
  *   "in"      → a product grade clicked: book sinks back (translateZ
  *               -500px) while rm-modal detail overlay flies forward
- *               translateZ 0 (same as neonalloys rm-in state).
+ *               translateZ 0 (same as siyaksteel rm-in state).
  */
 
 import { useState, useEffect } from "react";
@@ -32,7 +32,7 @@ import coverBg from "../assets/hero-bg/aj.webp";
 import { companyInfo } from "../data/products";
 
 /* ══════════════════════════════════════════════════════════
-   DATA  — exact neonalloys grade names + HTML-sourced descriptions
+   DATA  — exact siyaksteel grade names + HTML-sourced descriptions
 ══════════════════════════════════════════════════════════ */
 const LEFT_SECTIONS = [
   { header: "NICKEL",    items: ["Nickel 200","Nickel 201"] },
@@ -193,7 +193,7 @@ const PRODUCTS = {
 };
 
 /* ══════════════════════════════════════════════════════════
-   COVER — WORD CLOUD labels scattered (matches neonalloys cover)
+   COVER — WORD CLOUD labels scattered (matches siyaksteel cover)
    Positions + colors from screenshot visual match:
    white / green (#14b8ad) / blue (#4a97d3) varying sizes,
    scattered across the cover in diagonal pattern.
@@ -214,7 +214,7 @@ const COVER_WORDS = [
 ];
 
 /* ══════════════════════════════════════════════════════════
-   PALETTE — verbatim neonalloys (from scraped CSS)
+   PALETTE — verbatim siyaksteel (from scraped CSS)
 ══════════════════════════════════════════════════════════ */
 const C_GREEN = "#14b8ad";
 const C_BLUE  = "#4a97d3";
@@ -227,10 +227,10 @@ const MODAL_INSET = `inset 0 0 0 18px #fff, inset 0 0 0 19px #14b8ad, inset 0 0 
 
 /* ══════════════════════════════════════════════════════════
    SHARED SECTION COMPONENT — renders one family (NICKEL / MONEL etc)
-   Uses neonalloys rm-content h4 borders: top double / bottom double green
+   Uses siyaksteel rm-content h4 borders: top double / bottom double green
 ══════════════════════════════════════════════════════════ */
 /* SHARED SECTION COMPONENT
-   NeonAlloys rm-content CSS (from style-nickel.css):
+   SiyakSteel rm-content CSS (from style-nickel.css):
    h4  { font-size: 14px; font-weight: 700; text-transform: uppercase; color: #14b8ad }
    dt  { font-size: 12px; font-weight: 400; color: #333; line-height: 2; text-align: center }
    This EXACTLY matches the CSS — 12px × lineHeight 2 = 24px per item. */
@@ -454,15 +454,15 @@ export default function BookCatalogue() {
   const isOpen      = book !== "closed";
   const isModal     = book === "open-modal";
 
-  /* transition timing matches neonalloys: 0.6s ease-in-out */
+  /* transition timing matches siyaksteel: 0.6s ease-in-out */
   const T06 = "0.6s ease-in-out";
 
   return (
     /*
-     * Outer section — mirrors neonalloys page exactly:
+     * Outer section — mirrors siyaksteel page exactly:
      * - background: #000, fills full viewport below the navbar
      * - The book rm-container is the ONLY thing on the page
-     * - margin: 50px auto on rm-container (exact from neonalloys CSS)
+     * - margin: 50px auto on rm-container (exact from siyaksteel CSS)
      */
     <div style={{
       background: "#000",
@@ -473,7 +473,7 @@ export default function BookCatalogue() {
       color: "#000",
       overflowX: "hidden",
     }}>
-      {/* rm-container — exact neonalloys CSS:
+      {/* rm-container — exact siyaksteel CSS:
           width: 33%; max-width: 370px; height: 650px; margin: 50px auto;
           On a full-width screen (1344px), 33% = ~443px → capped at 370px.
           3 × 370px = 1110px spread when open = nearly full viewport width. */}
@@ -486,7 +486,7 @@ export default function BookCatalogue() {
         perspective: "1600px",
       }}>
 
-      {/* rm-close — fixed to viewport top-right when open, matching NeonAlloys */}
+      {/* rm-close — fixed to viewport top-right when open, matching SiyakSteel */}
       {isOpen && (
         <button
           onClick={closeBook}
@@ -533,7 +533,7 @@ export default function BookCatalogue() {
           zIndex: 100,
           transformOrigin: "0% 50%",
           transition: T06,
-          /* NeonAlloys style-nickel.css: .rm-cover { transition-delay: 0.2s }
+          /* SiyakSteel style-nickel.css: .rm-cover { transition-delay: 0.2s }
              This delay is CONSTANT (same for open AND close), not conditional. */
           transitionDelay: "0.2s",
           transform: isOpen ? "rotateY(-180deg)" : "rotateY(0deg)",
@@ -603,7 +603,7 @@ export default function BookCatalogue() {
         {/* END FLAP 1 — rm-COVER */}
 
         {/* PAGE 2 — rm-MIDDLE (z-index 50)
-            overflow: hidden — matches NeonAlloys (no scrollbar shown) */}
+            overflow: hidden — matches SiyakSteel (no scrollbar shown) */}
         <div style={{
           width:"100%", height:"100%",
           position:"absolute", left:0, top:0,
@@ -643,7 +643,7 @@ export default function BookCatalogue() {
           zIndex: 60,
           transformOrigin: "100% 50%",
           transition: T06,
-          /* NeonAlloys style-nickel.css: .rm-right { transition-delay: 0s }
+          /* SiyakSteel style-nickel.css: .rm-right { transition-delay: 0s }
              Constant 0s delay — right page always opens/closes first. */
           transitionDelay: "0s",
           transform: isOpen ? "rotateY(180deg)" : "rotateY(0deg)",
@@ -676,7 +676,7 @@ export default function BookCatalogue() {
                 <Family key={s.header} header={s.header} first={i===0} items={s.items} onSelect={selectGrade}/>
               ))}
             </div>
-            {/* Siyak Regd. Office — exact NeonAlloys green bottom band */}
+            {/* Siyak Regd. Office — exact SiyakSteel green bottom band */}
             <div style={{
               position:"absolute",
               left:0, right:0, bottom:0,

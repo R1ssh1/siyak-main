@@ -20,7 +20,7 @@ export default function TubeSheet() {
                     <div class="pt-box">
                             <div class="pt-title triggerAnimation animated" data-animate="fadeInLeft">
                                 <h1>Tube Sheets</h1>
-                                <p>Neon Alloys is highly experienced in the manufacture of critical, internal heat exchanger tubesheets.</p>
+                                <p>Siyak Steel International is highly experienced in the manufacture of critical, internal heat exchanger tubesheets.</p>
                             </div>
                             </div>
                         </div>
@@ -177,7 +177,7 @@ export default function TubeSheet() {
 			 
                         <article class=" grid_5 triggerAnimation animated" data-animate="fadeInLeft">
                             
-                     <h2>Neon Alloys is highly experienced in the manufacture of critical, internal heat exchanger tubesheets.</h2>      
+                     <h2>Siyak Steel International is highly experienced in the manufacture of critical, internal heat exchanger tubesheets.</h2>      
 
              <p>
 One of the most common heat exchangers in service within industrial process applications is the “Shell &amp; Tube Heat Exchanger”. They are available in many shapes, sizes and have been used in industry for over 150 years. In this exchanger group are various sub design types: Fixed, U-tube and Floating tubesheet. Variations of all can be denoted as type “E”, “F”, “G”, “H”, “J”, “K” or “X”. The main applications are where high pressure/temperatures are key considerations.</p><p>
@@ -199,7 +199,7 @@ One of the most common heat exchangers in service within industrial process appl
 The tubesheets themselves contain holes drilled into them. This, in a given, very specific design configuration, at very precise locations with critical tolerances. The amounts of holes can range from a few to thousands. These pattern or “pitch” holes are relative to each other tubesheet within the shell. This pitch changes tube distance, angle and flow direction. These parameters have been varied to maximize the heat transfer effectiveness.</p><br>
 
 <p>
-Neon Alloys considerable experience in this highly specialized area means that whatever the requirement, whatever the timescale, we have the technical, in house experience and know-how to approach a given task, deliver on time and in budget. This is why the company is entrusted to manufacture.</p><br>
+Siyak Steel International considerable experience in this highly specialized area means that whatever the requirement, whatever the timescale, we have the technical, in house experience and know-how to approach a given task, deliver on time and in budget. This is why the company is entrusted to manufacture.</p><br>
 
 <h3>High Nickel Alloy Tube Sheet Manufacturer, Heat Exchanger Tube Sheet Exporter And Supplier In India.</h3>
 

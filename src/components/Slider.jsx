@@ -52,7 +52,7 @@ export default function Slider() {
                     
                     <li data-transition="fade" data-slotamount="15" data-masterspeed="1500"> 
                      
-                    <img src="img/slider/vision.jpg" alt="Vision of Neon Alloys" title="Vision of The Future" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                    <img src="img/slider/vision.jpg" alt="Vision of Siyak Steel International" title="Vision of The Future" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
                     <div class="tp-caption background paragraph lfb" data-x="760" data-y="270" data-speed="600" data-start="2000" data-easing="Back.easeOut" data-endspeed="500">
                         <h1>Having A <span class="cap1">VISION for BIG ENTERPRISE</span></h1>
                       </div>

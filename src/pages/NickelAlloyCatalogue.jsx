@@ -1,9 +1,9 @@
 /**
- * NickelAlloyCatalogue — exact replica of neonalloys.com/nickel-products.php layout.
+ * NickelAlloyCatalogue — exact replica of siyaksteel.com/nickel-products.php layout.
  * The page is ONLY the book on a pure black background.
  * No PageHero, no description text, no CTA band — nothing but the book.
  */
-import NeonAlloysBook from "../components/BookCatalogue";
+import SiyakSteelBook from "../components/BookCatalogue";
 import SEO from "../components/SEO";
 import { OrganizationLd, BreadcrumbLd, WebPageLd } from "../components/JsonLd";
 import { absoluteUrl } from "../lib/site";
@@ -35,7 +35,7 @@ export default function NickelAlloyCatalogue() {
       />
 
       {/* The book IS the page — black background fills everything below navbar */}
-      <NeonAlloysBook />
+      <SiyakSteelBook />
     </>
   );
 }

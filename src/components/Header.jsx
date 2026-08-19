@@ -54,7 +54,7 @@ export default function Header() {
   
   <section id="top-bar-wrapper">
     <div id="top-bar" class="clearfix">
-      <div class="mscroll mobile-hide" style="display: flex; align-items: center;"> <span class="blink_me" style="color: #14b8ad; display: flex; align-items: center;"><img src="img/govt.png" alt="Neon Alloys :: GOVERNMENT RECOGNISED STAR EXPORT HOUSE" style="height: 30px; margin-right: 10px;"> "GOVERNMENT RECOGNISED STAR EXPORT HOUSE"</span> </div>
+      <div class="mscroll mobile-hide" style="display: flex; align-items: center;"> <span class="blink_me" style="color: #14b8ad; display: flex; align-items: center;"><img src="img/govt.png" alt="Siyak Steel International :: GOVERNMENT RECOGNISED STAR EXPORT HOUSE" style="height: 30px; margin-right: 10px;"> "GOVERNMENT RECOGNISED STAR EXPORT HOUSE"</span> </div>
       <ul class="contact-info">
         <li>
           <div id="google_translate_element"></div>
@@ -76,7 +76,7 @@ export default function Header() {
   
   
   <header id="header" class="clearfix">
-    <section id="logo"> <a href="index.php"> <img src="img/logo.png" title="Neon Alloys" alt="Neon Alloys"> </a> </section>
+    <section id="logo"> <a href="index.php"> <img src="img/logo.png" title="Siyak Steel International" alt="Siyak Steel International"> </a> </section>
     <section id="nav-container">
       <nav id="nav">
         <ul>

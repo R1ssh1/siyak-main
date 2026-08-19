@@ -19,7 +19,7 @@ export default function AboutUs() {
                     <div class="grid_9">
                     <div class="pt-box">
                             <div class="pt-title triggerAnimation animated" data-animate="fadeInLeft">
-                                <h1>We are <span class="strong">NEONALLOYS</span></h1>
+                                <h1>We are <span class="strong">SIYAK STEEL</span></h1>
                                 <h4>Ensuring Stainless Performance.<br>
 We are offering quality range of industrial <br>
 Raw Material ant its Fittings</h4>
@@ -36,7 +36,7 @@ Raw Material ant its Fittings</h4>
                             <div class="breadcrumbs triggerAnimation animated" data-animate="fadeInUp">
                                 <ul>
                                     <li><span>You are here:</span></li>
-                                    <li><a href="http://www.neonalloys.com">Home / </a></li>
+                                    <li><a href="http://www.siyaksteel.com">Home / </a></li>
                                     <li><span class="active">About Us</span></li>
                                 </ul>
                             </div>
@@ -61,7 +61,7 @@ Raw Material ant its Fittings</h4>
                             
 <ul class="aside_widgets">
   <li class="widget widget_productlist ">
-    <h2>About Neon Alloys</h2>
+    <h2>About Siyak Steel</h2>
     <ul class="">
       <li><a href="about-us.php">About Us</a></li>
       <li><a href="team.php">Team</a></li>
@@ -162,11 +162,11 @@ Raw Material ant its Fittings</h4>
                             </section>
 
                             <p>
-                                Neon Alloys is a young, dynamic company which began trading in steel products in 2009 and quickly established itself as a leader on the National &amp; International markets through its two primary strategies namely: Total quality &amp; Flexibility. Any size of order at a competitive price in all types of steel including Nickel Alloys,  Stainless steel,  Carbon steel Alloy steel, Exotic materials like Duplex, Super Duplex, SMO and other alloys demonstrates our flexibility. Adherence to customer’s delivery needs and   technical	specifications	demonstrates
+                                Siyak Steel is a young, dynamic company which began trading in steel products in 2009 and quickly established itself as a leader on the National &amp; International markets through its two primary strategies namely: Total quality &amp; Flexibility. Any size of order at a competitive price in all types of steel including Nickel Alloys,  Stainless steel,  Carbon steel Alloy steel, Exotic materials like Duplex, Super Duplex, SMO and other alloys demonstrates our flexibility. Adherence to customer’s delivery needs and   technical	specifications	demonstrates
 our total quality.
 <br><br>
 
-Behind Neon Alloys speedy success lies the undisputed experience of	its first generation promoters spanning 3 decades. Experience, expertise coupled with certified products adherence to best quality standards, perfect customer service and motivated workforce, that is Neon alloys -A true leader in the making and a reliable partner for its customers.</p><br><br>
+Behind Siyak Steel speedy success lies the undisputed experience of	its first generation promoters spanning 3 decades. Experience, expertise coupled with certified products adherence to best quality standards, perfect customer service and motivated workforce, that is Siyak Steel -A true leader in the making and a reliable partner for its customers.</p><br><br>
 
 
   

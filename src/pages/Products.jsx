@@ -105,7 +105,7 @@ Finish : Mechanical Polish as well as Electropolish finishes.</span></a></div>
 <div class="heading-link"><a href="valves.php">Valves<i class="icon icon-arrow-right-3" style="float:right; font-size:28px; margin-right:0px;"></i>
 <br>
 <br>
-<span class="spant">Neon Alloys would like to introduce ourselves as one of the Leading Industrial Valves Exporter. Like Ball, Gate, Globe, check, Automatic Control Valve, Pressure Reducing Valve, High Pressure Valve.</span></a></div> 
+<span class="spant">Siyak Steel International would like to introduce ourselves as one of the Leading Industrial Valves Exporter. Like Ball, Gate, Globe, check, Automatic Control Valve, Pressure Reducing Valve, High Pressure Valve.</span></a></div> 
 </div>
 </div>
 

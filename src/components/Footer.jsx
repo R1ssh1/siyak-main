@@ -79,10 +79,10 @@ Mumbai -400 004 (India).
                 
               </ul>
               <ul class="social-links">
-<li><a href="https://www.facebook.com/neonalloys" target="_blank" class="pixons-facebook-2"></a></li>
-<li><a href="https://plus.google.com/+Neonalloys" target="_blank" class="pixons-google_plus"></a></li>
-<li><a href="https://twitter.com/neonalloy" target="blank" class="pixons-twitter-1"></a></li>
-<li><a href="https://www.linkedin.com/company/neon-alloys" target="blank" class="pixons-linkedin"></a></li>
+<li><a href="#" target="_blank" class="pixons-facebook-2"></a></li>
+<li><a href="#" target="_blank" class="pixons-google_plus"></a></li>
+<li><a href="#" target="blank" class="pixons-twitter-1"></a></li>
+<li><a href="#" target="blank" class="pixons-linkedin"></a></li>
 </ul>
             </li>
             
@@ -120,7 +120,7 @@ Mumbai -400 004 (India).
       
       <div class="row">
         <section class="grid_6">
-          <p>Copyright © NeonAlloys 2016-2023. All Rights Reserved.</p>
+          <p>Copyright © Siyak Steel International 2016-2023. All Rights Reserved.</p>
         </section>
         <section class="grid_6">
           <div class="footer-breadcrumbs"> <a href="http://www.indiawebsolutions.com">Website Hosting</a> &amp; Developed By: <a href="http://www.iwstechnologies.com" target="_blank">IWS</a> </div>

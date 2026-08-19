@@ -66,7 +66,7 @@ export default function TopBar() {
           </span>
         </div>
 
-        {/* RIGHT — three items in the exact same order as neonalloys:
+        {/* RIGHT — three items in the exact same order as siyaksteel:
             1) Google Translate (Language selector)
             2) Email
             3) HS Codes link   (rightmost) */}

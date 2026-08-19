@@ -77,7 +77,7 @@ export default function MaterialVariantDetail() {
       />
       <PageHero eyebrow={family.name} title={variant.name} crumb={variant.name} />
 
-      {/* NEONALLOYS STYLE BREADCRUMB STRIP — 4 levels deep */}
+      {/* siyaksteel STYLE BREADCRUMB STRIP — 4 levels deep */}
       <section className="bg-white border-b border-teal-pale/50">
         <div className="max-w-7xl px-6 py-3 text-xs">
           <span className="text-steel-dark">You are here:&nbsp;&nbsp;</span>
@@ -417,7 +417,7 @@ export default function MaterialVariantDetail() {
               </div>
             </Reveal>
 
-            {/* ---- 6. EXPORT DESTINATIONS BLOCK — neonalloys exact format */}
+            {/* ---- 6. EXPORT DESTINATIONS BLOCK — siyaksteel exact format */}
             <Reveal className="mt-14">
               <div className="border-t border-gray-200 pt-10">
                 <h3 className="font-display uppercase text-[13.5px] font-bold text-ink tracking-[0.05em] leading-snug">
