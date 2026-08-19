@@ -13,12 +13,11 @@ export default function Products() {
   return (
     <>
       <SEO
-        title="Steel Products — Pipes, Tubes, Flanges, Fittings"
         description="Explore Siyak Steel International's product range — stainless steel, duplex, nickel alloy pipes, tubes, flanges, fittings, fasteners, valves and more."
         keywords="steel products india, stainless steel pipes india, duplex steel supplier"
       />
       <OrganizationLd />
-      <WebPageLd url={absoluteUrl('/products')} title="Steel Products — Pipes, Tubes, Flanges, Fittings" description="Explore Siyak Steel International's product range — stainless steel, duplex, nickel alloy pipes, tubes, flanges, fittings, fasteners, valves and more." />
+      <WebPageLd url={absoluteUrl('/products')} description="Explore Siyak Steel International's product range — stainless steel, duplex, nickel alloy pipes, tubes, flanges, fittings, fasteners, valves and more." />
       <section className="page-content bg-paper min-h-screen">
         <div className="container" style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 20px' }}>
           <div className="box-pro1" style={{ background: '#005d65', width: '100%', marginBottom: '40px' }}>

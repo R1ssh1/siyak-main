@@ -10,12 +10,11 @@ export default function CladdedPlates() {
   return (
     <>
       <SEO
-        title="Cladded Plates Manufacturer in India"
         description="Cladded and clad steel plates in stainless, nickel and alloy steel. ISO certified supply from Siyak Steel International."
         keywords="cladded plates manufacturer india, clad steel plates supplier mumbai"
       />
       <OrganizationLd />
-      <WebPageLd url={absoluteUrl('/cladded-plates-manufacturer-supplier-exporter-in-mumbai-india')} title="Cladded Plates Manufacturer in India" description="Cladded and clad steel plates in stainless, nickel and alloy steel. ISO certified supply from Siyak Steel International." />
+      <WebPageLd url={absoluteUrl('/cladded-plates-manufacturer-supplier-exporter-in-mumbai-india')} description="Cladded and clad steel plates in stainless, nickel and alloy steel. ISO certified supply from Siyak Steel International." />
       
             
             

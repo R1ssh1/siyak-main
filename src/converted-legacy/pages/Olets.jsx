@@ -10,12 +10,11 @@ export default function Olets() {
   return (
     <>
       <SEO
-        title="Olets and Branch Connection Fittings in India"
         description="Sockolets, weldolets, threadolets and more in stainless and alloy steel — export quality from Siyak Steel International, Mumbai."
         keywords="olets manufacturer india, weldolet sockolet supplier mumbai, branch fittings exporter"
       />
       <OrganizationLd />
-      <WebPageLd url={absoluteUrl('/olets-stockist-supplier-exporter-in-mumbai-india')} title="Olets and Branch Connection Fittings in India" description="Sockolets, weldolets, threadolets and more in stainless and alloy steel — export quality from Siyak Steel International, Mumbai." />
+      <WebPageLd url={absoluteUrl('/olets-stockist-supplier-exporter-in-mumbai-india')} description="Sockolets, weldolets, threadolets and more in stainless and alloy steel — export quality from Siyak Steel International, Mumbai." />
       
             
             
@@ -162,7 +161,7 @@ finest materials are used at reasonable prices.</p>
 
 
 
-<div className="grid_2"><img src="img/products/olets1.jpg" alt="Stainless Steel Insert Weldolet Supplier" title="SS Insert Weldolet Exporter" /></div>
+<div className="grid_2"><img src="img/products/olets1.jpg" alt="Stainless Steel Insert Weldolet Supplier" /></div>
 <div className="grid_7">
 <div className="heading-bordered2"><h2><i className="icon icon-double-angle-right"></i> <b>Insert Weldolet</b></h2></div>
 
@@ -176,7 +175,7 @@ finest materials are used at reasonable prices.</p>
 <br />
 <br />
 
-<div className="grid_2"><img src="img/products/olets2.jpg" alt="Stainless Steel Sockolet Supplier" title="Stainless Steel Sockolet Exporter" /></div>
+<div className="grid_2"><img src="img/products/olets2.jpg" alt="Stainless Steel Sockolet Supplier" /></div>
 <div className="grid_7">
 
 <div className="heading-bordered2"><h2><i className="icon icon-double-angle-right"></i> <b>Sockolet</b></h2></div>
@@ -189,7 +188,7 @@ finest materials are used at reasonable prices.</p>
 <br />
 <br />
 
-<div className="grid_2"><img src="img/products/olets3.jpg" alt="Stainless Steel Threadolet Supplier" title="Stainless Steel Threadolet Nipolet Exporter" /></div>
+<div className="grid_2"><img src="img/products/olets3.jpg" alt="Stainless Steel Threadolet Supplier" /></div>
 <div className="grid_7">
 
 <div className="heading-bordered2"><h2><i className="icon icon-double-angle-right"></i> <b>Threadolet Nipolet</b></h2></div>
@@ -205,7 +204,7 @@ finest materials are used at reasonable prices.</p>
 <br />
 <br />
 
-<div className="grid_2"><img src="img/products/olets4.jpg" alt="Stainless Steel Elbolet Supplier" title="Stainless Steel Elbolet Exporter" /></div>
+<div className="grid_2"><img src="img/products/olets4.jpg" alt="Stainless Steel Elbolet Supplier" /></div>
 <div className="grid_7">
 
 <div className="heading-bordered2"><h2><i className="icon icon-double-angle-right"></i> <b>Elbolet</b></h2></div>
@@ -223,7 +222,7 @@ finest materials are used at reasonable prices.</p>
 <div className="clear"></div>
 <div className="devider1"></div>
 
-<div className="grid_2"><img src="img/products/olets5.jpg" alt="Stainless Steel Branzolet Supplier" title="Stainless Steel Coupolet Exporter" /></div>
+<div className="grid_2"><img src="img/products/olets5.jpg" alt="Stainless Steel Branzolet Supplier" /></div>
 <div className="grid_7">
 
 <div className="heading-bordered2"><h2><i className="icon icon-double-angle-right"></i><b> Branzolet &amp; Coupolet</b></h2></div>

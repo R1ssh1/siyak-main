@@ -8,12 +8,11 @@ export default function Sitemap() {
   return (
     <>
       <SEO
-        title="Sitemap"
         description="Full sitemap of Siyak Steel International's website — products, services, contact and company information."
         keywords="siyak steel sitemap, steel supplier website map"
       />
       <OrganizationLd />
-      <WebPageLd url={absoluteUrl('/sitemap')} title="Sitemap" description="Full sitemap of Siyak Steel International's website — products, services, contact and company information." />
+      <WebPageLd url={absoluteUrl('/sitemap')} description="Full sitemap of Siyak Steel International's website — products, services, contact and company information." />
       <section className="page-content">
         <div className="container">
           <div className="row">

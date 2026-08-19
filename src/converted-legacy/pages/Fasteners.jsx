@@ -10,12 +10,11 @@ export default function Fasteners() {
   return (
     <>
       <SEO
-        title="Industrial Fasteners Manufacturer in India"
         description="Bolts, studs, nuts and washers in high-grade stainless, duplex and alloy steel. ISO 9001:2015 certified supply from Siyak Steel International, Mumbai."
         keywords="fasteners manufacturer india, stainless steel bolts supplier, industrial nuts bolts mumbai"
       />
       <OrganizationLd />
-      <WebPageLd url={absoluteUrl('/fasteners-stockist-supplier-exporter-in-mumbai-india')} title="Industrial Fasteners Manufacturer in India" description="Bolts, studs, nuts and washers in high-grade stainless, duplex and alloy steel. ISO 9001:2015 certified supply from Siyak Steel International, Mumbai." />
+      <WebPageLd url={absoluteUrl('/fasteners-stockist-supplier-exporter-in-mumbai-india')} description="Bolts, studs, nuts and washers in high-grade stainless, duplex and alloy steel. ISO 9001:2015 certified supply from Siyak Steel International, Mumbai." />
       
             
             

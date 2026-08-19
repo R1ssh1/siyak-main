@@ -8,12 +8,11 @@ export default function NickelProducts() {
   return (
     <>
       <SEO
-        title="Nickel Alloy Products Exporter in India"
         description="Nickel alloy 200, 201, Monel, Inconel pipes, flanges and fittings — export quality from Siyak Steel International, Mumbai."
         keywords="nickel alloy products india, inconel supplier mumbai, monel exporter india"
       />
       <OrganizationLd />
-      <WebPageLd url={absoluteUrl('/nickel-alloy-products-manufacturer-exporter-in-mumbai-india')} title="Nickel Alloy Products Exporter in India" description="Nickel alloy 200, 201, Monel, Inconel pipes, flanges and fittings — export quality from Siyak Steel International, Mumbai." />
+      <WebPageLd url={absoluteUrl('/nickel-alloy-products-manufacturer-exporter-in-mumbai-india')} description="Nickel alloy 200, 201, Monel, Inconel pipes, flanges and fittings — export quality from Siyak Steel International, Mumbai." />
       <div className="container">
 		
 			

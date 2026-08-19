@@ -10,12 +10,11 @@ export default function ButtweldFittings() {
   return (
     <>
       <SEO
-        title="Buttweld Pipe Fittings Manufacturer in India"
         description="Siyak Steel International exports buttweld elbows, tees, reducers and caps in stainless steel and alloy grades from Mumbai."
         keywords="buttweld fittings manufacturer india, pipe elbows supplier, stainless steel fittings mumbai"
       />
       <OrganizationLd />
-      <WebPageLd url={absoluteUrl('/buttweld-fittings-stockist-supplier-exporter-in-mumbai-india')} title="Buttweld Pipe Fittings Manufacturer in India" description="Siyak Steel International exports buttweld elbows, tees, reducers and caps in stainless steel and alloy grades from Mumbai." />
+      <WebPageLd url={absoluteUrl('/buttweld-fittings-stockist-supplier-exporter-in-mumbai-india')} description="Siyak Steel International exports buttweld elbows, tees, reducers and caps in stainless steel and alloy grades from Mumbai." />
       
             
             

@@ -10,12 +10,11 @@ export default function AnglesChannels() {
   return (
     <>
       <SEO
-        title="Steel Angles and Channels Supplier in India"
         description="Stainless steel angles and channels in ASTM grades. Export quality from Siyak Steel International for structural and industrial applications."
         keywords="steel angles channels manufacturer india, stainless steel structural supplier mumbai"
       />
       <OrganizationLd />
-      <WebPageLd url={absoluteUrl('/angles-channels-stockist-supplier-exporter-in-mumbai-india')} title="Steel Angles and Channels Supplier in India" description="Stainless steel angles and channels in ASTM grades. Export quality from Siyak Steel International for structural and industrial applications." />
+      <WebPageLd url={absoluteUrl('/angles-channels-stockist-supplier-exporter-in-mumbai-india')} description="Stainless steel angles and channels in ASTM grades. Export quality from Siyak Steel International for structural and industrial applications." />
       
             
             

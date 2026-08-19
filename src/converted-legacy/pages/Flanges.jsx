@@ -10,12 +10,11 @@ export default function Flanges() {
   return (
     <>
       <SEO
-        title="Industrial Flanges Supplier in India"
         description="Manufacturer and stockist of stainless, duplex and alloy steel flanges — ANSI, DIN, ASME B16.5 standards. Export quality from Siyak Steel International, Mumbai."
         keywords="flanges manufacturer india, stainless steel flanges supplier, pipe flanges mumbai"
       />
       <OrganizationLd />
-      <WebPageLd url={absoluteUrl('/flanges-stockist-supplier-exporter-in-mumbai-india')} title="Industrial Flanges Supplier in India" description="Manufacturer and stockist of stainless, duplex and alloy steel flanges — ANSI, DIN, ASME B16.5 standards. Export quality from Siyak Steel International, Mumbai." />
+      <WebPageLd url={absoluteUrl('/flanges-stockist-supplier-exporter-in-mumbai-india')} description="Manufacturer and stockist of stainless, duplex and alloy steel flanges — ANSI, DIN, ASME B16.5 standards. Export quality from Siyak Steel International, Mumbai." />
       
             
             

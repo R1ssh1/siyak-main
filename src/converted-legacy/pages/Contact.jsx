@@ -9,12 +9,11 @@ export default function Contact() {
   return (
     <>
       <SEO
-        title="Contact Us"
         description="Contact Siyak Steel International, Mumbai. Reach our head office, warehouse or overseas representative in Saudi Arabia. Email, phone and map included."
         keywords="contact siyak steel, steel supplier mumbai contact, steel exporter contact india"
       />
       <OrganizationLd />
-      <WebPageLd url={absoluteUrl('/contact')} title="Contact Us" description="Contact Siyak Steel International, Mumbai. Reach our head office, warehouse or overseas representative in Saudi Arabia. Email, phone and map included." />
+      <WebPageLd url={absoluteUrl('/contact')} description="Contact Siyak Steel International, Mumbai. Reach our head office, warehouse or overseas representative in Saudi Arabia. Email, phone and map included." />
       <section id="page-title-enquiry" className="page-title-1" data-stellar-background-ratio="0.3">
         <div className="container">
           <div className="row">
@@ -129,7 +128,6 @@ export default function Contact() {
                 allowFullScreen=""
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Siyak Steel International Location"
               ></iframe>
             </article>
           </div>

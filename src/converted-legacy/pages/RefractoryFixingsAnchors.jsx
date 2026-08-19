@@ -10,12 +10,11 @@ export default function RefractoryFixingsAnchors() {
   return (
     <>
       <SEO
-        title="Refractory Anchors Manufacturer in India"
         description="Stainless steel and alloy refractory fixings and anchors for industrial furnaces and reactors — Siyak Steel International, Mumbai."
         keywords="refractory anchors manufacturer india, refractory fixings supplier mumbai, furnace anchors"
       />
       <OrganizationLd />
-      <WebPageLd url={absoluteUrl('/refractory-fixings-anchors-manufacturer-supplier-exporter-in-mumbai-india')} title="Refractory Anchors Manufacturer in India" description="Stainless steel and alloy refractory fixings and anchors for industrial furnaces and reactors — Siyak Steel International, Mumbai." />
+      <WebPageLd url={absoluteUrl('/refractory-fixings-anchors-manufacturer-supplier-exporter-in-mumbai-india')} description="Stainless steel and alloy refractory fixings and anchors for industrial furnaces and reactors — Siyak Steel International, Mumbai." />
       
             
             

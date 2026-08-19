@@ -10,12 +10,11 @@ export default function RoundBars() {
   return (
     <>
       <SEO
-        title="Stainless Steel Round Bars Exporter in India"
         description="Round bars in stainless steel, duplex, nickel alloy and carbon steel — cut to size and exported from Mumbai by Siyak Steel International."
         keywords="round bars manufacturer india, stainless steel round bars mumbai, steel bar exporter"
       />
       <OrganizationLd />
-      <WebPageLd url={absoluteUrl('/round-bars-stockist-supplier-exporter-in-mumbai-india')} title="Stainless Steel Round Bars Exporter in India" description="Round bars in stainless steel, duplex, nickel alloy and carbon steel — cut to size and exported from Mumbai by Siyak Steel International." />
+      <WebPageLd url={absoluteUrl('/round-bars-stockist-supplier-exporter-in-mumbai-india')} description="Round bars in stainless steel, duplex, nickel alloy and carbon steel — cut to size and exported from Mumbai by Siyak Steel International." />
       
             
             

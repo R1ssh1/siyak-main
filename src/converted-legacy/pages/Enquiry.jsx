@@ -68,12 +68,11 @@ export default function Enquiry() {
   return (
     <>
       <SEO
-        title="Send an Enquiry"
         description="Submit a product enquiry to Siyak Steel International. We supply pipes, tubes, flanges, fittings and bars globally. Get a fast quote from our Mumbai office."
         keywords="steel enquiry india, steel pipe quote, siyak steel enquiry"
       />
       <OrganizationLd />
-      <WebPageLd url={absoluteUrl('/enquiry')} title="Send an Enquiry" description="Submit a product enquiry to Siyak Steel International. We supply pipes, tubes, flanges, fittings and bars globally. Get a fast quote from our Mumbai office." />
+      <WebPageLd url={absoluteUrl('/enquiry')} description="Submit a product enquiry to Siyak Steel International. We supply pipes, tubes, flanges, fittings and bars globally. Get a fast quote from our Mumbai office." />
       
             
              

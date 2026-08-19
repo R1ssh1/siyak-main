@@ -97,12 +97,11 @@ export default function TechnicalInfo() {
   return (
     <>
       <SEO
-        title="Technical Information — Steel Grades and Standards"
         description="Technical data for steel pipes, tubes, flanges and fittings — grades, standards, weight calculations and specifications. Siyak Steel International."
         keywords="steel technical specifications india, pipe tube grades standards, ASTM ASME steel data"
       />
       <OrganizationLd />
-      <WebPageLd url={absoluteUrl('/technical-info')} title="Technical Information — Steel Grades and Standards" description="Technical data for steel pipes, tubes, flanges and fittings — grades, standards, weight calculations and specifications. Siyak Steel International." />
+      <WebPageLd url={absoluteUrl('/technical-info')} description="Technical data for steel pipes, tubes, flanges and fittings — grades, standards, weight calculations and specifications. Siyak Steel International." />
       <section id="page-title-tech-info" className="page-title-1" data-stellar-background-ratio="0.3">
         <div className="container">
           <div className="row">

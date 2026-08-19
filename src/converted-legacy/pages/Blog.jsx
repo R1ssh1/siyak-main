@@ -8,12 +8,11 @@ export default function Blog() {
   return (
     <>
       <SEO
-        title="News and Updates"
         description="Latest news, industry updates and product announcements from Siyak Steel International, Mumbai's premier steel exporter."
         keywords="steel industry news india, siyak steel blog, steel market updates mumbai"
       />
       <OrganizationLd />
-      <WebPageLd url={absoluteUrl('/blog')} title="News and Updates" description="Latest news, industry updates and product announcements from Siyak Steel International, Mumbai's premier steel exporter." />
+      <WebPageLd url={absoluteUrl('/blog')} description="Latest news, industry updates and product announcements from Siyak Steel International, Mumbai's premier steel exporter." />
        
   
   

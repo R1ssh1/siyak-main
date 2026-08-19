@@ -8,12 +8,11 @@ export default function Certification() {
   return (
     <>
       <SEO
-        title="ISO 9001:2015 Certification"
         description="Siyak Steel International holds ISO 9001:2015 certification. All products meet ASTM, ASME, NACE and API standards. Mill test certificates available."
         keywords="ISO 9001 steel manufacturer india, certified steel supplier, mill test certificate india"
       />
       <OrganizationLd />
-      <WebPageLd url={absoluteUrl('/certification')} title="ISO 9001:2015 Certification" description="Siyak Steel International holds ISO 9001:2015 certification. All products meet ASTM, ASME, NACE and API standards. Mill test certificates available." />
+      <WebPageLd url={absoluteUrl('/certification')} description="Siyak Steel International holds ISO 9001:2015 certification. All products meet ASTM, ASME, NACE and API standards. Mill test certificates available." />
       
         
         

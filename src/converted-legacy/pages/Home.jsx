@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { Link } from 'react-router-dom';
 import Slider from '../components/Slider';
 import Industries from '../../components/Industries';
@@ -13,12 +13,11 @@ export default function Home() {
   return (
     <>
       <SEO
-        title="Steel Pipe, Tube & Fitting Manufacturer in India"
         description="Siyak Steel International — ISO 9001:2015 certified manufacturer, stockist & exporter of steel pipes, tubes, flanges, fittings and bars to UAE, Saudi Arabia, USA and 40+ countries."
         keywords="steel manufacturer india, steel exporter mumbai, pipes tubes supplier india, siyak steel"
       />
       <OrganizationLd />
-      <WebPageLd url={absoluteUrl('/')} title="Steel Pipe, Tube & Fitting Manufacturer in India" description="Siyak Steel International — ISO 9001:2015 certified manufacturer, stockist & exporter of steel pipes, tubes, flanges, fittings and bars." />
+      <WebPageLd url={absoluteUrl('/')} description="Siyak Steel International — ISO 9001:2015 certified manufacturer, stockist & exporter of steel pipes, tubes, flanges, fittings and bars." />
       <BreadcrumbLd items={[{ name: 'Home', url: absoluteUrl('/') }]} />
       <section id="page-wrapper" className="clearfix">
 
@@ -56,7 +55,7 @@ export default function Home() {
 
               <div className="grid_12"><div className="heading-bordered"><h3>WHY US</h3></div>
               </div>
-              <div className="grid_3"><img src="img/why-choose-us.jpg" alt="Why Us" title="Why Us" /></div>
+              <div className="grid_3"><img src="img/why-choose-us.jpg" alt="Why Us" /></div>
               <div className="grid_9" style={{ color: '#000' }}>
   <p className="mb-6" style={{ marginBottom: '24px' }}>
     Founded by Mr. Narpat Siyak, Siyak Steel International is an ISO 9001:2015 certified manufacturer, stockist and exporter of ferrous & non-ferrous metal products — pipes, tubes, flanges, fittings, sheets, plates, bars and fasteners — trusted across 40+ countries.
@@ -118,21 +117,21 @@ export default function Home() {
 
                     <article className="grid_4">
 
-                      <Link to="/pipes-tubes-stockist-supplier-exporter-in-mumbai-india"><img src="/img/special/pipes-tubes.png" alt="Pipes & Tubes" title="Pipes & Tubes" style={{aspectRatio: '4/3', objectFit: 'cover'}}/></Link>
+                      <Link to="/pipes-tubes-stockist-supplier-exporter-in-mumbai-india"><img src="/img/special/pipes-tubes.png" alt="Pipes & Tubes" style={{aspectRatio: '4/3', objectFit: 'cover'}}/></Link>
 
                     </article>
 
 
                     <article className="grid_4">
 
-                      <Link to="/nickel-alloy-catalogue" target="_blank" rel="noopener noreferrer"><img src="/img/special/nickel-catalogue.png" alt="Nickel Alloy Catalogue" title="Nickel Alloy Catalogue" style={{aspectRatio: '4/3', objectFit: 'cover'}} /></Link>
+                      <Link to="/nickel-alloy-catalogue" target="_blank" rel="noopener noreferrer"><img src="/img/special/nickel-catalogue.png" alt="Nickel Alloy Catalogue" style={{aspectRatio: '4/3', objectFit: 'cover'}} /></Link>
 
                     </article>
 
 
                     <article className="grid_4 right">
 
-                      <Link to="/flanges-stockist-supplier-exporter-in-mumbai-india"><img src="/img/special/flanges.png" alt="Flanges" title="Flanges" style={{aspectRatio: '4/3', objectFit: 'cover'}} /></Link>
+                      <Link to="/flanges-stockist-supplier-exporter-in-mumbai-india"><img src="/img/special/flanges.png" alt="Flanges" style={{aspectRatio: '4/3', objectFit: 'cover'}} /></Link>
 
                     </article>
                   </div>

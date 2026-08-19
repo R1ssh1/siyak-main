@@ -10,12 +10,11 @@ export default function SocketweldFittings() {
   return (
     <>
       <SEO
-        title="Socketweld Fittings Exporter in India"
         description="Socketweld fittings in stainless, duplex and alloy steel — manufactured to ASME B16.11 standards. Supplied globally from Siyak Steel International."
         keywords="socketweld fittings india, socket weld fittings supplier mumbai, ASME B16.11 fittings"
       />
       <OrganizationLd />
-      <WebPageLd url={absoluteUrl('/socketweld-fittings-stockist-supplier-exporter-in-mumbai-india')} title="Socketweld Fittings Exporter in India" description="Socketweld fittings in stainless, duplex and alloy steel — manufactured to ASME B16.11 standards. Supplied globally from Siyak Steel International." />
+      <WebPageLd url={absoluteUrl('/socketweld-fittings-stockist-supplier-exporter-in-mumbai-india')} description="Socketweld fittings in stainless, duplex and alloy steel — manufactured to ASME B16.11 standards. Supplied globally from Siyak Steel International." />
       
             
             

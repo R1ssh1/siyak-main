@@ -10,12 +10,11 @@ export default function PipesTubes() {
   return (
     <>
       <SEO
-        title="Steel Pipes & Tubes Manufacturer in India"
         description="Siyak Steel International supplies seamless and welded stainless steel, duplex, carbon steel pipes and tubes in ASTM/ASME grades to global markets."
         keywords="steel pipes tubes manufacturer india, seamless pipes mumbai, stainless steel tubes exporter"
       />
       <OrganizationLd />
-      <WebPageLd url={absoluteUrl('/pipes-tubes-stockist-supplier-exporter-in-mumbai-india')} title="Steel Pipes & Tubes Manufacturer in India" description="Siyak Steel International supplies seamless and welded stainless steel, duplex, carbon steel pipes and tubes in ASTM/ASME grades to global markets." />
+      <WebPageLd url={absoluteUrl('/pipes-tubes-stockist-supplier-exporter-in-mumbai-india')} description="Siyak Steel International supplies seamless and welded stainless steel, duplex, carbon steel pipes and tubes in ASTM/ASME grades to global markets." />
       
             
             

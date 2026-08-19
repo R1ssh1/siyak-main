@@ -14,8 +14,8 @@ export default function SEO({
   const location = useLocation();
   const canonicalUrl = absoluteUrl(location.pathname);
 
-  const defaultTitle = `${companyInfo.name} — Manufacturer & Exporter in India`;
-  const defaultDescription = `${companyInfo.name} is a leading ISO 9001:2015 certified manufacturer, stockist and exporter of pipes, tubes, flanges, fittings, fasteners and plates. Serving 40+ countries from Mumbai, India.`;
+  const defaultTitle = `${companyInfo.name} | ISO 9001:2015 Certified Exporter`;
+  const defaultDescription = `${companyInfo.name} — ISO 9001:2015 certified manufacturer, stockist and exporter of pipes, tubes, flanges, fittings, fasteners, bars, plates and valves, serving 40+ countries.`;
 
   const finalTitle = title ? `${title} | ${companyInfo.name}` : defaultTitle;
   const finalDescription = description || defaultDescription;

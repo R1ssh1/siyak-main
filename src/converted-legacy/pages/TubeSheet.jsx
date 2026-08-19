@@ -10,12 +10,11 @@ export default function TubeSheet() {
   return (
     <>
       <SEO
-        title="Tube Sheets Manufacturer in India"
         description="Custom tube sheets in stainless, duplex and alloy steel for heat exchangers. ISO 9001:2015 certified supply by Siyak Steel International."
         keywords="tube sheets manufacturer india, heat exchanger tube sheet supplier mumbai"
       />
       <OrganizationLd />
-      <WebPageLd url={absoluteUrl('/tube-sheet-manufacturer-supplier-exporter-in-mumbai-india')} title="Tube Sheets Manufacturer in India" description="Custom tube sheets in stainless, duplex and alloy steel for heat exchangers. ISO 9001:2015 certified supply by Siyak Steel International." />
+      <WebPageLd url={absoluteUrl('/tube-sheet-manufacturer-supplier-exporter-in-mumbai-india')} description="Custom tube sheets in stainless, duplex and alloy steel for heat exchangers. ISO 9001:2015 certified supply by Siyak Steel International." />
       
             
             

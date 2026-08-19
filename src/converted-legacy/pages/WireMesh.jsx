@@ -10,12 +10,11 @@ export default function WireMesh() {
   return (
     <>
       <SEO
-        title="Industrial Wire Mesh Supplier in India"
         description="Woven and welded stainless steel wire mesh in various specifications. Siyak Steel International exports wire mesh globally from Mumbai."
         keywords="wire mesh manufacturer india, stainless steel wire mesh supplier mumbai"
       />
       <OrganizationLd />
-      <WebPageLd url={absoluteUrl('/wire-mesh-manufacturer-supplier-exporter-in-mumbai-india')} title="Industrial Wire Mesh Supplier in India" description="Woven and welded stainless steel wire mesh in various specifications. Siyak Steel International exports wire mesh globally from Mumbai." />
+      <WebPageLd url={absoluteUrl('/wire-mesh-manufacturer-supplier-exporter-in-mumbai-india')} description="Woven and welded stainless steel wire mesh in various specifications. Siyak Steel International exports wire mesh globally from Mumbai." />
       <section id="page-title-wire-mesh" className="page-title-1" data-stellar-background-ratio="0.3">
         <div className="container">
           <div className="row">

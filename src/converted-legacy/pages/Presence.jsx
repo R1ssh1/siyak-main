@@ -8,12 +8,11 @@ export default function Presence() {
   return (
     <>
       <SEO
-        title="Global Presence"
         description="Siyak Steel International exports to UAE, Saudi Arabia, Bahrain, Kuwait, Singapore, Malaysia, Indonesia, South Africa and the USA from Mumbai, India."
         keywords="steel exporter UAE, steel supplier Saudi Arabia, global steel supplier india"
       />
       <OrganizationLd />
-      <WebPageLd url={absoluteUrl('/presence')} title="Global Presence" description="Siyak Steel International exports to UAE, Saudi Arabia, Bahrain, Kuwait, Singapore, Malaysia, Indonesia, South Africa and the USA from Mumbai, India." />
+      <WebPageLd url={absoluteUrl('/presence')} description="Siyak Steel International exports to UAE, Saudi Arabia, Bahrain, Kuwait, Singapore, Malaysia, Indonesia, South Africa and the USA from Mumbai, India." />
       
             
             

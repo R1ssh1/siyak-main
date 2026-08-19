@@ -8,12 +8,11 @@ export default function AboutUs() {
   return (
     <>
       <SEO
-        title="About Siyak Steel International"
         description="Siyak Steel International — Founded by Mr. Narpat Siyak. ISO 9001:2015 certified exporter of industrial piping materials serving 40+ countries from Mumbai."
         keywords="about siyak steel, steel exporter mumbai, Narpat Siyak, ISO 9001 steel supplier india"
       />
       <OrganizationLd />
-      <WebPageLd url={absoluteUrl('/about-us')} title="About Siyak Steel International" description="Siyak Steel International — Founded by Mr. Narpat Siyak. ISO 9001:2015 certified exporter of industrial piping materials serving 40+ countries from Mumbai." />
+      <WebPageLd url={absoluteUrl('/about-us')} description="Siyak Steel International — Founded by Mr. Narpat Siyak. ISO 9001:2015 certified exporter of industrial piping materials serving 40+ countries from Mumbai." />
       
             
             

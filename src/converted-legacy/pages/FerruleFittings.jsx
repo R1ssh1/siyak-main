@@ -10,12 +10,11 @@ export default function FerruleFittings() {
   return (
     <>
       <SEO
-        title="Ferrule Fittings Manufacturer in India"
         description="OD tube ferrule fittings in stainless steel. Export quality compression fittings from Siyak Steel International, Mumbai."
         keywords="ferrule fittings manufacturer india, compression fittings supplier mumbai, OD tube fittings"
       />
       <OrganizationLd />
-      <WebPageLd url={absoluteUrl('/ferrule-fittings-stockist-supplier-exporter-in-mumbai-india')} title="Ferrule Fittings Manufacturer in India" description="OD tube ferrule fittings in stainless steel. Export quality compression fittings from Siyak Steel International, Mumbai." />
+      <WebPageLd url={absoluteUrl('/ferrule-fittings-stockist-supplier-exporter-in-mumbai-india')} description="OD tube ferrule fittings in stainless steel. Export quality compression fittings from Siyak Steel International, Mumbai." />
       
             
             

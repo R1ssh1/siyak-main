@@ -10,12 +10,11 @@ export default function SheetsPlates() {
   return (
     <>
       <SEO
-        title="Steel Sheets and Plates Manufacturer in India"
         description="Stainless, duplex and alloy steel sheets and plates in various grades and thicknesses. ISO 9001:2015 export quality — Siyak Steel International."
         keywords="steel sheets plates manufacturer india, stainless steel plates supplier mumbai"
       />
       <OrganizationLd />
-      <WebPageLd url={absoluteUrl('/sheets-plates-stockist-supplier-exporter-in-mumbai-india')} title="Steel Sheets and Plates Manufacturer in India" description="Stainless, duplex and alloy steel sheets and plates in various grades and thicknesses. ISO 9001:2015 export quality — Siyak Steel International." />
+      <WebPageLd url={absoluteUrl('/sheets-plates-stockist-supplier-exporter-in-mumbai-india')} description="Stainless, duplex and alloy steel sheets and plates in various grades and thicknesses. ISO 9001:2015 export quality — Siyak Steel International." />
       
             
             

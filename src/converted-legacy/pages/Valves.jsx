@@ -10,12 +10,11 @@ export default function Valves() {
   return (
     <>
       <SEO
-        title="Industrial Valves Supplier in India"
         description="Gate, globe, ball, butterfly and check valves in stainless and alloy steel. Competitive pricing and export quality from Siyak Steel International."
         keywords="industrial valves supplier india, stainless steel valves mumbai, gate globe ball valves exporter"
       />
       <OrganizationLd />
-      <WebPageLd url={absoluteUrl('/valves-stockist-supplier-exporter-in-mumbai-india')} title="Industrial Valves Supplier in India" description="Gate, globe, ball, butterfly and check valves in stainless and alloy steel. Competitive pricing and export quality from Siyak Steel International." />
+      <WebPageLd url={absoluteUrl('/valves-stockist-supplier-exporter-in-mumbai-india')} description="Gate, globe, ball, butterfly and check valves in stainless and alloy steel. Competitive pricing and export quality from Siyak Steel International." />
       
             
             
@@ -161,7 +160,7 @@ finest materials are used at reasonable prices.</p>
 
 
 
-<div className="grid_2"><img src="img/products/globe-valves.jpg" alt="Stainless Steel Globe Valves Supplier" title="Stainless Steel Globe Valves Exporter" /></div>
+<div className="grid_2"><img src="img/products/globe-valves.jpg" alt="Stainless Steel Globe Valves Supplier" /></div>
 <div className="grid_7">
 <div className="heading-bordered2"><h2><i className="icon icon-double-angle-right"></i> <b>Globe Valves</b></h2></div>
 
@@ -213,7 +212,7 @@ STD.</p></td>
 <br />
 <br />
 
-<div className="grid_2"><img src="img/products/gate-valve.jpg" alt="Stainless Steel Gate Valves Supplier" title="Stainless Steel Gate Valves Exporter" /></div>
+<div className="grid_2"><img src="img/products/gate-valve.jpg" alt="Stainless Steel Gate Valves Supplier" /></div>
 <div className="grid_7">
 
 <div className="heading-bordered2"><h2><i className="icon icon-double-angle-right"></i> <b>Gate Valves</b></h2></div>
@@ -271,7 +270,7 @@ STD.</p></td>
 <br />
 <br />
 
-<div className="grid_2"><img src="img/products/non-return-valve.jpg" alt="Stainless Steel Non Return Valves Supplier" title="Stainless Steel Non Return Valves Exporter" /></div>
+<div className="grid_2"><img src="img/products/non-return-valve.jpg" alt="Stainless Steel Non Return Valves Supplier" /></div>
 <div className="grid_7">
 
 <div className="heading-bordered2"><h2><i className="icon icon-double-angle-right"></i> <b>Non Return Valves</b></h2></div>
@@ -325,7 +324,7 @@ STD.</p></td>
 <br />
 <br />
 
-<div className="grid_2"><img src="img/products/strainer-valve.jpg" alt="Stainless Steel Strainer Valves Supplier" title="Stainless Steel Strainer Valves Exporter" /></div>
+<div className="grid_2"><img src="img/products/strainer-valve.jpg" alt="Stainless Steel Strainer Valves Supplier" /></div>
 <div className="grid_7">
 
 <div className="heading-bordered2"><h2><i className="icon icon-double-angle-right"></i> <b>Strainer</b></h2></div>
@@ -368,7 +367,7 @@ STD.</p></td>
 <div className="clear"></div>
 <div className="devider1"></div>
 
-<div className="grid_2"><img src="img/products/butterfly-valves.jpg" alt="Stainless Steel Butterfly Valves Supplier" title="Stainless Steel Butterfly Valves Exporter" /></div>
+<div className="grid_2"><img src="img/products/butterfly-valves.jpg" alt="Stainless Steel Butterfly Valves Supplier" /></div>
 <div className="grid_7">
 
 <div className="heading-bordered2"><h2><i className="icon icon-double-angle-right"></i><b> Butterfly Valves</b></h2></div>

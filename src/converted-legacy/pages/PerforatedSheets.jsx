@@ -10,12 +10,11 @@ export default function PerforatedSheets() {
   return (
     <>
       <SEO
-        title="Perforated Sheets Manufacturer in India"
         description="Stainless and mild steel perforated sheets in various hole patterns. Export quality from Siyak Steel International."
         keywords="perforated sheets manufacturer india, stainless steel perforated sheet supplier mumbai"
       />
       <OrganizationLd />
-      <WebPageLd url={absoluteUrl('/perforated-sheets-manufacturer-supplier-exporter-in-mumbai-india')} title="Perforated Sheets Manufacturer in India" description="Stainless and mild steel perforated sheets in various hole patterns. Export quality from Siyak Steel International." />
+      <WebPageLd url={absoluteUrl('/perforated-sheets-manufacturer-supplier-exporter-in-mumbai-india')} description="Stainless and mild steel perforated sheets in various hole patterns. Export quality from Siyak Steel International." />
       <section id="page-title-perforated" className="page-title-1" data-stellar-background-ratio="0.3">
         <div className="container">
           <div className="row">

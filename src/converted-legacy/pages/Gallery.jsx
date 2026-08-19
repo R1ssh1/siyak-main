@@ -8,12 +8,11 @@ export default function Gallery() {
   return (
     <>
       <SEO
-        title="Gallery"
         description="Browse our product and facility gallery — Siyak Steel International, ISO 9001:2015 certified exporter of steel pipes, tubes and fittings from Mumbai."
         keywords="steel products gallery india, siyak steel gallery, steel pipes images"
       />
       <OrganizationLd />
-      <WebPageLd url={absoluteUrl('/gallery')} title="Gallery" description="Browse our product and facility gallery — Siyak Steel International, ISO 9001:2015 certified exporter of steel pipes, tubes and fittings from Mumbai." />
+      <WebPageLd url={absoluteUrl('/gallery')} description="Browse our product and facility gallery — Siyak Steel International, ISO 9001:2015 certified exporter of steel pipes, tubes and fittings from Mumbai." />
        
   
   

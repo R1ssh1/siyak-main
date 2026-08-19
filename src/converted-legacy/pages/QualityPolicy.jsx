@@ -8,12 +8,11 @@ export default function QualityPolicy() {
   return (
     <>
       <SEO
-        title="Quality Policy"
         description="Read Siyak Steel International's quality policy — ISO 9001:2015 certified processes ensuring consistent, globally certified steel products."
         keywords="steel quality policy india, ISO 9001 steel exporter, quality assurance steel mumbai"
       />
       <OrganizationLd />
-      <WebPageLd url={absoluteUrl('/quality-policy')} title="Quality Policy" description="Read Siyak Steel International's quality policy — ISO 9001:2015 certified processes ensuring consistent, globally certified steel products." />
+      <WebPageLd url={absoluteUrl('/quality-policy')} description="Read Siyak Steel International's quality policy — ISO 9001:2015 certified processes ensuring consistent, globally certified steel products." />
       
             
             
