@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import ExportCalloutBanner from '../../components/ExportCalloutBanner';
 
@@ -61,17 +61,17 @@ export default function Contact() {
                 <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '24px', marginBottom: '22px' }}>
                   <div>
                     <h2 style={{ fontSize: '14px', letterSpacing: '0.08em', color: '#005d65', borderBottom: '1px solid #e5e5e5', paddingBottom: '8px', marginBottom: '12px' }}>HEAD OFFICE</h2>
-                    <p style={{ margin: 0, lineHeight: '1.6' }}>
+                    <p style={{ margin: 0, lineHeight: '1.6', textAlign: 'left' }}>
                       <strong>Siyak Steel International</strong><br />
-                      Plot No. 2,7 Kikabhai Mansion, 3rd Floor,<br />
-                      Office No. 17, Kika Street, Girgaon,<br />
-                      Mumbai - 400004, INDIA
+                      Plot No. 2/7, Kikabhai Mansion,<br />
+                      3rd Floor Office No. 17, Kika Street<br />
+                      Girgaon Mumbai-400004, India
                     </p>
                   </div>
 
                   <div>
                     <h2 style={{ fontSize: '14px', letterSpacing: '0.08em', color: '#005d65', borderBottom: '1px solid #e5e5e5', paddingBottom: '8px', marginBottom: '12px' }}>OVERSEAS REPRESENTATIVE</h2>
-                    <p style={{ margin: 0, lineHeight: '1.6' }}>
+                    <p style={{ margin: 0, lineHeight: '1.6', textAlign: 'left' }}>
                       <strong>Saudi Arabia</strong><br />
                       P.O. Box 8214, Dammam,<br />
                       Postal Code: 32415<br />
@@ -83,13 +83,17 @@ export default function Contact() {
 
                 <div style={{ marginBottom: '22px' }}>
                   <h2 style={{ fontSize: '14px', letterSpacing: '0.08em', color: '#005d65', borderBottom: '1px solid #e5e5e5', paddingBottom: '8px', marginBottom: '12px' }}>CONTACT PERSON</h2>
-                  <p style={{ margin: 0 }}>Mr. Narpat Siyak</p>
+                  <p style={{ margin: 0, lineHeight: '1.6', textAlign: 'left' }}>
+                    <strong>Mr. Narpat Siyak</strong><br />
+                    Director Sales<br />
+                    <i className="icon-phone" style={{ marginRight: '6px', color: '#005d65' }}></i>+91 98209 76537<br />
+                    <i className="icon-envelope" style={{ marginRight: '6px', color: '#005d65' }}></i><a href="mailto:info@siyaksteel.com">info@siyaksteel.com</a>
+                  </p>
                 </div>
 
                 <div style={{ marginBottom: '22px' }}>
                   <h2 style={{ fontSize: '14px', letterSpacing: '0.08em', color: '#005d65', borderBottom: '1px solid #e5e5e5', paddingBottom: '8px', marginBottom: '12px' }}>PHONE</h2>
-                  <p style={{ margin: 0 }}>
-                    <i className="icon-phone" style={{ marginRight: '6px', color: '#005d65' }}></i>+91 98209 76537<br />
+                  <p style={{ margin: 0, lineHeight: '1.6', textAlign: 'left' }}>
                     <i className="icon-phone" style={{ marginRight: '6px', color: '#005d65' }}></i>+91 22 6615 1478<br />
                     <i className="icon-phone" style={{ marginRight: '6px', color: '#005d65' }}></i>+91 22 6659 5225
                   </p>
@@ -97,20 +101,19 @@ export default function Contact() {
 
                 <div style={{ marginBottom: '22px' }}>
                   <h2 style={{ fontSize: '14px', letterSpacing: '0.08em', color: '#005d65', borderBottom: '1px solid #e5e5e5', paddingBottom: '8px', marginBottom: '12px' }}>WAREHOUSE</h2>
-                  <p style={{ margin: 0 }}>
+                  <p style={{ margin: 0, lineHeight: '1.6', textAlign: 'left' }}>
                     Plot No. 1320, Kalamboli Steel Market,<br />
                     Kalamboli, Dist. Raigad,<br />
                     Navi Mumbai - 410218, India
                   </p>
-                  <p style={{ margin: '8px 0 0' }}>
+                  <p style={{ margin: '8px 0 0', lineHeight: '1.6', textAlign: 'left' }}>
                     <i className="icon-phone" style={{ marginRight: '6px', color: '#005d65' }}></i>+91 98922 48158
                   </p>
                 </div>
 
                 <div>
                   <h2 style={{ fontSize: '14px', letterSpacing: '0.08em', color: '#005d65', borderBottom: '1px solid #e5e5e5', paddingBottom: '8px', marginBottom: '12px' }}>EMAIL</h2>
-                  <p style={{ margin: 0 }}>
-                    <i className="icon-envelope" style={{ marginRight: '6px', color: '#005d65' }}></i><a href="mailto:info@siyaksteel.com">info@siyaksteel.com</a><br />
+                  <p style={{ margin: 0, lineHeight: '1.6', textAlign: 'left' }}>
                     <i className="icon-envelope" style={{ marginRight: '6px', color: '#005d65' }}></i><a href="mailto:siyaksteel@gmail.com">siyaksteel@gmail.com</a>
                   </p>
                 </div>
@@ -120,14 +123,14 @@ export default function Contact() {
 
             <article className="grid_5 triggerAnimation animated" data-animate="fadeInRight">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.875!2d72.8295!3d18.9549!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce3d3f8ed309%3A0x76ba3ee4afcb906f!2sSiyak%20Steel%20International!5e1!3m2!1sen!2sin!4v1700000000000"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3414.7605869936883!2d72.8287446!3d18.9564628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cf216d65ca2d%3A0x73286d50f6b2c0bf!2sSIYAK%20STEEL%20INTERNATIONAL!5e1!3m2!1sen!2sin!4v1787130866463!5m2!1sen!2sin"
                 width="100%"
                 height="560"
                 frameBorder="0"
                 style={{ border: '1px solid #e5e5e5', display: 'block', minHeight: '480px', marginBottom: '20px' }}
                 allowFullScreen=""
                 loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
+                referrerPolicy="strict-origin-when-cross-origin"
               ></iframe>
             </article>
           </div>

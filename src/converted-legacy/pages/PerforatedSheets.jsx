@@ -21,9 +21,9 @@ export default function PerforatedSheets() {
             <div className="grid_9">
               <div className="pt-box">
                 <div className="pt-title triggerAnimation animated" data-animate="fadeInLeft">
-                  <h1><span className="strong">Perforated Sheets</span></h1>
-                  <p>Available in mild steel, stainless steel, aluminium and galvanised variants with custom hole patterns and gauges.</p>
-                </div>
+                                <h1><span className="strong">Perforated Sheets</span></h1>
+                                <p>Custom and standard perforated metal sheets manufactured in diverse hole patterns, gauges, and alloy grades.</p>
+                            </div>
               </div>
             </div>
             <div className="row">
@@ -94,12 +94,12 @@ export default function PerforatedSheets() {
                 </article>
                 <article className="grid_5 triggerAnimation animated" data-animate="fadeInRight">
                   <div style={{ marginBottom: '20px', color: '#222', lineHeight: '1.7' }}>
-                    <p>We are stockists and exporters of perforated sheets in mild steel, stainless steel, aluminium and galvanised steel. Available in round, square and decorative hole patterns with a wide range of sheet thicknesses and gauges to suit industrial, architectural and filtration requirements.</p>
+                    <p>We stock and export high-precision perforated sheets manufactured in stainless steel, carbon steel, aluminium, and galvanized alloys. Punched with accurate hole geometries and smooth edge margins, our perforated sheets serve vital filtration, acoustic dampening, ventilation, and decorative cladding requirements.</p>
                     <br />
-                    <p><strong>Materials:</strong> Mild Steel, Stainless Steel (304/316), Aluminium, Galvanised</p>
-                    <p><strong>Hole Patterns:</strong> Round, Square, Slot, Decorative</p>
-                    <p><strong>Thickness:</strong> 0.5mm to 12mm</p>
-                    <p><strong>Sheet Size:</strong> 1000×2000mm, 1220×2440mm, 1500×3000mm and custom sizes</p>
+                    <p><strong>Materials :</strong> Mild Steel, Stainless Steel (304, 304L, 316, 316L), Aluminium, Galvanized Steel</p>
+                    <p><strong>Hole Patterns :</strong> Round (Staggered/Straight), Square, Slotted, Hexagonal, and Custom Architectural Layouts</p>
+                    <p><strong>Thickness :</strong> 0.5 mm to 12 mm</p>
+                    <p><strong>Standard Sheet Sizes :</strong> 1000 × 2000 mm, 1220 × 2440 mm, 1500 × 3000 mm, and custom coils</p>
                   </div>
                 </article>
               </div>

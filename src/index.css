@@ -69,6 +69,14 @@
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(-10px); }
 }
+@keyframes isoFade {
+  0%, 100% { opacity: 0.2; }
+  50% { opacity: 1; }
+}
+
+.box-pro1 {
+  background: #02898f !important;
+}
 
 * {
   box-sizing: border-box;
@@ -284,7 +292,7 @@ a.float:hover{
  * Fixes for product cards (masobox) and grid alignments
  * ============================================================ */
 
-.masobox, .masobox2 {
+.masobox, .masobox2, .masobox3 {
   height: auto !important;
   min-height: 100%;
   display: flex !important;
@@ -295,12 +303,29 @@ a.float:hover{
   transition: all 0.3s ease;
 }
 
-.masobox .imgt, .masobox2 .imgt {
+.masobox .imgt, .masobox2 .imgt, .masobox3 .imgt {
   width: 100%;
+  height: 220px;
   overflow: hidden;
+  position: relative;
+  background-color: #f8fafc;
 }
 
-.masobox .content-maso, .masobox2 .content-maso {
+.masobox .imgt img, .masobox2 .imgt img, .masobox3 .imgt img {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.masobox:hover .imgt img, .masobox2:hover .imgt img, .masobox3:hover .imgt img {
+  transform: scale(1.06);
+}
+
+.masobox .content-maso, .masobox2 .content-maso, .masobox3 .content-maso {
   flex-grow: 1;
   display: flex;
   flex-direction: column;
@@ -310,11 +335,11 @@ a.float:hover{
   transition: all 0.3s ease;
 }
 
-.masobox .heading-link, .masobox2 .heading-link {
+.masobox .heading-link, .masobox2 .heading-link, .masobox3 .heading-link {
   flex-grow: 1;
 }
 
-.masobox .spant, .masobox2 .spant {
+.masobox .spant, .masobox2 .spant, .masobox3 .spant {
   color: #222 !important;
   font-weight: 500;
   line-height: 1.5;
@@ -323,21 +348,26 @@ a.float:hover{
 }
 
 .masobox:hover {
-  background-color: var(--color-teal) !important;
+  background-color: #005d65 !important;
 }
 
 .masobox2:hover {
-  background-color: var(--color-teal-light) !important;
+  background-color: #02898f !important;
 }
 
-.masobox:hover .content-maso, .masobox2:hover .content-maso {
+.masobox3:hover {
+  background-color: #67bed9 !important;
+}
+
+.masobox:hover .content-maso, .masobox2:hover .content-maso, .masobox3:hover .content-maso {
   background-color: transparent !important;
 }
 
-.masobox:hover .spant, .masobox2:hover .spant,
-.masobox:hover .heading-link, .masobox2:hover .heading-link,
-.masobox:hover .heading-link a, .masobox2:hover .heading-link a,
-.masobox:hover p, .masobox2:hover p {
+.masobox:hover .spant, .masobox2:hover .spant, .masobox3:hover .spant,
+.masobox:hover .heading-link, .masobox2:hover .heading-link, .masobox3:hover .heading-link,
+.masobox:hover .heading-link a, .masobox2:hover .heading-link a, .masobox3:hover .heading-link a,
+.masobox:hover p, .masobox2:hover p, .masobox3:hover p,
+.masobox:hover i, .masobox2:hover i, .masobox3:hover i {
   color: #fff !important;
 }
 
@@ -399,22 +429,22 @@ a.float:hover{
 }
 
 /* -------------------------------------------------------------------------
- * Legacy masobox and masobox2 custom hover effects
- * alternating between primary teal and secondary teal
+ * Legacy masobox, masobox2, and masobox3 custom hover effects
+ * alternating between primary teal (#005d65), ocean teal (#02898f), and sky blue (#67bed9)
  * ------------------------------------------------------------------------- */
-.masobox, .masobox2 {
+.masobox, .masobox2, .masobox3 {
   transition: all 0.3s ease;
 }
 
 /* Default state styling */
-.masobox .content-maso, .masobox2 .content-maso {
+.masobox .content-maso, .masobox2 .content-maso, .masobox3 .content-maso {
   transition: all 0.3s ease;
 }
-.masobox .spant, .masobox2 .spant,
-.masobox .heading-link, .masobox2 .heading-link,
-.masobox .heading-link > a, .masobox2 .heading-link > a,
-.masobox .heading-link i, .masobox2 .heading-link i,
-.masobox p, .masobox2 p {
+.masobox .spant, .masobox2 .spant, .masobox3 .spant,
+.masobox .heading-link, .masobox2 .heading-link, .masobox3 .heading-link,
+.masobox .heading-link > a, .masobox2 .heading-link > a, .masobox3 .heading-link > a,
+.masobox .heading-link i, .masobox2 .heading-link i, .masobox3 .heading-link i,
+.masobox p, .masobox2 p, .masobox3 p {
   transition: all 0.3s ease;
 }
 
@@ -423,15 +453,18 @@ a.float:hover{
   background-color: #005d65 !important;
 }
 .masobox2:hover, .masobox2:hover .content-maso {
-  background-color: #14b8ad !important;
+  background-color: #02898f !important;
+}
+.masobox3:hover, .masobox3:hover .content-maso {
+  background-color: #67bed9 !important;
 }
 
 /* Hover text changes to white */
-.masobox:hover .spant, .masobox2:hover .spant,
-.masobox:hover .heading-link, .masobox2:hover .heading-link,
-.masobox:hover .heading-link > a, .masobox2:hover .heading-link > a,
-.masobox:hover .heading-link i, .masobox2:hover .heading-link i,
-.masobox:hover p, .masobox2:hover p {
+.masobox:hover .spant, .masobox2:hover .spant, .masobox3:hover .spant,
+.masobox:hover .heading-link, .masobox2:hover .heading-link, .masobox3:hover .heading-link,
+.masobox:hover .heading-link > a, .masobox2:hover .heading-link > a, .masobox3:hover .heading-link > a,
+.masobox:hover .heading-link i, .masobox2:hover .heading-link i, .masobox3:hover .heading-link i,
+.masobox:hover p, .masobox2:hover p, .masobox3:hover p {
   color: #ffffff !important;
 }
 

@@ -29,8 +29,7 @@ export default function Fasteners() {
                     <div className="pt-box">
                             <div className="pt-title triggerAnimation animated" data-animate="fadeInLeft">
                                 <h1><span className="strong">Fasteners</span></h1>
-                                <p>We are highly acclaimed name in the global market for manufacturing of best quality Stainless Steel Fasteners for critical machine applications and desired results.<br />
-</p>
+                                <p>Heavy-duty bolts, nuts, studs, and washers engineered to international standards for severe industrial service.</p>
                             </div>
                             </div>
                         </div>
@@ -195,22 +194,19 @@ export default function Fasteners() {
                            
 
              <p>
-             
-We hold expertise In offering fasteners, such as nuts, bolts, washers, anchor &amp; fasteners, stud bolts, Threaded Rod to our clients. These are manufactured utilizing high grade, such as Stainless Steel, Carbon Steel, duplex steel, monel, inconel, hastelloy, titanium and nickel alloy, which Alloy Steel assure their high tensile strength and corrosion resistance. Our range finds applications in numerous industries and is offered in sizes ranging from M4 TO M100, length up to 5 meters as per the clients requirements.<br /><br />
+Siyak Steel International delivers high-tensile industrial fasteners engineered for extreme mechanical stress, thermal cycling, and corrosive environments. Manufactured to ASTM, ASME, DIN, ISO, and client drawings, our fasteners are widely utilized in heavy machinery, turbines, pressure vessels, and subsea assemblies.<br /><br />
 
-<strong>Silent Features</strong><br />
+<strong>Salient Features:</strong><br />
 
-</p><li>Severe vibration under impulse pressure</li>
-<li>Static pressure</li>
-<li>High tolerance</li>
-<li>Dimensional preciseness</li>
-<li>Corrosion resistance</li>
-<li>Perfect installation &amp; application </li>
-<li>Longservice life</li>
-<li>Study construction</li>
-<li>Fast performance</li><p></p>
-
-<p></p>
+</p><li>Exceptional resistance to vibration and impulse pressure</li>
+<li>High tensile yield and proof load capabilities</li>
+<li>Tight dimensional tolerance and accurate thread engagement</li>
+<li>Superior corrosion resistance across acidic, marine, and high-temperature environments</li>
+<li>Long service life and dependable structural integrity</li>
+<li>Wide range of surface coatings (Hot Dip Galvanized, PTFE, Zinc-Nickel, Cadmium)</li>
+<p><br />
+<strong>Size Range :</strong> Metric M4 to M100 and Imperial 1/4" to 4" (Lengths up to 5 meters).
+</p>
 
                             
 </article>

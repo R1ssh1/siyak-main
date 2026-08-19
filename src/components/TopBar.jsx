@@ -52,7 +52,7 @@ export default function TopBar() {
     <div className="hidden sm:block bg-ink text-paper/90 border-b border-white/5 overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 h-11 flex items-center justify-between gap-6 text-xs">
         {/* LEFT — ISO / Government Recognised Star Export House */}
-        <div className="flex items-center gap-2 shrink-0">
+        <div className="flex items-center gap-2 shrink-0" style={{ animation: 'isoFade 4s ease-in-out infinite' }}>
           <Award
             size={14}
             className="text-teal-light shrink-0"
@@ -60,7 +60,7 @@ export default function TopBar() {
           />
           <span
             className="font-medium tracking-wide text-[12px] whitespace-nowrap"
-            style={{ color: "#d5f5e3" }}
+            style={{ color: "#02898f" }}
           >
             ISO 9001:2015 Certified
           </span>

@@ -28,9 +28,8 @@ export default function RefractoryFixingsAnchors() {
                     <div className="grid_9">
                     <div className="pt-box">
                             <div className="pt-title triggerAnimation animated" data-animate="fadeInLeft">
-                                <h1>Refractory Fixings Anchors</h1>
-                                <p>We can supply refractory anchors and libra fixing systems to exacting tolerances in a <br />
-wide range of stainless steel and higher alloys.<br /></p>
+                                <h1><span className="strong">Refractory Fixings Anchors</span></h1>
+                                <p>High-temperature refractory anchor systems and custom fixings engineered for furnaces, kilns, and thermal process units.</p>
                             </div>
                             </div>
                         </div>
@@ -180,14 +179,13 @@ wide range of stainless steel and higher alloys.<br /></p>
                             
                            
 
-             <p><b>Material</b><br />
+             <p><b>Refractory Anchor Systems &amp; Fixings</b><br /><br />
+             We supply custom and standard refractory anchor systems manufactured to exact tolerances in heat-resistant stainless steels and superalloys. Designed to support monolithic, ceramic fiber, and brick refractory linings in industrial furnaces, kilns, boilers, and petrochemical reactors, our anchors provide superior mechanical retention across extreme thermal cycles.</p><br />
 
-We can supply refractory anchors and libra fixing systems to exacting tolerances in a wide range of stainless steel and higher alloys. Standard fixings are available in stainless steel grade (304) and grade (310), &amp; lnconel 601. Other grades of stainless steel, mild steels and alloys are available to suit requirements, including Stainless  Steel grade  (316).</p><p><br />
+<strong>Standard Materials :</strong> Stainless Steel 304, 310, 316, 321, 330, Inconel 601, Incoloy 800H, and Carbon Steel.<br />
+<strong>Configurations :</strong> V-Anchors, Y-Anchors, Corrugated Wave Anchors, Bullhorn Anchors, Libra Fixings, and Stud-Welded Pins.
 
-
-
-                            
-</p></article>
+</article>
 
 </div>
 <div className="clrspace"></div>

@@ -112,7 +112,7 @@ export default function ThirdPartyInspection() {
       <div className="container">
         <div className="row">
           <section className="grid_12">
-            <div className="box-pro1" style={{ "background": "#005d65", marginTop: '40px' }}>
+            <div className="box-pro1" style={{ "background": "#02898f", marginTop: '40px' }}>
               <div className="bphead">THIRD-PARTY INSPECTION</div>
             </div>
             <div style={{ textAlign: 'center', marginBottom: '40px', marginTop: '20px' }}>

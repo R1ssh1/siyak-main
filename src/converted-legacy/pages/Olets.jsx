@@ -28,9 +28,8 @@ export default function Olets() {
                     <div className="grid_9">
                     <div className="pt-box">
                             <div className="pt-title triggerAnimation animated" data-animate="fadeInLeft">
-                                <h1>Olets</h1>
-                                <p>The company offers comprehensive range of Olets <br />with 
-finest materials are used at reasonable prices.</p>
+                                <h1><span className="strong">Olets</span></h1>
+                                <p>Self-reinforced branch outlet fittings engineered to deliver maximum mechanical strength and uninterrupted piping flow.</p>
                             </div>
                             </div>
                         </div>
@@ -165,7 +164,7 @@ finest materials are used at reasonable prices.</p>
 <div className="grid_7">
 <div className="heading-bordered2"><h2><i className="icon icon-double-angle-right"></i> <b>Insert Weldolet</b></h2></div>
 
-<p>Being noted worldwide for our high quality, and dimensional accuracy Insert Weldolets, we offer our clients a wide rage. Fabricated using the best of raw material, and design compliance is of the best in the industry. Our products hold wide acclaim for high corrosion resistance, durability and ease of usage.</p>
+<p>Manufactured to tight dimensional tolerances, our Insert Weldolets deliver full-penetration reinforced branch connections for high-pressure header pipes, reducing stress concentrations and ensuring uninterrupted flow.</p>
 
 
 </div>
@@ -179,7 +178,8 @@ finest materials are used at reasonable prices.</p>
 <div className="grid_7">
 
 <div className="heading-bordered2"><h2><i className="icon icon-double-angle-right"></i> <b>Sockolet</b></h2></div>
-<p>Fabricated from High quality stainless steel, carbon steel and alloy steel, our range of sockolets is widely used in a wide array of industry applications. We have two categories in these Sockolets, which are Sockolet (3000) and Sockolet (6000) . Our Quality processes ensure dimensional accuracy, hassle free installation and usage.</p>
+
+<p>Precision-machined from forged stainless steel, carbon steel, and nickel alloys, our Sockolets (Class 3000# and 6000#) provide robust socket weld branch outlets engineered for easy alignment and vibration resistance.</p>
 
 </div>
 
@@ -191,11 +191,9 @@ finest materials are used at reasonable prices.</p>
 <div className="grid_2"><img src="img/products/olets3.jpg" alt="Stainless Steel Threadolet Supplier" /></div>
 <div className="grid_7">
 
-<div className="heading-bordered2"><h2><i className="icon icon-double-angle-right"></i> <b>Threadolet Nipolet</b></h2></div>
+<div className="heading-bordered2"><h2><i className="icon icon-double-angle-right"></i> <b>Threadolet &amp; Nipolet</b></h2></div>
 
-
-
-<p>Holding wide acclaim for durability, corrosion resistance and long life, our Threadolet Nippolets are fabricated from high grade raw materials. Ensuring conformity at all levels of production to the highest quality standards, these products, are offered in a variety of sizes to our clientèle.</p>
+<p>Engineered for durability and long service life, our Threadolets and Nipolets feature clean NPT/BSPT threads conforming to ASME B31.1 and B31.3 piping codes.</p>
 
 </div>
 
@@ -209,7 +207,7 @@ finest materials are used at reasonable prices.</p>
 
 <div className="heading-bordered2"><h2><i className="icon icon-double-angle-right"></i> <b>Elbolet</b></h2></div>
 
-<p>Offered in a wide array of specifications our elbowlets, and fabricated using the highest grades of raw materials. Renowned for our durability and finish, corrosion resistance and long life, Our Elbowlets are is constant demand worldwide, due to our stringent Quality control norms.</p>
+<p>Designed for 90° long radius elbows and short radius bends, our Elbolets provide reinforced branch outlets on bend geometries where standard connections are unfeasible.</p>
 
 
 
@@ -225,10 +223,9 @@ finest materials are used at reasonable prices.</p>
 <div className="grid_2"><img src="img/products/olets5.jpg" alt="Stainless Steel Branzolet Supplier" /></div>
 <div className="grid_7">
 
-<div className="heading-bordered2"><h2><i className="icon icon-double-angle-right"></i><b> Branzolet &amp; Coupolet</b></h2></div>
+<div className="heading-bordered2"><h2><i className="icon icon-double-angle-right"></i><b> Brazolet &amp; Coupolet</b></h2></div>
 
-
-<p>Requiring low maintenance and being of a high corrosion resistance, Our Banzolets and Coupolets are available in a wide range of High grade raw materials and specifications suitable to a large set of applications. Due to our extensive Quality checks we ensure that our Branzolets and coupolets are in huge demand across the globe.</p>
+<p>Engineered for specialized piping taps, our Brazolets and Coupolets offer high corrosion resistance, low maintenance, and exact fit-up for process instrumentation and sampling lines.</p>
 
 
 

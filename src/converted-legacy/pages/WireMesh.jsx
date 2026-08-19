@@ -21,9 +21,9 @@ export default function WireMesh() {
             <div className="grid_9">
               <div className="pt-box">
                 <div className="pt-title triggerAnimation animated" data-animate="fadeInLeft">
-                  <h1><span className="strong">Wire Mesh</span></h1>
-                  <p>Carbon steel, stainless steel and galvanised wire mesh available in woven and welded configurations.</p>
-                </div>
+                                <h1><span className="strong">Wire Mesh</span></h1>
+                                <p>High-accuracy woven wire cloth and welded mesh rolls and panels tailored for filtration, screening, and protection.</p>
+                            </div>
               </div>
             </div>
             <div className="row">
@@ -94,13 +94,13 @@ export default function WireMesh() {
                 </article>
                 <article className="grid_5 triggerAnimation animated" data-animate="fadeInRight">
                   <div style={{ marginBottom: '20px', color: '#222', lineHeight: '1.7' }}>
-                    <p>We supply wire mesh in carbon steel, stainless steel (304/316) and galvanised variants. Available in woven and welded configurations for filtration, security, fencing and industrial screening applications. Custom aperture sizes and wire diameters available to specification.</p>
+                    <p>Siyak Steel International supplies premium-grade woven and welded industrial wire mesh crafted for exacting filtration, sieving, grading, and structural shielding. Available in varied weave patterns (Plain, Twilled, Dutch) and aperture counts, our mesh delivers dimensional stability and uniform open area.</p>
                     <br />
-                    <p><strong>Materials:</strong> Carbon Steel, Stainless Steel 304/316, Galvanised</p>
-                    <p><strong>Types:</strong> Woven Wire Mesh, Welded Wire Mesh</p>
-                    <p><strong>Wire Diameter:</strong> 0.5mm to 8mm</p>
-                    <p><strong>Aperture Sizes:</strong> 1mm to 100mm (custom available)</p>
-                    <p><strong>Sheet/Roll Sizes:</strong> 1m, 1.2m, 1.5m, 2m widths in standard and custom lengths</p>
+                    <p><strong>Materials :</strong> Stainless Steel (304, 316, 310, 904L), Carbon Steel, Galvanized Iron, Copper Alloys</p>
+                    <p><strong>Types :</strong> Woven Wire Cloth, Welded Wire Mesh, Crimped Mesh, Demister Pads</p>
+                    <p><strong>Wire Diameter :</strong> 0.5 mm to 8.0 mm</p>
+                    <p><strong>Aperture Range :</strong> 1 mm to 100 mm (micron ratings down to 5 microns on request)</p>
+                    <p><strong>Roll / Panel Sizes :</strong> 1 m, 1.2 m, 1.5 m, 2 m widths in standard and customized lengths</p>
                   </div>
                 </article>
               </div>

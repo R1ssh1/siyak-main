@@ -7,7 +7,7 @@ export default function Industries() {
       <div className="container">
         <div className="row">
           <section className="grid_12">
-            <div className="box-pro1" style={{ "background": "#005d65" }}>
+            <div className="box-pro1" style={{ "background": "#02898f" }}>
               <div className="bphead">INDUSTRIES WE SERVE</div>
             </div>
             <div style={{ textAlign: 'center', marginBottom: '40px', marginTop: '20px' }}>
@@ -20,7 +20,7 @@ export default function Industries() {
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(260px, 1fr))', gap: '25px', padding: '15px 0' }}>
             {industries.map((ind, i) => (
               <div key={ind.name} style={{ display: 'flex' }}>
-                <div className={i % 2 === 0 ? "masobox" : "masobox2"} style={{ border: '1px solid #e5e5e5', background: '#fff', width: '100%', height: '100%', display: 'flex', flexDirection: 'column' }}>
+                <div className={i % 3 === 0 ? "masobox" : i % 3 === 1 ? "masobox2" : "masobox3"} style={{ border: '1px solid #e5e5e5', background: '#fff', width: '100%', height: '100%', display: 'flex', flexDirection: 'column' }}>
                   <div className="imgt" style={{ overflow: 'hidden' }}>
                     <img
                       src={ind.image}

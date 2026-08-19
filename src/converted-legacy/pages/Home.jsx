@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import Slider from '../components/Slider';
 import Industries from '../../components/Industries';
@@ -32,8 +32,8 @@ export default function Home() {
               <article className="grid_12">
                 <div className="triggerAnimation animated" data-animate="fadeInUp">
                   <div className="note no-bottom-margin" style={{ textAlign: 'center', padding: '15px 20px' }}>
-                    <h5 style={{ fontWeight: 400, color: '#000', fontSize: '1.1rem', marginBottom: '8px' }}>India’s trusted stockist & exporter — <strong style={{ fontWeight: 600, color: '#000' }}>Siyak Steel International</strong> ships certified steel & alloys to 40+ countries.</h5>
-                    <h2 style={{ "color": "#000", "fontWeight": "700", "fontSize": "1.25rem", "letterSpacing": "0.05em" }} className="uppercase">“TRUSTED STOCKS • ON-TIME SHIPMENTS • EVERY TIME”</h2>
+                    <h5 style={{ fontWeight: 400, color: '#000', fontSize: '1.1rem', marginBottom: '8px' }}>We are <strong style={{ fontWeight: 600, color: '#000' }}>Siyak Steel International</strong>, trusted global exporters of Steel and Metal Products.</h5>
+                    <h2 style={{ "color": "#000", "fontWeight": "700", "fontSize": "1.25rem", "letterSpacing": "0.05em" }} className="uppercase">“Strengthening the future with steel”</h2>
                   </div>
                 </div>
               </article>
@@ -103,7 +103,7 @@ export default function Home() {
 
                 <div className="row">
                   <section className="grid_12">
-                    <div className="box-pro1" style={{ "background": "#005d65" }}>
+                    <div className="box-pro1" style={{ "background": "#02898f" }}>
                       <div className="bphead">OUR SPECIAL PRODUCTS</div>
                     </div>
                   </section>
@@ -112,28 +112,29 @@ export default function Home() {
                 <br />
 
 
-                <div className="grid_12">
-                  <div className="row">
+                <div className="grid_12" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '20px', width: '100%', boxSizing: 'border-box' }}>
+                  <div>
+                    <Link to="/pipes-tubes-stockist-supplier-exporter-in-mumbai-india">
+                      <img src="/img/special/pipes-tubes.png" alt="Stainless Steel Pipes & Tubes" style={{ width: '100%', aspectRatio: '4/3', objectFit: 'cover', display: 'block', borderRadius: '4px' }} />
+                    </Link>
+                  </div>
 
-                    <article className="grid_4">
+                  <div>
+                    <Link to="/flanges-stockist-supplier-exporter-in-mumbai-india">
+                      <img src="/img/special/flanges.png" alt="Duplex Steel Flanges & Fittings" style={{ width: '100%', aspectRatio: '4/3', objectFit: 'cover', display: 'block', borderRadius: '4px' }} />
+                    </Link>
+                  </div>
 
-                      <Link to="/pipes-tubes-stockist-supplier-exporter-in-mumbai-india"><img src="/img/special/pipes-tubes.png" alt="Pipes & Tubes" style={{aspectRatio: '4/3', objectFit: 'cover'}}/></Link>
+                  <div>
+                    <Link to="/nickel-alloy-catalogue" target="_blank" rel="noopener noreferrer">
+                      <img src="/img/special/nickel-catalogue.png" alt="Nickel Alloy Catalogue" style={{ width: '100%', aspectRatio: '4/3', objectFit: 'cover', display: 'block', borderRadius: '4px' }} />
+                    </Link>
+                  </div>
 
-                    </article>
-
-
-                    <article className="grid_4">
-
-                      <Link to="/nickel-alloy-catalogue" target="_blank" rel="noopener noreferrer"><img src="/img/special/nickel-catalogue.png" alt="Nickel Alloy Catalogue" style={{aspectRatio: '4/3', objectFit: 'cover'}} /></Link>
-
-                    </article>
-
-
-                    <article className="grid_4 right">
-
-                      <Link to="/flanges-stockist-supplier-exporter-in-mumbai-india"><img src="/img/special/flanges.png" alt="Flanges" style={{aspectRatio: '4/3', objectFit: 'cover'}} /></Link>
-
-                    </article>
+                  <div>
+                    <Link to="/pipes-tubes-stockist-supplier-exporter-in-mumbai-india">
+                      <img src="/img/special/copper.png" alt="Copper Alloy" style={{ width: '100%', aspectRatio: '4/3', objectFit: 'cover', display: 'block', borderRadius: '4px' }} />
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -171,7 +172,7 @@ export default function Home() {
           <div className="container">
             <div className="row">
               <section className="grid_12">
-                <div className="box-pro1" style={{ "background": "#005d65" }}>
+                <div className="box-pro1" style={{ "background": "#02898f" }}>
                   <div className="bphead">OUR PRODUCTS</div>
                 </div>
               </section>
@@ -181,10 +182,10 @@ export default function Home() {
               <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '20px', marginBottom: '20px', width: '100%' }}>
                 {productCategories.slice(0, 8).map((cat, i) => (
                   <div style={{ display: 'flex' }} key={cat.slug}>
-                    <div className={i % 2 === 0 ? "masobox" : "masobox2"} style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', background: '#fff', border: '1px solid #e5e5e5' }}>
-                      <div className="imgt" style={{ overflow: 'hidden', display: 'flex', alignItems: 'center', justifyContent: 'center', background: '#fff' }}>
-                        <img src={cat.image} alt={cat.name} title={cat.name} style={{aspectRatio: '4/3', objectFit: 'contain', objectPosition: 'center', width: '100%', display: 'block', padding: '10px'}}/>
-                      </div>
+                    <div className={i % 3 === 0 ? "masobox" : i % 3 === 1 ? "masobox2" : "masobox3"} style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', background: '#fff', border: '1px solid #e5e5e5' }}>
+                      <div className="imgt">
+                    <img src={cat.image} alt={cat.name} title={cat.name} />
+                  </div>
                       <div className="content-maso" style={{ flexGrow: 1, padding: '20px', display: 'flex', flexDirection: 'column', background: '#fff' }}>
                         <div className="heading-link" style={{ flexGrow: 1 }}>
                           <Link to={`/${cat.slug}`}>

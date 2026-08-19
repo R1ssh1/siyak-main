@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import ExportDestinations from '../../components/ExportDestinations';
 import RelatedProducts from '../../components/RelatedProducts';
@@ -29,7 +29,7 @@ export default function SheetsPlates() {
                     <div className="pt-box">
                             <div className="pt-title triggerAnimation animated" data-animate="fadeInLeft">
                                 <h1><span className="strong">Sheets &amp; Plates</span></h1>
-                                <p>Fulfill all your steel plate requirements from our range of products. We manufacture &amp; supply wide range of steel sheets for quality end results.<br /></p>
+                                <h4>High-grade industrial plates, coils, and sheets supplied in comprehensive thicknesses, widths, and corrosion-resistant alloys.</h4>
                             </div>
                             </div>
                         </div>
@@ -87,10 +87,10 @@ export default function SheetsPlates() {
     <li className="widget widget_productlist ">
       <h2>SHEETS,PLATES &amp; COILS</h2>
        <ul className="">
-        <li><Link to="/nickel-alloy-sheets-plates-coils">Nickel Alloy Sheets,Plates &amp; Coils</Link></li>
-        <li><Link to="/stainless-steel-sheets-plates-coils">Stainless Steel Sheets,Plates &amp; Coils</Link></li>
-        <li><Link to="/carbon-steel-sheets-plates-coils">Carbon Steel Sheets,Plates &amp; Coils</Link></li>        
-        <li><Link to="/alloy-steel-sheets-plates-coils">Alloy Steel Sheets,Plates &amp; Coils</Link></li>
+        <li><a href="#nickel-alloy-sheets">Nickel Alloy Sheets,Plates &amp; Coils</a></li>
+        <li><a href="#stainless-steel-sheets">Stainless Steel Sheets,Plates &amp; Coils</a></li>
+        <li><a href="#carbon-steel-sheets">Carbon Steel Sheets,Plates &amp; Coils</a></li>        
+        <li><a href="#alloy-steel-sheets">Alloy Steel Sheets,Plates &amp; Coils</a></li>
       </ul>  
       </li>
   </ul>
@@ -193,13 +193,13 @@ export default function SheetsPlates() {
                            
 
              <p>
-             </p><p>We have been offering to our clients a vast range of Sheets and Coils that are offered in various specifications to our clients. Catering to the requirements of various industries, our range is known for its corrosion resistance, durability &amp; high tensile strength.<br /><br />
+             We supply a comprehensive inventory of high-performance sheets, plates, and coils engineered to satisfy demanding industrial fabrication and pressure-containment requirements. Sourced from certified mills, our sheets and plates exhibit exceptional tensile strength, uniform surface finish, and outstanding resistance to pitting and crevice corrosion in harsh operational environments.<br /><br />
 
-Our clients can avail from us Plates that are manufactured using high grade stainless steel.  These cater to the requirements of various industries and are known for their attributes, such as high tensile strength, corrosion resistance &amp; long life usage.  Further, we also have the expertise to Customize our range as per the requirements of the clients. </p><br />
+Our plates and coils are fully customizable in length, width, and surface finish (2B, No. 4, BA, HRAP) to align with specific project engineering drawings and third-party inspection criteria. </p><br />
 
 <strong>Range</strong><br />
 
-0.5 mm To 200 mm thick in 1000 mm To 3000 mm width &amp; 2500 mm To 12500 mm length available with NACE MR 01-75<br />
+0.5 mm to 200 mm thickness in widths from 1000 mm to 3000 mm and lengths up to 12500 mm (available with NACE MR 01-75 / ISO 15156 compliance).<br />
 <br />
                             
 </article>
@@ -207,7 +207,7 @@ Our clients can avail from us Plates that are manufactured using high grade stai
 </div>
 <div className="clrspace"></div>
 
-<div className="heading-bordered2">
+<div id="nickel-alloy-sheets" className="heading-bordered2" style={{ scrollMarginTop: '100px' }}>
 <h2><i className="icon icon-double-angle-right"></i> <b>Nickel Alloy Sheets &amp; Plates</b></h2>
 </div>
 <p>
@@ -223,7 +223,7 @@ ASTM/ASME SB 619/622/626 UNS 10276 (HASTELLOY C 276)<br /></p>
 
 <br />
 <div className="devider1"></div>
-<div className="heading-bordered2">
+<div id="stainless-steel-sheets" className="heading-bordered2" style={{ scrollMarginTop: '100px' }}>
 <h2><i className="icon icon-double-angle-right"></i><b> Stainless Steel Sheets &amp; Plates</b></h2>
 </div>
 
@@ -233,13 +233,13 @@ ASTM/ASME SB 619/622/626 UNS 10276 (HASTELLOY C 276)<br /></p>
 <br />
 <div className="devider1"></div>
 
-<div className="heading-bordered2">
+<div id="carbon-steel-sheets" className="heading-bordered2" style={{ scrollMarginTop: '100px' }}>
 <h2><i className="icon icon-double-angle-right"></i><b> Carbon Steel&amp; Boiler Quality Plates
 </b></h2></div>
 <p>As per IS 2062/ASTM A36, Gr.A,B&amp;C,IS 2002 Gr.1 &amp; 2 ASTM A516 Gr.60&amp;70 </p> <br />
 <br />
 <div className="devider1"></div>
-<div className="heading-bordered2">
+<div id="alloy-steel-sheets" className="heading-bordered2" style={{ scrollMarginTop: '100px' }}>
 <h2><i className="icon icon-double-angle-right"></i><b> Alloy Steel Sheets &amp; Plates</b></h2>
 </div>
 <p>as per ASTM A387 Gr.2, 5, 9, 11, 12 &amp; 22 in class 1&amp;2 ASTM A204 Gr.A &amp; B,DIN 17175 Gr.15 Mo 3 &amp; 16 Mo 3 with IBR Test Certificate.</p><br />

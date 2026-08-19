@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 
 import SEO from '../../components/SEO';
@@ -17,7 +17,7 @@ export default function Sitemap() {
         <div className="container">
           <div className="row">
             <div className="grid_12">
-              <div className="box-pro1" style={{ background: '#005d65' }}>
+              <div className="box-pro1" style={{ background: '#02898f' }}>
                 <div className="bphead">SITEMAP</div>
               </div>
             </div>

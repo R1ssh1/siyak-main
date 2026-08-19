@@ -43,7 +43,7 @@ Siyak Steel International is a young, dynamic company which began trading in ste
     <div class="container">
         <div class="row">
             <section class="grid_12">
-                <div class="box-pro1" style="background:#005d65">
+                <div class="box-pro1" style="background:#02898f">
 <div class="bphead">OUR SPECIAL PRODUCTS</div>
 </div>
             </section>

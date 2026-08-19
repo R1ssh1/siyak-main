@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import ExportDestinations from '../../components/ExportDestinations';
 import RelatedProducts from '../../components/RelatedProducts';
@@ -29,7 +29,7 @@ export default function RoundBars() {
                     <div className="pt-box">
                             <div className="pt-title triggerAnimation animated" data-animate="fadeInLeft">
                                 <h1><span className="strong">Round Bars</span></h1>
-                                <p>we are involved in offering a qualitative Steel Round Bars to our clients. Widely used in the making of canals, bridges, buildings, hotels, hospitals, homes et.,<br /></p>
+                                <p>Precision-turned, cold-drawn, and forged solid bars engineered for machining, structural, and heavy engineering needs.</p>
                             </div>
                             </div>
                         </div>
@@ -89,12 +89,12 @@ export default function RoundBars() {
     <li className="widget widget_productlist ">
       <h2>ROUND BARS &amp; RODS</h2>
        <ul className="">
-        <li><Link to="/high-nickel-alloy-round-bars-rods">High Nickel Alloy Round Bars &amp; Rods</Link></li>
-        <li><Link to="/stainless-steel-round-bars-rods">Stainless Steel Round Bars &amp; Rods</Link></li>
-        <li><Link to="/carbon-steel-round-bars-rods">Carbon Steel Round Bars &amp; Rods</Link></li>        
-        <li><Link to="/alloy-steel-round-bars-rods">Alloy Steel Round Bars &amp; Rods</Link></li>
-        <li><Link to="/aluminium-round-bars-rods">Aluminium Round Bars &amp; Rods</Link></li>
-        <li><Link to="/copper-nickel-alloy-round-bars-rods">Copper Nickel Round Bars &amp; Rods</Link></li>
+        <li><a href="#nickel-alloy-round-bars">High Nickel Alloy Round Bars &amp; Rods</a></li>
+        <li><a href="#stainless-steel-round-bars">Stainless Steel Round Bars &amp; Rods</a></li>
+        <li><a href="#carbon-steel-round-bars">Carbon Steel Round Bars &amp; Rods</a></li>        
+        <li><a href="#alloy-steel-round-bars">Alloy Steel Round Bars &amp; Rods</a></li>
+        <li><a href="#nickel-alloy-round-bars">Aluminium Round Bars &amp; Rods</a></li>
+        <li><a href="#nickel-alloy-round-bars">Copper Nickel Round Bars &amp; Rods</a></li>
       </ul>  
       </li>
   </ul>
@@ -112,12 +112,12 @@ export default function RoundBars() {
     <li className="widget widget_productlist ">
       <h2>Special Product</h2>
        <ul className="">        
-         <li><Link to="/c72900-wrought">C72900  (WROUGHT)</Link></li>
-         <li><Link to="/c96900-continuous-cast">C96900 (COUNTINUOUS CAST)</Link></li>
-         <li><Link to="/mold-alloys">MOLD ALLOYS</Link></li>
-         <li><Link to="/alloy-super-13cr-uns-s41427">ALLOY SUPER 13CR / UNS S41427</Link></li>
-         <li><Link to="/api-5ct-l80-casing-pipes-tubes-supplier-exporter">API 5CT L80</Link></li>
-         <li><Link to="/aisi-420-mod-uns-s42000-en-1-4021-round-bar-supplier-exporter">AISI 420 Round Bar</Link></li>
+         <li><a href="#nickel-alloy-round-bars">C72900  (WROUGHT)</a></li>
+         <li><a href="#nickel-alloy-round-bars">C96900 (COUNTINUOUS CAST)</a></li>
+         <li><a href="#nickel-alloy-round-bars">MOLD ALLOYS</a></li>
+         <li><a href="#alloy-steel-round-bars">ALLOY SUPER 13CR / UNS S41427</a></li>
+         <li><a href="#nickel-alloy-round-bars">API 5CT L80</a></li>
+         <li><a href="#stainless-steel-round-bars">AISI 420 Round Bar</a></li>
       </ul>  
       </li>
   </ul>
@@ -207,10 +207,11 @@ export default function RoundBars() {
                            
 
              <p>
-             </p><p>We are offering to our clients a wide range of Round Bars that are available in varied grades of stainless steel, carbon steel, nickel alloys and alloy steel. Our Round Bars have great utility as machinery equipment in various industries and for diverse architectural purposes. These round bars feature superior polish, excellent finish, sturdy construction and high tolerance level. </p><br />
-<li>Nlckel &amp; Copper Alloy</li>
-<li>Stainless &amp; Duplax Steel</li>
-<li>Carbon &amp; Alloy Steel</li>	
+             Siyak Steel International supplies an extensive portfolio of precision-engineered round bars, rods, hex bars, and wire rods. Available in hot-rolled, forged, cold-drawn, and peeled/turned finishes, our bars offer superior straightness, close dimensional tolerances, and high structural integrity for heavy machinery, machining components, and architectural frameworks. </p><br />
+<strong>Available Materials:</strong>
+<li>Nickel &amp; Copper Superalloys</li>
+<li>Stainless Steel &amp; Duplex / Super Duplex Steel</li>
+<li>Carbon Steel &amp; High-Tensile Alloy Steel</li>	
 
 
 
@@ -227,13 +228,13 @@ export default function RoundBars() {
 <p>Stainless Steel, Nickel Alloys, Carbon Steel, Alloy Steel.</p><br />
 <br />
 
-<div className="heading-bordered2">
+<div id="nickel-alloy-round-bars" className="heading-bordered2" style={{ scrollMarginTop: '100px' }}>
 <h2><i className="icon icon-double-angle-right"></i> <b>High Nickel Alloy Round Bars &amp; Rods</b></h2></div>
 
 <p>Monel, Nickel, lnconel, Hastelloy, Copper, Brass, Bronze, Titanium, Tantalum, Bismuth, Aluminium, HighSpeed Steel, Zinc, Lead, etc.</p><br />
 <br />
 <div className="devider1"></div>
-<div className="heading-bordered2">
+<div id="stainless-steel-round-bars" className="heading-bordered2" style={{ scrollMarginTop: '100px' }}>
 <h2><i className="icon icon-double-angle-right"></i><b> Stainless Steel Round Bars &amp; Round Rods</b></h2></div>
 
 
@@ -244,13 +245,13 @@ export default function RoundBars() {
 
 
 </p><div className="devider1"></div>
-<div className="heading-bordered2">
+<div id="carbon-steel-round-bars" className="heading-bordered2" style={{ scrollMarginTop: '100px' }}>
 <h2><i className="icon icon-double-angle-right"></i><b> Carbon Steel I Boller Quality Round Rods</b></h2></div>
 
 <p>As per IS 2062/ASTM A36, Gr.A,B&amp; C, IS 2002 Gr. 1 &amp; 2 ASTM A516 Gr.60 &amp; 70, ASTM A515 Gr.70</p>
 
 <div className="devider1"></div>
-<div className="heading-bordered2">
+<div id="alloy-steel-round-bars" className="heading-bordered2" style={{ scrollMarginTop: '100px' }}>
 <h2><i className="icon icon-double-angle-right"></i><b> Alloy Steel Round Bars &amp; Rods</b></h2></div>
 <p>As per ASTM A387 Gr.2, 5, 9, 11, 12 &amp; 22 in class 1 &amp; 2 ASTM A204 Gr.A&amp;B, DIN 17175 Gr.15 Mo3 &amp; 16 Mo3 with IBR Test Certificate.</p>
 

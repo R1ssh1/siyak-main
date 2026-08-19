@@ -28,9 +28,8 @@ export default function FerruleFittings() {
                     <div className="grid_9">
                     <div className="pt-box">
                             <div className="pt-title triggerAnimation animated" data-animate="fadeInLeft">
-                                <h1>Ferrule Fittings</h1>
-                                <p>The company offers comprehensive range of superior quality Ferrule Fittings in which <br />
-finest materials are used at reasonable prices.</p>
+                                <h1><span className="strong">Ferrule Fittings</span></h1>
+                                <h4>Precision instrumentation compression tube fittings designed for leak-tight gas and liquid handling systems.</h4>
                             </div>
                             </div>
                         </div>
@@ -182,17 +181,13 @@ finest materials are used at reasonable prices.</p>
                            
 
              <p>
-The company offers comprehensive range of superior quality Dairy Fittings in which finest materials are used. We have carved out a niche for our self as Dairy Steel providers at reasonable prices. This line consists of Tri-Ciover parts with either Tri-Weld ends suitable for use with orbital welding equipment or self-aligning Tri-damp and connections.</p><p><br />
+Siyak Steel International provides high-precision single and double ferrule compression tube fittings engineered for leak-tight gas and liquid handling in high-pressure instrumentation lines. Designed to ensure reliable make-and-remake connections without tube distortion, our fittings excel across chemical analysis, hydraulic control, and pneumatic process systems.</p><br />
 
-</p><p>
-<strong>Material Of Construction :</strong> 304,304L,316, 316L etc <br />
+<strong>Material Of Construction :</strong> Stainless Steel 304, 304L, 316, 316L, 321, Monel 400, Inconel 625, Hastelloy C276<br />
+<strong>Finish :</strong> Precision Machined, Mechanical Polish, and Electropolished finishes<br />
+<strong>Pressure Ratings :</strong> Up to 10,000 PSI depending on tube size and wall thickness<br />
+<strong>Types :</strong> Male/Female Connectors, Unions, Reducing Unions, Elbows, Tees, Bulkhead Fittings, and Crosses
 
-<strong>Finish :</strong> Mechanical Polish as well as Electropolish finishes. <br />
-<strong>Types : </strong> Seamless &amp; Welded
-
-</p>
-
-                            
 </article>
 
 </div>

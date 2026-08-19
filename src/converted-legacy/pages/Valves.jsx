@@ -28,9 +28,8 @@ export default function Valves() {
                     <div className="grid_9">
                     <div className="pt-box">
                             <div className="pt-title triggerAnimation animated" data-animate="fadeInLeft">
-                                <h1>Valves</h1>
-                                <p>The company offers comprehensive range of superior quality Dairy Fittings in which <br />
-finest materials are used at reasonable prices.</p>
+                                <h1><span className="strong">Valves</span></h1>
+                                <h4>Comprehensive selection of industrial gate, globe, check, and ball valves built for precise flow isolation and control.</h4>
                             </div>
                             </div>
                         </div>
@@ -157,6 +156,9 @@ finest materials are used at reasonable prices.</p>
                             <section className="heading-bordered">
                                 <h1>Valves</h1>
                             </section>
+                            <div style={{ marginBottom: '25px', color: '#222', lineHeight: '1.7' }}>
+                              <p>Siyak Steel International supplies an extensive range of industrial flow-control valves engineered for precise throttling, positive shut-off, and pressure regulation in severe service conditions. Certified to API 6D, API 600, ASME B16.34, and BS standards, our valves deliver dependable operation across petrochemical, chemical, steam, and cryogenic applications.</p>
+                            </div>
 
 
 

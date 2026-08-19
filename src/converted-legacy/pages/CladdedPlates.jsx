@@ -28,8 +28,8 @@ export default function CladdedPlates() {
                     <div className="grid_9">
                     <div className="pt-box">
                             <div className="pt-title triggerAnimation animated" data-animate="fadeInLeft">
-                                <h1>Cladded Plates</h1>
-                                <p>we provide a gamut of superlative clad metal platesthat is made into various shapes and<br /> products for many industries.</p>
+                                <h1><span className="strong">Cladded Plates</span></h1>
+                                <p>Engineered corrosion-resistant explosion and roll-bonded clad plates for chemical reactors, scrubbers, and storage tanks.</p>
                             </div>
                             </div>
                         </div>
@@ -178,11 +178,14 @@ export default function CladdedPlates() {
                            
 
 <p>
-Explosion cladding is a process wherein a cladding plate is positioned over the backer plate with a small gap. Specially made explosives are spread on tap of the cladding plate. On detonation the cladding plate is accelerated towards the backer plate and collides with it at a high velocity. This collision takes place progressively from one end of the plate to the other In micro seconds.
-</p><p><br />
+We produce and supply high-performance explosion-bonded and roll-bonded clad steel plates combining economical carbon or alloy steel backing with corrosion-resistant alloy cladding (Stainless Steel, Nickel Alloys, Titanium, Copper-Nickel). This metallurgical bond provides full structural strength alongside superior resistance to aggressive chemicals, extreme pressures, and high operating temperatures.
+</p><br />
+<p>
+<strong>Cladding Process :</strong> Solid-state explosion bonding and hot roll-bonding produce a continuous, high-shear metallurgical bond across 100% of the plate interface, adhering to ASTM A263, A264, A265, and ASME Section VIII requirements.
+</p>
 
                             
-</p></article>
+</article>
 
 </div>
 <div className="clrspace"></div>

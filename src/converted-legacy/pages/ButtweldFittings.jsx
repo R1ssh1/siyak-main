@@ -29,10 +29,8 @@ export default function ButtweldFittings() {
                     <div className="grid_9">
                     <div className="pt-box">
                             <div className="pt-title triggerAnimation animated" data-animate="fadeInLeft">
-                                <h1>Buttweld Fittings</h1>
-                                <p>Engineering Quality. Delivering Trust.<br />
-We are offering quality range of industrial <br />
-Raw Material ant its Fittings</p>
+                                <h1><span className="strong">Buttweld Fittings</span></h1>
+                                <h4>Full range of seamless and welded buttweld fittings engineered for optimal fluid flow and pressure integrity.</h4>
                             </div>
                             </div>
                         </div>
@@ -182,16 +180,15 @@ Raw Material ant its Fittings</p>
                            
 
              <p>
-We are engaged in importing and supplying of a wide range of Butt Weld Fitting that is available in varied types &amp; grades sourced from reliable vendors, these fittings are highly acknowledged for their high tensile strength, durability and accurate alloy composition. These find application in several industries such oil &amp; gas, automobile, acid &amp; chemical, pharmaceutical and cement industries. We are known for our buttweld fittings.</p><p><br />
+We supply a wide range of seamless and welded buttweld pipe fittings engineered for optimum fluid dynamics, leak-proof reliability, and maximum mechanical strength. Manufactured in compliance with ASME B16.9 and MSS-SP specifications, our fittings undergo stringent chemical and hydrostatic validation for oil &amp; gas, chemical processing, pharmaceutical, and energy sectors.</p><br />
+             
 
-</p><p>
-<strong>Size :</strong> 1/4" NB TO 32" NB. (Seamless &amp; Welded)<br />
 
-<strong>Wall Thickness :</strong> Sch. 58 To Sch. XXS.
+<strong>Size Range :</strong> 1/4" NB to 32" NB (Seamless &amp; Welded)<br />
 
-</p>
+<strong>Wall Thickness :</strong> Sch. 5S to Sch. XXS.<br />
+<strong>Types :</strong> 45°/90°/180° Long &amp; Short Radius Elbows, Equal &amp; Reducing Tees, Concentric &amp; Eccentric Reducers, End Caps, and Stub Ends.
 
-                            
 </article>
 
 </div>

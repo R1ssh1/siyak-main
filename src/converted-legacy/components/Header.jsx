@@ -52,7 +52,7 @@ export default function Header() {
       <section id="top-bar-wrapper">
         <div id="top-bar" className="clearfix">
           <div className="mscroll mobile-hide" style={{ display: 'flex', alignItems: 'center' }}>
-            <div className="callout-content text-deep" style={{ color: '#14b8ad', display: 'flex', alignItems: 'center' }}>
+            <div className="callout-content text-deep" style={{ color: '#02898f', display: 'flex', alignItems: 'center', animation: 'isoFade 3s ease-in-out infinite' }}>
               <img src="/img/iso-cert.jpeg" alt="Siyak Steel International :: ISO 9001:2015 Certified Company" style={{ height: '30px', marginRight: '10px', borderRadius: '50%' }} />
               "ISO 9001:2015 Certified Company"
             </div>

@@ -28,10 +28,8 @@ export default function SocketweldFittings() {
                     <div className="grid_9">
                     <div className="pt-box">
                             <div className="pt-title triggerAnimation animated" data-animate="fadeInLeft">
-                                <h1>Socketweld Fittings</h1>
-                                <p>Engineering Quality. Delivering Trust.<br />
-We are offering quality range of industrial <br />
-Raw Material ant its Fittings</p>
+                                <h1><span className="strong">Socketweld Fittings</span></h1>
+                                <h4>High-pressure forged socket weld and threaded fittings engineered for leak-free performance in critical pipelines.</h4>
                             </div>
                             </div>
                         </div>
@@ -192,20 +190,22 @@ Raw Material ant its Fittings</p>
                            
 
              <p>
-We offer to our clients specially designed forged pipe fittings. We also undertake new projects as per the drawings and specifications of the client for forged frttings. The product is delivered ina short time frame. We offer special forged pipes fittings in different metals which find application in various industries. We can offer forged fittings infollowing materials of construction:-
+We stock and manufacture high-pressure forged socket weld and threaded fittings engineered for critical pipeline connections where leak integrity and vibration resistance are paramount. Precision-machined to ASME B16.11, BS 3799, and MSS-SP-83 standards, our forged components ensure dependable performance under severe pressure cycles.
 
-</p><li> Nickel &amp; Copper Alloy</li>
-<li>Stainless Steel</li>
-<li>Carbon Steel</li>
+</p><br />
+<strong>Available Materials:</strong>
+<li>Nickel &amp; Copper Alloy</li>
+<li>Stainless Steel &amp; Duplex Steel</li>
+<li>Carbon Steel &amp; Low-Temp Carbon Steel</li>
 <li>Alloy Steel</li>
 
 <p><br />
 
 </p><p>
-<strong>Size :</strong> 1/4"NB T0 4"NB.(Socketweld &amp; Threaded) <br />
+<strong>Size Range :</strong> 1/4" NB to 4" NB (Socketweld &amp; Threaded NPT/BSPT) <br />
 
-<strong>Class :</strong> 3000#, 6000#, 9000#. <br />
-<strong>Pressure : </strong> 1000#,2000#,3000#, 6000#,9000#
+<strong>Class / Pressure Rating :</strong> 2000#, 3000#, 6000#, 9000# <br />
+<strong>Types :</strong> Elbows, Tees, Couplings, Half Couplings, Unions, Bushings, Caps, Hex Plugs, Swage Nipples, and Welding Bosses.
 
 </p>
 

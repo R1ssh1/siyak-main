@@ -29,7 +29,7 @@ export default function AnglesChannels() {
                     <div className="pt-box">
                             <div className="pt-title triggerAnimation animated" data-animate="fadeInLeft">
                                 <h1><span className="strong">Angles &amp; Channels</span></h1>
-                                <p>We offer our customers a wide range of Angles &amp; Channels widely find its applications in different industrial &amp; commercial sectors.<br /></p>
+                                <p>Structural stainless steel and alloy angles, channels, and sections fabricated for construction and equipment frames.</p>
                             </div>
                             </div>
                         </div>
@@ -173,8 +173,11 @@ export default function AnglesChannels() {
                            
 
              <p>
-             </p><p>We offer our customers a wide range of Angles &amp; Channels widely find its applications in different industrial &amp; commercial sectors. Also these are scratch-proof and corrosion resistant and offer greater load bearing capacity. These are available in various dimensions of width, leg height, material thickness and other parameters.</p><br />
+             We supply an extensive assortment of structural stainless steel and alloy angles, channels, beams, and flat bars. Hot-rolled, laser-fused, or extruded to tight dimensional tolerances, our structural sections offer superior load-bearing capacity, corrosion resistance, and ease of welding for industrial frames, marine structures, and architectural supports.</p><br />
 
+<strong>Available Products :</strong> Equal Angles, Unequal Angles, C-Channels, U-Channels, I-Beams, H-Beams, and Flat Bars<br />
+<strong>Standards :</strong> ASTM A276, ASTM A479, DIN 1028, EN 10056<br />
+<strong>Finish :</strong> Hot Rolled, Pickled, Sandblasted, Polished<br />
                             
 </article>
 

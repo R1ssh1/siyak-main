@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import ExportDestinations from '../../components/ExportDestinations';
 import RelatedProducts from '../../components/RelatedProducts';
@@ -28,9 +28,8 @@ export default function Flanges() {
                     <div className="grid_9">
                     <div className="pt-box">
                             <div className="pt-title triggerAnimation animated" data-animate="fadeInLeft">
-                                <h1>Flanges</h1>
-                                <p>Leader suppliers and exporters of
-flanges<br /></p>
+                                <h1><span className="strong">Flanges</span></h1>
+                                <p>Certified forged and plate pipe flanges meeting ASME, DIN, and EN standards across all standard pressure classes.</p>
                             </div>
                             </div>
                         </div>
@@ -94,14 +93,11 @@ flanges<br /></p>
 
 
 
-
- 
-
 <ul className="aside_widgets"> 
     <li className="widget widget_productlist ">
       <h2>FLANGES</h2>
        <ul className="">
-        <li><Link to="/high-nickel-alloy-flanges">High Nickel Alloy Flanges</Link></li>
+        <li><a href="#nickel-alloy-flanges">High Nickel Alloy Flanges</a></li>
 </ul>  
       </li>
   </ul>
@@ -110,7 +106,6 @@ flanges<br /></p>
 
  
 
-
  
 
  
@@ -122,6 +117,9 @@ flanges<br /></p>
  
 
  
+
+ 
+
   
     
  
@@ -187,17 +185,16 @@ flanges<br /></p>
                            
 
              <p>
-             
-We are engaged in importing and supplying a wide range of Flanges that are available in variables sizes for different applications in waterworks, petrochemicals, refineries, chemical industry and construction works. Owing to its high quality, optimum performance, less maintenance, our range of flanges is appreciated by our clients and is available in various material configurations stainless steel, carbon steel, alloy steel, nickel alloys and copper alloys. Based on the sizes, dimensions, shapes and length of these flanges, we can customize the products for our respected clients and following material of  Construction.</p><br />
+We manufacture, stock, and export a comprehensive selection of industrial pipe flanges designed for critical piping networks across waterworks, petrochemical plants, oil refineries, and offshore platforms. Our flanges are precision-machined from heavy-duty forgings and plate stock, adhering strictly to ASME B16.5, ASME B16.47, DIN, and EN standards.</p><br />
          
 
 
-<strong>Size :</strong> 1/2" NB TO 24" NB.<br />
+<strong>Size Range :</strong> 1/2" NB to 24" NB (and large-diameter up to 60" NB).<br />
 
-<strong>Class :</strong> 150#, 300#, 600#, 900#, 1500# &amp; 2500#.
+<strong>Pressure Class :</strong> 150#, 300#, 600#, 900#, 1500# &amp; 2500# (PN6 to PN400).
+<br />
+<strong>Facing Types :</strong> Flat Face (FF), Raised Face (RF), Ring Type Joint (RTJ), Tongue &amp; Groove.
 <br /><br />
-
-<p></p>
 
                             
 </article>
@@ -217,8 +214,9 @@ We are engaged in importing and supplying a wide range of Flanges that are avail
 
 
 <div className="devider1"></div>
-<div className="heading-bordered2">
-<h2><i className="icon icon-double-angle-right"></i> <b>High Nickel Alloy Flanges</b></h2></div>
+<div id="nickel-alloy-flanges" className="heading-bordered2" style={{ scrollMarginTop: '100px' }}>
+<h2><i className="icon icon-double-angle-right"></i> <b>High Nickel Alloy Flanges</b></h2>
+</div>
 
 <p>Monel, Nickel, lnconel, Hastelloy, Copper, Brass, Bronze, Titanium, Tantalum, Bismuth, Aluminium, HighSpeed Steel, Zinc, Lead,etc.</p>
 <br />

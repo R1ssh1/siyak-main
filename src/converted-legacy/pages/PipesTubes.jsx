@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import ExportDestinations from '../../components/ExportDestinations';
 import RelatedProducts from '../../components/RelatedProducts';
@@ -29,8 +29,7 @@ export default function PipesTubes() {
                     <div className="pt-box">
                             <div className="pt-title triggerAnimation animated" data-animate="fadeInLeft">
                                 <h1><span className="strong">Pipes &amp; Tubes</span></h1>
-                                <p>These pipes are fabricated from qualitative<br />
- raw material as per global demand and ensures accurate precision.</p>
+                                <p>Precision-engineered seamless and welded tubular solutions manufactured for demanding industrial applications worldwide.</p>
                             </div>
                             </div>
                         </div>
@@ -189,21 +188,17 @@ export default function PipesTubes() {
                            
 
              <p>
-<strong>RANGE</strong><br />
-15 NB UP TO 1200 NB IN SCH 5S , 10S ,10, 20 , 40S , 40 , STD , 60 , 80S , 80 , XS , 100 , 120 , 140 , 160 &amp; XXS<br /><br />
+             Siyak Steel International is a premier stockist, supplier, and exporter of high-integrity seamless and welded pipes and tubes. Manufactured strictly to ASTM, ASME, API, and DIN standards, our tubular products deliver superior corrosion resistance, high tensile strength, and precise wall thickness tolerances across critical oil &amp; gas, chemical, marine, and power generation environments.
+             </p><br />
 
+<strong>Range :</strong> 15 NB up to 1200 NB (1/2" to 48")<br />
+<strong>Schedule / Wall Thickness :</strong> SCH 5S, 10S, 10, 20, 40S, 40, STD, 60, 80S, 80, XS, 100, 120, 140, 160 &amp; XXS<br />
+<strong>Form :</strong> Seamless, ERW, EFW, Welded (Round, Square &amp; Rectangular)<br /><br />
 
-<strong>FORM</strong><br />
+<li>Nickel &amp; Copper Superalloys</li>
+<li>Stainless Steel &amp; Duplex / Super Duplex Steel</li>
+<li>Carbon Steel &amp; High-Tensile Alloy Steel</li>
 
-SEAMLESS / ERW / WELDED IN ROUND &amp; SQUARE.<br />
-<br />
-
-</p><li>Nickel &amp; Copper Alloy</li>
-<li>Stainless &amp; Duplex Steel</li>
-<li>Carbon &amp; Alloy Steel </li>
-<p></p>
-
-                            
 </article>
 
 </div>

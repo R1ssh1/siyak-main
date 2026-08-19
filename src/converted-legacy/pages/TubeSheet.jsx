@@ -28,8 +28,8 @@ export default function TubeSheet() {
                     <div className="grid_9">
                     <div className="pt-box">
                             <div className="pt-title triggerAnimation animated" data-animate="fadeInLeft">
-                                <h1>Tube Sheets</h1>
-                                <p>Siyak Steel International is highly experienced in the manufacture of critical, internal heat exchanger tubesheets.</p>
+                                <h1><span className="strong">Tube Sheets</span></h1>
+                                <h4>Specialized precision-machined tubesheets and baffle plates fabricated for process heat exchangers and pressure vessels.</h4>
                             </div>
                             </div>
                         </div>
@@ -184,15 +184,19 @@ export default function TubeSheet() {
 			 
                         <article className=" grid_5 triggerAnimation animated" data-animate="fadeInLeft">
                             
-                     <h2>Siyak Steel International is highly experienced in the manufacture of critical, internal heat exchanger tubesheets.</h2>      
+                           
+
+             <h2>Precision CNC-Machined Heat Exchanger Tube Sheets &amp; Baffle Plates</h2>      
 
              <p>
-One of the most common heat exchangers in service within industrial process applications is the “Shell &amp; Tube Heat Exchanger”. They are available in many shapes, sizes and have been used in industry for over 150 years. In this exchanger group are various sub design types: Fixed, U-tube and Floating tubesheet. Variations of all can be denoted as type “E”, “F”, “G”, “H”, “J”, “K” or “X”. The main applications are where high pressure/temperatures are key considerations.</p><p>
+Siyak Steel International possesses deep engineering expertise in the precision fabrication of critical tube sheets, baffle plates, and support plates for shell &amp; tube heat exchangers, boilers, condensers, and chemical reactors. Manufactured to strict ASME Section VIII and TEMA standards, our tube sheets feature ultra-precise CNC hole drilling, reaming, and grooving for tight tube-to-tubesheet joint integrity.</p><br />
+
+<p>We support all major exchanger configurations including Fixed Tubesheets, U-Tube Bundles, and Floating Head Assemblies (TEMA Types E, F, G, H, J, K, and X) in solid alloy or weld-overlay/cladded formats.</p>
 
 
 
                             
-</p></article>
+</article>
 
 </div>
 <div className="clrspace"></div>
