@@ -3,11 +3,23 @@ import { Link } from 'react-router-dom';
 import Slider from '../components/Slider';
 import Industries from '../../components/Industries';
 import ThirdPartyInspection from '../../components/ThirdPartyInspection';
+import ExportCalloutBanner from '../../components/ExportCalloutBanner';
 import { productCategories } from '../../data/products';
+import SEO from '../../components/SEO';
+import { OrganizationLd, WebPageLd, BreadcrumbLd } from '../../components/JsonLd';
+import { absoluteUrl } from '../../lib/site';
 
 export default function Home() {
   return (
     <>
+      <SEO
+        title="Steel Pipe, Tube & Fitting Manufacturer in India"
+        description="Siyak Steel International — ISO 9001:2015 certified manufacturer, stockist & exporter of steel pipes, tubes, flanges, fittings and bars to UAE, Saudi Arabia, USA and 40+ countries."
+        keywords="steel manufacturer india, steel exporter mumbai, pipes tubes supplier india, siyak steel"
+      />
+      <OrganizationLd />
+      <WebPageLd url={absoluteUrl('/')} title="Steel Pipe, Tube & Fitting Manufacturer in India" description="Siyak Steel International — ISO 9001:2015 certified manufacturer, stockist & exporter of steel pipes, tubes, flanges, fittings and bars." />
+      <BreadcrumbLd items={[{ name: 'Home', url: absoluteUrl('/') }]} />
       <section id="page-wrapper" className="clearfix">
 
         <Slider />
@@ -106,7 +118,7 @@ export default function Home() {
 
                     <article className="grid_4">
 
-                      <Link to="/pipes-tubes"><img src="/img/special/pipes-tubes.png" alt="Pipes & Tubes" title="Pipes & Tubes" style={{aspectRatio: '4/3', objectFit: 'cover'}}/></Link>
+                      <Link to="/pipes-tubes-stockist-supplier-exporter-in-mumbai-india"><img src="/img/special/pipes-tubes.png" alt="Pipes & Tubes" title="Pipes & Tubes" style={{aspectRatio: '4/3', objectFit: 'cover'}}/></Link>
 
                     </article>
 
@@ -120,7 +132,7 @@ export default function Home() {
 
                     <article className="grid_4 right">
 
-                      <Link to="/flanges"><img src="/img/special/flanges.png" alt="Flanges" title="Flanges" style={{aspectRatio: '4/3', objectFit: 'cover'}} /></Link>
+                      <Link to="/flanges-stockist-supplier-exporter-in-mumbai-india"><img src="/img/special/flanges.png" alt="Flanges" title="Flanges" style={{aspectRatio: '4/3', objectFit: 'cover'}} /></Link>
 
                     </article>
                   </div>
@@ -202,6 +214,7 @@ export default function Home() {
                 <div style={{marginTop: '40px'}}>
                   <ThirdPartyInspection />
                 </div>
+                <ExportCalloutBanner style={{ marginTop: '70px', marginBottom: '25px' }} />
               </div>
             </div>
           </div>

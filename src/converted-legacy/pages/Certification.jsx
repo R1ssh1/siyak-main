@@ -1,9 +1,19 @@
-import React from 'react';
+﻿import React from 'react';
 import { Link } from 'react-router-dom';
 
+import SEO from '../../components/SEO';
+import { OrganizationLd, WebPageLd, BreadcrumbLd } from '../../components/JsonLd';
+import { absoluteUrl } from '../../lib/site';
 export default function Certification() {
   return (
     <>
+      <SEO
+        title="ISO 9001:2015 Certification"
+        description="Siyak Steel International holds ISO 9001:2015 certification. All products meet ASTM, ASME, NACE and API standards. Mill test certificates available."
+        keywords="ISO 9001 steel manufacturer india, certified steel supplier, mill test certificate india"
+      />
+      <OrganizationLd />
+      <WebPageLd url={absoluteUrl('/certification')} title="ISO 9001:2015 Certification" description="Siyak Steel International holds ISO 9001:2015 certification. All products meet ASTM, ASME, NACE and API standards. Mill test certificates available." />
       
         
         

@@ -1,11 +1,21 @@
-import React from 'react';
+﻿import React from 'react';
 import { Link } from 'react-router-dom';
 import ExportDestinations from '../../components/ExportDestinations';
 import RelatedProducts from '../../components/RelatedProducts';
 
+import SEO from '../../components/SEO';
+import { OrganizationLd, WebPageLd, BreadcrumbLd } from '../../components/JsonLd';
+import { absoluteUrl } from '../../lib/site';
 export default function WireMesh() {
   return (
     <>
+      <SEO
+        title="Industrial Wire Mesh Supplier in India"
+        description="Woven and welded stainless steel wire mesh in various specifications. Siyak Steel International exports wire mesh globally from Mumbai."
+        keywords="wire mesh manufacturer india, stainless steel wire mesh supplier mumbai"
+      />
+      <OrganizationLd />
+      <WebPageLd url={absoluteUrl('/wire-mesh-manufacturer-supplier-exporter-in-mumbai-india')} title="Industrial Wire Mesh Supplier in India" description="Woven and welded stainless steel wire mesh in various specifications. Siyak Steel International exports wire mesh globally from Mumbai." />
       <section id="page-title-wire-mesh" className="page-title-1" data-stellar-background-ratio="0.3">
         <div className="container">
           <div className="row">
@@ -40,9 +50,9 @@ export default function WireMesh() {
                 <li className="widget widget_productlist">
                   <h2>WIRE MESH</h2>
                   <ul>
-                    <li><Link to="/wire-mesh">Carbon Steel Wire Mesh</Link></li>
-                    <li><Link to="/wire-mesh">Stainless Steel Wire Mesh</Link></li>
-                    <li><Link to="/wire-mesh">Galvanised Wire Mesh</Link></li>
+                    <li><Link to="/wire-mesh-manufacturer-supplier-exporter-in-mumbai-india">Carbon Steel Wire Mesh</Link></li>
+                    <li><Link to="/wire-mesh-manufacturer-supplier-exporter-in-mumbai-india">Stainless Steel Wire Mesh</Link></li>
+                    <li><Link to="/wire-mesh-manufacturer-supplier-exporter-in-mumbai-india">Galvanised Wire Mesh</Link></li>
                   </ul>
                 </li>
               </ul>
@@ -50,22 +60,22 @@ export default function WireMesh() {
                 <li className="widget widget_productlist">
                   <h2>Product Range</h2>
                   <ul>
-                    <li><Link to="/pipes-tubes">Pipes &amp; Tubes</Link></li>
-                    <li><Link to="/sheets-plates">Sheets &amp; Plates</Link></li>
-                    <li><Link to="/round-bars">Round Bars</Link></li>
-                    <li><Link to="/flanges">Flanges</Link></li>
-                    <li><Link to="/buttweld-fittings">Buttweld Fittings</Link></li>
-                    <li><Link to="/socketweld-fittings">Socketweld Fittings</Link></li>
-                    <li><Link to="/fasteners">Fasteners</Link></li>
-                    <li><Link to="/refractory-fixings-anchors">Refractory Fixings &amp; Anchors</Link></li>
-                    <li><Link to="/angles-channels">Angles &amp; Channels</Link></li>
-                    <li><Link to="/tube-sheet">Tube Sheets</Link></li>
-                    <li><Link to="/ferrule-fittings">Ferrule Fittings</Link></li>
-                    <li><Link to="/cladded-plates">Cladded Plates</Link></li>
-                    <li><Link to="/olets">Olets</Link></li>
-                    <li><Link to="/valves">Valves</Link></li>
-                    <li><Link to="/perforated-sheets">Perforated Sheets</Link></li>
-                    <li><Link to="/wire-mesh">Wire Mesh</Link></li>
+                    <li><Link to="/pipes-tubes-stockist-supplier-exporter-in-mumbai-india">Pipes &amp; Tubes</Link></li>
+                    <li><Link to="/sheets-plates-stockist-supplier-exporter-in-mumbai-india">Sheets &amp; Plates</Link></li>
+                    <li><Link to="/round-bars-stockist-supplier-exporter-in-mumbai-india">Round Bars</Link></li>
+                    <li><Link to="/flanges-stockist-supplier-exporter-in-mumbai-india">Flanges</Link></li>
+                    <li><Link to="/buttweld-fittings-stockist-supplier-exporter-in-mumbai-india">Buttweld Fittings</Link></li>
+                    <li><Link to="/socketweld-fittings-stockist-supplier-exporter-in-mumbai-india">Socketweld Fittings</Link></li>
+                    <li><Link to="/fasteners-stockist-supplier-exporter-in-mumbai-india">Fasteners</Link></li>
+                    <li><Link to="/refractory-fixings-anchors-manufacturer-supplier-exporter-in-mumbai-india">Refractory Fixings &amp; Anchors</Link></li>
+                    <li><Link to="/angles-channels-stockist-supplier-exporter-in-mumbai-india">Angles &amp; Channels</Link></li>
+                    <li><Link to="/tube-sheet-manufacturer-supplier-exporter-in-mumbai-india">Tube Sheets</Link></li>
+                    <li><Link to="/ferrule-fittings-stockist-supplier-exporter-in-mumbai-india">Ferrule Fittings</Link></li>
+                    <li><Link to="/cladded-plates-manufacturer-supplier-exporter-in-mumbai-india">Cladded Plates</Link></li>
+                    <li><Link to="/olets-stockist-supplier-exporter-in-mumbai-india">Olets</Link></li>
+                    <li><Link to="/valves-stockist-supplier-exporter-in-mumbai-india">Valves</Link></li>
+                    <li><Link to="/perforated-sheets-manufacturer-supplier-exporter-in-mumbai-india">Perforated Sheets</Link></li>
+                    <li><Link to="/wire-mesh-manufacturer-supplier-exporter-in-mumbai-india">Wire Mesh</Link></li>
                   </ul>
                 </li>
               </ul>

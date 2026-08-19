@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+﻿import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const CHEMICAL_DATA = [
@@ -74,6 +74,9 @@ const tdGradeStyle = {
   background: '#f5f5f5',
 };
 
+import SEO from '../../components/SEO';
+import { OrganizationLd, WebPageLd, BreadcrumbLd } from '../../components/JsonLd';
+import { absoluteUrl } from '../../lib/site';
 export default function TechnicalInfo() {
   const [activeTab, setActiveTab] = useState('chemical');
 
@@ -93,6 +96,13 @@ export default function TechnicalInfo() {
 
   return (
     <>
+      <SEO
+        title="Technical Information — Steel Grades and Standards"
+        description="Technical data for steel pipes, tubes, flanges and fittings — grades, standards, weight calculations and specifications. Siyak Steel International."
+        keywords="steel technical specifications india, pipe tube grades standards, ASTM ASME steel data"
+      />
+      <OrganizationLd />
+      <WebPageLd url={absoluteUrl('/technical-info')} title="Technical Information — Steel Grades and Standards" description="Technical data for steel pipes, tubes, flanges and fittings — grades, standards, weight calculations and specifications. Siyak Steel International." />
       <section id="page-title-tech-info" className="page-title-1" data-stellar-background-ratio="0.3">
         <div className="container">
           <div className="row">

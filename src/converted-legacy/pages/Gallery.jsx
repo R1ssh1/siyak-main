@@ -1,9 +1,19 @@
-import React from 'react';
+﻿import React from 'react';
 import { Link } from 'react-router-dom';
 
+import SEO from '../../components/SEO';
+import { OrganizationLd, WebPageLd, BreadcrumbLd } from '../../components/JsonLd';
+import { absoluteUrl } from '../../lib/site';
 export default function Gallery() {
   return (
     <>
+      <SEO
+        title="Gallery"
+        description="Browse our product and facility gallery — Siyak Steel International, ISO 9001:2015 certified exporter of steel pipes, tubes and fittings from Mumbai."
+        keywords="steel products gallery india, siyak steel gallery, steel pipes images"
+      />
+      <OrganizationLd />
+      <WebPageLd url={absoluteUrl('/gallery')} title="Gallery" description="Browse our product and facility gallery — Siyak Steel International, ISO 9001:2015 certified exporter of steel pipes, tubes and fittings from Mumbai." />
        
   
   

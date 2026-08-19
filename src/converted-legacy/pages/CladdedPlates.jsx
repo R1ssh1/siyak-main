@@ -1,11 +1,21 @@
-import React from 'react';
+﻿import React from 'react';
 import { Link } from 'react-router-dom';
 import ExportDestinations from '../../components/ExportDestinations';
 import RelatedProducts from '../../components/RelatedProducts';
 
+import SEO from '../../components/SEO';
+import { OrganizationLd, WebPageLd, BreadcrumbLd } from '../../components/JsonLd';
+import { absoluteUrl } from '../../lib/site';
 export default function CladdedPlates() {
   return (
     <>
+      <SEO
+        title="Cladded Plates Manufacturer in India"
+        description="Cladded and clad steel plates in stainless, nickel and alloy steel. ISO certified supply from Siyak Steel International."
+        keywords="cladded plates manufacturer india, clad steel plates supplier mumbai"
+      />
+      <OrganizationLd />
+      <WebPageLd url={absoluteUrl('/cladded-plates-manufacturer-supplier-exporter-in-mumbai-india')} title="Cladded Plates Manufacturer in India" description="Cladded and clad steel plates in stainless, nickel and alloy steel. ISO certified supply from Siyak Steel International." />
       
             
             
@@ -115,20 +125,20 @@ export default function CladdedPlates() {
     <li className="widget widget_productlist ">
       <h2>Product Range</h2>
        <ul className="">
-        <li><Link to="/pipes-tubes">Pipes &amp; Tubes</Link></li>
-        <li><Link to="/sheets-plates">Sheets &amp; Plates</Link></li>
-        <li><Link to="/round-bars">Round Bars</Link></li>
-        <li><Link to="/flanges">Flanges</Link></li>
-        <li><Link to="/buttweld-fittings">Buttweld Fittings</Link></li>
-        <li><Link to="/socketweld-fittings">Socketweld Fittings</Link></li>
-        <li><Link to="/fasteners">Fasteners</Link></li>
-        <li><Link to="/refractory-fixings-anchors">Refractory Fixings &amp; Anchors</Link></li>
-        <li><Link to="/angles-channels">Angles &amp; Channels</Link></li>
-        <li><Link to="/tube-sheet">Tube Sheets</Link></li>
-        <li><Link to="/ferrule-fittings">Ferrule Fittings</Link></li>
-        <li><Link to="/cladded-plates">Cladded Plates</Link></li>
-        <li><Link to="/olets">Olets</Link></li>
-        <li><Link to="/valves">Valves</Link></li>
+        <li><Link to="/pipes-tubes-stockist-supplier-exporter-in-mumbai-india">Pipes &amp; Tubes</Link></li>
+        <li><Link to="/sheets-plates-stockist-supplier-exporter-in-mumbai-india">Sheets &amp; Plates</Link></li>
+        <li><Link to="/round-bars-stockist-supplier-exporter-in-mumbai-india">Round Bars</Link></li>
+        <li><Link to="/flanges-stockist-supplier-exporter-in-mumbai-india">Flanges</Link></li>
+        <li><Link to="/buttweld-fittings-stockist-supplier-exporter-in-mumbai-india">Buttweld Fittings</Link></li>
+        <li><Link to="/socketweld-fittings-stockist-supplier-exporter-in-mumbai-india">Socketweld Fittings</Link></li>
+        <li><Link to="/fasteners-stockist-supplier-exporter-in-mumbai-india">Fasteners</Link></li>
+        <li><Link to="/refractory-fixings-anchors-manufacturer-supplier-exporter-in-mumbai-india">Refractory Fixings &amp; Anchors</Link></li>
+        <li><Link to="/angles-channels-stockist-supplier-exporter-in-mumbai-india">Angles &amp; Channels</Link></li>
+        <li><Link to="/tube-sheet-manufacturer-supplier-exporter-in-mumbai-india">Tube Sheets</Link></li>
+        <li><Link to="/ferrule-fittings-stockist-supplier-exporter-in-mumbai-india">Ferrule Fittings</Link></li>
+        <li><Link to="/cladded-plates-manufacturer-supplier-exporter-in-mumbai-india">Cladded Plates</Link></li>
+        <li><Link to="/olets-stockist-supplier-exporter-in-mumbai-india">Olets</Link></li>
+        <li><Link to="/valves-stockist-supplier-exporter-in-mumbai-india">Valves</Link></li>
 </ul>  
       </li>
   </ul>

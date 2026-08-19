@@ -1,11 +1,12 @@
 
 import React, { useEffect, useState } from 'react';
-import { Routes, Route, Outlet } from 'react-router-dom';
+import { Routes, Route, Outlet, Navigate } from 'react-router-dom';
 import Header from './converted-legacy/components/Header';
 import Footer from './converted-legacy/components/Footer';
 import GlobalLogicManager from './components/GlobalLogicManager';
 import CustomScrollbar from './components/CustomScrollbar';
 import DownloadCatalogueModal from './components/DownloadCatalogueModal';
+import { ROUTES } from './lib/routes';
 
 import AboutUs from './converted-legacy/pages/AboutUs';
 import AnglesChannels from './converted-legacy/pages/AnglesChannels';
@@ -64,37 +65,59 @@ export default function App() {
       <Routes>
         <Route path="/nickel-alloy-catalogue" element={<NickelAlloyCatalogue />} />
         <Route element={<MainLayout />}>
-          <Route path="/about-us" element={<AboutUs />} />
-          <Route path="/angles-channels" element={<AnglesChannels />} />
-          <Route path="/blog" element={<Blog />} />
-          <Route path="/buttweld-fittings" element={<ButtweldFittings />} />
-          <Route path="/certification" element={<Certification />} />
-          <Route path="/cladded-plates" element={<CladdedPlates />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/enquiry" element={<Enquiry />} />
-          <Route path="/technical-info" element={<TechnicalInfo />} />
-          <Route path="/fasteners" element={<Fasteners />} />
-          <Route path="/ferrule-fittings" element={<FerruleFittings />} />
-          <Route path="/flanges" element={<Flanges />} />
-          <Route path="/gallery" element={<Gallery />} />
-          <Route path="/hs-codes" element={<HsCodes />} />
-          <Route path="/" element={<Home />} />
-          <Route path="/olets" element={<Olets />} />
-          <Route path="/pipes-tubes" element={<PipesTubes />} />
-          <Route path="/presence" element={<Presence />} />
-          <Route path="/products" element={<Products />} />
-          <Route path="/quality-policy" element={<QualityPolicy />} />
-          <Route path="/refractory-fixings-anchors" element={<RefractoryFixingsAnchors />} />
-          <Route path="/round-bars" element={<RoundBars />} />
-          <Route path="/sheets-plates" element={<SheetsPlates />} />
-          <Route path="/sitemap" element={<Sitemap />} />
-          <Route path="/socketweld-fittings" element={<SocketweldFittings />} />
-          <Route path="/tube-sheet" element={<TubeSheet />} />
-          <Route path="/valves" element={<Valves />} />
-          <Route path="/weight-calculator" element={<WeightCalculator />} />
-          <Route path="/perforated-sheets" element={<PerforatedSheets />} />
-          <Route path="/wire-mesh" element={<WireMesh />} />
-          <Route path="/nickel-products" element={<NickelProducts />} />
+          {/* Core pages */}
+          <Route path={ROUTES.home} element={<Home />} />
+          <Route path={ROUTES.aboutUs} element={<AboutUs />} />
+          <Route path={ROUTES.blog} element={<Blog />} />
+          <Route path={ROUTES.certification} element={<Certification />} />
+          <Route path={ROUTES.contact} element={<Contact />} />
+          <Route path={ROUTES.enquiry} element={<Enquiry />} />
+          <Route path={ROUTES.gallery} element={<Gallery />} />
+          <Route path={ROUTES.hsCodes} element={<HsCodes />} />
+          <Route path={ROUTES.presence} element={<Presence />} />
+          <Route path={ROUTES.products} element={<Products />} />
+          <Route path={ROUTES.qualityPolicy} element={<QualityPolicy />} />
+          <Route path={ROUTES.sitemap} element={<Sitemap />} />
+          <Route path={ROUTES.technicalInfo} element={<TechnicalInfo />} />
+          <Route path={ROUTES.weightCalculator} element={<WeightCalculator />} />
+
+          {/* Product pages — SEO-friendly slugs */}
+          <Route path={ROUTES.pipesTubes} element={<PipesTubes />} />
+          <Route path={ROUTES.flanges} element={<Flanges />} />
+          <Route path={ROUTES.buttweldFittings} element={<ButtweldFittings />} />
+          <Route path={ROUTES.socketweldFittings} element={<SocketweldFittings />} />
+          <Route path={ROUTES.fasteners} element={<Fasteners />} />
+          <Route path={ROUTES.valves} element={<Valves />} />
+          <Route path={ROUTES.roundBars} element={<RoundBars />} />
+          <Route path={ROUTES.sheetsPlates} element={<SheetsPlates />} />
+          <Route path={ROUTES.olets} element={<Olets />} />
+          <Route path={ROUTES.anglesChannels} element={<AnglesChannels />} />
+          <Route path={ROUTES.tubeSheet} element={<TubeSheet />} />
+          <Route path={ROUTES.ferruleFittings} element={<FerruleFittings />} />
+          <Route path={ROUTES.claddedPlates} element={<CladdedPlates />} />
+          <Route path={ROUTES.refractoryFixingsAnchors} element={<RefractoryFixingsAnchors />} />
+          <Route path={ROUTES.perforatedSheets} element={<PerforatedSheets />} />
+          <Route path={ROUTES.wireMesh} element={<WireMesh />} />
+          <Route path={ROUTES.nickelProducts} element={<NickelProducts />} />
+
+          {/* Legacy redirect routes — old slugs redirect to new SEO slugs */}
+          <Route path="/pipes-tubes" element={<Navigate to={ROUTES.pipesTubes} replace />} />
+          <Route path="/flanges" element={<Navigate to={ROUTES.flanges} replace />} />
+          <Route path="/buttweld-fittings" element={<Navigate to={ROUTES.buttweldFittings} replace />} />
+          <Route path="/socketweld-fittings" element={<Navigate to={ROUTES.socketweldFittings} replace />} />
+          <Route path="/fasteners" element={<Navigate to={ROUTES.fasteners} replace />} />
+          <Route path="/valves" element={<Navigate to={ROUTES.valves} replace />} />
+          <Route path="/round-bars" element={<Navigate to={ROUTES.roundBars} replace />} />
+          <Route path="/sheets-plates" element={<Navigate to={ROUTES.sheetsPlates} replace />} />
+          <Route path="/olets" element={<Navigate to={ROUTES.olets} replace />} />
+          <Route path="/angles-channels" element={<Navigate to={ROUTES.anglesChannels} replace />} />
+          <Route path="/tube-sheet" element={<Navigate to={ROUTES.tubeSheet} replace />} />
+          <Route path="/ferrule-fittings" element={<Navigate to={ROUTES.ferruleFittings} replace />} />
+          <Route path="/cladded-plates" element={<Navigate to={ROUTES.claddedPlates} replace />} />
+          <Route path="/refractory-fixings-anchors" element={<Navigate to={ROUTES.refractoryFixingsAnchors} replace />} />
+          <Route path="/perforated-sheets" element={<Navigate to={ROUTES.perforatedSheets} replace />} />
+          <Route path="/wire-mesh" element={<Navigate to={ROUTES.wireMesh} replace />} />
+          <Route path="/nickel-products" element={<Navigate to={ROUTES.nickelProducts} replace />} />
         </Route>
       </Routes>
     </>

@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { Link } from 'react-router-dom';
 
 export default function Footer() {
@@ -27,23 +27,23 @@ export default function Footer() {
                 <li className="widget widget_categories">
                   <h3>Products</h3>
                   <ul>
-                    <li><Link to="/pipes-tubes">Pipes & Tubes</Link></li>
-                    <li><Link to="/sheets-plates">Sheets & Plates</Link></li>
-                    <li><Link to="/round-bars">Round Bars</Link></li>
-                    <li><Link to="/flanges">Flanges</Link></li>
-                    <li><Link to="/buttweld-fittings">Buttweld Fittings</Link></li>
-                    <li><Link to="/socketweld-fittings">Socketweld Fittings</Link></li>
-                    <li><Link to="/fasteners">Fasteners</Link></li>
-                    <li><Link to="/refractory-fixings-anchors">Refractory Fixings & Anchors</Link></li>
-                    <li><Link to="/angles-channels">Angles & Channels</Link></li>
-                    <li><Link to="/tube-sheet">Tube Sheets</Link></li>
-                    <li><Link to="/ferrule-fittings">Ferrule Fittings</Link></li>
-                    <li><Link to="/cladded-plates">Cladded Plates</Link></li>
-                    <li><Link to="/olets">Olets</Link></li>
-                    <li><Link to="/valves">Valves</Link></li>
-                    <li><Link to="/perforated-sheets">Perforated Sheets</Link></li>
-                    <li><Link to="/wire-mesh">Wire Mesh</Link></li>
-                    <li><Link to="/nickel-products">Nickel Products</Link></li>
+                    <li><Link to="/pipes-tubes-stockist-supplier-exporter-in-mumbai-india">Pipes & Tubes</Link></li>
+                    <li><Link to="/sheets-plates-stockist-supplier-exporter-in-mumbai-india">Sheets & Plates</Link></li>
+                    <li><Link to="/round-bars-stockist-supplier-exporter-in-mumbai-india">Round Bars</Link></li>
+                    <li><Link to="/flanges-stockist-supplier-exporter-in-mumbai-india">Flanges</Link></li>
+                    <li><Link to="/buttweld-fittings-stockist-supplier-exporter-in-mumbai-india">Buttweld Fittings</Link></li>
+                    <li><Link to="/socketweld-fittings-stockist-supplier-exporter-in-mumbai-india">Socketweld Fittings</Link></li>
+                    <li><Link to="/fasteners-stockist-supplier-exporter-in-mumbai-india">Fasteners</Link></li>
+                    <li><Link to="/refractory-fixings-anchors-manufacturer-supplier-exporter-in-mumbai-india">Refractory Fixings & Anchors</Link></li>
+                    <li><Link to="/angles-channels-stockist-supplier-exporter-in-mumbai-india">Angles & Channels</Link></li>
+                    <li><Link to="/tube-sheet-manufacturer-supplier-exporter-in-mumbai-india">Tube Sheets</Link></li>
+                    <li><Link to="/ferrule-fittings-stockist-supplier-exporter-in-mumbai-india">Ferrule Fittings</Link></li>
+                    <li><Link to="/cladded-plates-manufacturer-supplier-exporter-in-mumbai-india">Cladded Plates</Link></li>
+                    <li><Link to="/olets-stockist-supplier-exporter-in-mumbai-india">Olets</Link></li>
+                    <li><Link to="/valves-stockist-supplier-exporter-in-mumbai-india">Valves</Link></li>
+                    <li><Link to="/perforated-sheets-manufacturer-supplier-exporter-in-mumbai-india">Perforated Sheets</Link></li>
+                    <li><Link to="/wire-mesh-manufacturer-supplier-exporter-in-mumbai-india">Wire Mesh</Link></li>
+                    <li><Link to="/nickel-alloy-products-manufacturer-exporter-in-mumbai-india">Nickel Products</Link></li>
                   </ul>
                 </li>
               </ul>
@@ -54,9 +54,9 @@ export default function Footer() {
                   <ul className="contact-info-list">
                     <li>
                       <p> <i className="icon-home"></i> <span className="strong">Regd. Office: </span> <br />
-                        Plot No. 2, 7 Kikabhai Mansion, 3rd Floor,<br />
-                        Office No. 17, Kika Street, Girgaon,<br />
-                        Mumbai -400 004 (India).
+                        Plot No. 2/7, Kikabhai Mansion,<br />
+                        3rd Floor Office No. 17, Kika Street <br />
+                        Girgaon Mumbai-400004, India
                       </p>
                     </li>
                     <li>

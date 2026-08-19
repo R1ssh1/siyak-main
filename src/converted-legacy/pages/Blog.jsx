@@ -1,9 +1,19 @@
-import React from 'react';
+﻿import React from 'react';
 import { Link } from 'react-router-dom';
 
+import SEO from '../../components/SEO';
+import { OrganizationLd, WebPageLd, BreadcrumbLd } from '../../components/JsonLd';
+import { absoluteUrl } from '../../lib/site';
 export default function Blog() {
   return (
     <>
+      <SEO
+        title="News and Updates"
+        description="Latest news, industry updates and product announcements from Siyak Steel International, Mumbai's premier steel exporter."
+        keywords="steel industry news india, siyak steel blog, steel market updates mumbai"
+      />
+      <OrganizationLd />
+      <WebPageLd url={absoluteUrl('/blog')} title="News and Updates" description="Latest news, industry updates and product announcements from Siyak Steel International, Mumbai's premier steel exporter." />
        
   
   

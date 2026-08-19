@@ -1,7 +1,11 @@
-import React, { useState } from 'react';
+﻿import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import ExportCalloutBanner from '../../components/ExportCalloutBanner';
 import { companyInfo } from '../../data/products';
 
+import SEO from '../../components/SEO';
+import { OrganizationLd, WebPageLd, BreadcrumbLd } from '../../components/JsonLd';
+import { absoluteUrl } from '../../lib/site';
 export default function Enquiry() {
   const [form, setForm] = useState({ company_name: "", name: "", email: "", phone: "", message: "" });
   const [status, setStatus] = useState({ loading: false, success: false, error: "" });
@@ -63,6 +67,13 @@ export default function Enquiry() {
 
   return (
     <>
+      <SEO
+        title="Send an Enquiry"
+        description="Submit a product enquiry to Siyak Steel International. We supply pipes, tubes, flanges, fittings and bars globally. Get a fast quote from our Mumbai office."
+        keywords="steel enquiry india, steel pipe quote, siyak steel enquiry"
+      />
+      <OrganizationLd />
+      <WebPageLd url={absoluteUrl('/enquiry')} title="Send an Enquiry" description="Submit a product enquiry to Siyak Steel International. We supply pipes, tubes, flanges, fittings and bars globally. Get a fast quote from our Mumbai office." />
       
             
              
@@ -177,23 +188,23 @@ We are sure your search will be end here.</h4>
     <li className="widget widget_productlist ">
       <h2>Product Range</h2>
        <ul className="">
-        <li><Link to="/pipes-tubes">Pipes &amp; Tubes</Link></li>
-        <li><Link to="/sheets-plates">Sheets &amp; Plates</Link></li>
-        <li><Link to="/round-bars">Round Bars</Link></li>
-        <li><Link to="/flanges">Flanges</Link></li>
-        <li><Link to="/buttweld-fittings">Buttweld Fittings</Link></li>
-        <li><Link to="/socketweld-fittings">Socketweld Fittings</Link></li>
-        <li><Link to="/fasteners">Fasteners</Link></li>
-        <li><Link to="/refractory-fixings-anchors">Refractory Fixings &amp; Anchors</Link></li>
-        <li><Link to="/angles-channels">Angles &amp; Channels</Link></li>
-        <li><Link to="/tube-sheet">Tube Sheets</Link></li>
-        <li><Link to="/ferrule-fittings">Ferrule Fittings</Link></li>
-        <li><Link to="/cladded-plates">Cladded Plates</Link></li>
-        <li><Link to="/olets">Olets</Link></li>
-        <li><Link to="/valves">Valves</Link></li>
-        <li><Link to="/perforated-sheets">Perforated Sheets</Link></li>
-        <li><Link to="/wire-mesh">Wire Mesh</Link></li>
-        <li><Link to="/nickel-products">Nickel Products</Link></li>
+        <li><Link to="/pipes-tubes-stockist-supplier-exporter-in-mumbai-india">Pipes &amp; Tubes</Link></li>
+        <li><Link to="/sheets-plates-stockist-supplier-exporter-in-mumbai-india">Sheets &amp; Plates</Link></li>
+        <li><Link to="/round-bars-stockist-supplier-exporter-in-mumbai-india">Round Bars</Link></li>
+        <li><Link to="/flanges-stockist-supplier-exporter-in-mumbai-india">Flanges</Link></li>
+        <li><Link to="/buttweld-fittings-stockist-supplier-exporter-in-mumbai-india">Buttweld Fittings</Link></li>
+        <li><Link to="/socketweld-fittings-stockist-supplier-exporter-in-mumbai-india">Socketweld Fittings</Link></li>
+        <li><Link to="/fasteners-stockist-supplier-exporter-in-mumbai-india">Fasteners</Link></li>
+        <li><Link to="/refractory-fixings-anchors-manufacturer-supplier-exporter-in-mumbai-india">Refractory Fixings &amp; Anchors</Link></li>
+        <li><Link to="/angles-channels-stockist-supplier-exporter-in-mumbai-india">Angles &amp; Channels</Link></li>
+        <li><Link to="/tube-sheet-manufacturer-supplier-exporter-in-mumbai-india">Tube Sheets</Link></li>
+        <li><Link to="/ferrule-fittings-stockist-supplier-exporter-in-mumbai-india">Ferrule Fittings</Link></li>
+        <li><Link to="/cladded-plates-manufacturer-supplier-exporter-in-mumbai-india">Cladded Plates</Link></li>
+        <li><Link to="/olets-stockist-supplier-exporter-in-mumbai-india">Olets</Link></li>
+        <li><Link to="/valves-stockist-supplier-exporter-in-mumbai-india">Valves</Link></li>
+        <li><Link to="/perforated-sheets-manufacturer-supplier-exporter-in-mumbai-india">Perforated Sheets</Link></li>
+        <li><Link to="/wire-mesh-manufacturer-supplier-exporter-in-mumbai-india">Wire Mesh</Link></li>
+        <li><Link to="/nickel-alloy-products-manufacturer-exporter-in-mumbai-india">Nickel Products</Link></li>
 </ul>  
       </li>
   </ul>
@@ -260,6 +271,12 @@ We are sure your search will be end here.</h4>
 
                             
 			</article>
+                    </div>
+
+                    <div className="row">
+                        <div className="grid_12">
+                            <ExportCalloutBanner style={{ marginTop: '30px', marginBottom: '20px' }} />
+                        </div>
                     </div>
                 </div>
             </section>
